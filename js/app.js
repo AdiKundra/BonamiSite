@@ -1,5 +1,6 @@
 $('.top-icon-slider').slick({
     dots: false,
+    autoplay: true,
     arrows: false,
     infinite: true,
     speed: 300,

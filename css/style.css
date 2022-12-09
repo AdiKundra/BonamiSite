@@ -48,6 +48,9 @@
 .bannersection .top-icon-slider .slick-slide:hover img {
     filter: saturate(1);
 }
+.accord-wrapper{
+    display: none;
+}
 
 
 

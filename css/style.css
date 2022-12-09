@@ -371,7 +371,7 @@
     line-height: 32px;
     color: #637381;
   }
-  .see-more-btn button {
+  .see-more-btn button , .see-more-btn a {
     background: #f5593d;
     box-shadow: 0px 1.281px 12.81px rgba(0, 0, 0, 0.22);
     border-radius: 7px;

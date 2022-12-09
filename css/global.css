@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+a{
+    text-decoration: none;
+    color: #fff;
+}
 .container{
     max-width: 1500px;
 }

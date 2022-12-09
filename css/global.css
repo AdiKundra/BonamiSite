@@ -37,6 +37,7 @@ a{
     color: #F33816;
 }
 .description{
+    font-size: 18px;
     color: #9A9A9A;
 }
 .mt-60{
@@ -45,8 +46,31 @@ a{
 .py-60 {
     padding: 60px 0;
 }
+.py-40 {
+    padding: 40px 0;
+}
+.pt-60 {
+    padding-top: 60px;
+}
+.pb-60 {
+    padding-bottom: 60px;
+}
 .bg_section{
     background: #EEEEEE; 
+}
+.my-60{
+    margin: 60px auto;
+}
+.my-80{
+    margin: 80px auto;
+}
+.opacity-0{
+    opacity: 0;
+}
+@media(max-width: 768px){
+    .opacity-0{
+        display: none;
+    }
 }
 /* Hedaer */
 
@@ -67,3 +91,45 @@ header .nav-item{
     margin: 0 10px 0 10px;
 }   
 
+
+
+/* footer */
+
+footer p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    text-transform: capitalize;
+}
+footer .aboutp{
+    font-size: 16px;
+    text-transform: unset;
+    
+}
+footer p.listTitle{
+    font-weight: 500;
+    font-size: 26px;
+    position: relative;
+}
+footer li a{
+    text-decoration: none;
+    color: #d4d4d4;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+footer li{
+    margin-bottom: 10px;
+}
+
+footer li:hover a{
+color: #fff;
+}
+footer p.listTitle::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #F33816;
+}

@@ -94,7 +94,10 @@ header .nav-item{
 
 
 /* footer */
-
+footer{
+    background-image: url('../images/footer_bg.png');
+    background-size: 100% 100%;
+}
 footer p{
     font-weight: 400;
     font-size: 20px;

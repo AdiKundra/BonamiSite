@@ -452,7 +452,7 @@
     color: #151f20;
     font-weight: 600;
   }
-  .indus-content p {
+  .indus-content p , .indus-content ul li{
     letter-spacing: 0.01em;
 
     color: #424242;

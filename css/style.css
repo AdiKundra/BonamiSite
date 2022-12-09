@@ -305,3 +305,155 @@
     margin: 20px auto;
     padding: 15px 40px;
 }
+
+
+/* about */
+.breadcrumb {
+    padding: 100px 0;
+  }
+  .who-content p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 35px;
+    /* or 237% */
+
+    color: #9a9a9a;
+  }
+  .bg-grey {
+    background: #eeeeee;
+  }
+  .heading-offer h6 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+    color: #151f20;
+  }
+  .heading-offer p {
+    line-height: 33px;
+    /* or 156% */
+
+    text-align: center;
+
+    color: #737373;
+  }
+  .card-offer {
+    background: #ffffff;
+    box-shadow: 0px 5.33333px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+  }
+  .card-offer-img{
+    text-align: center;
+  }
+  .card-offer-content {
+    padding: 0 20px;
+  }
+  .card-offer-content h2 {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 35px;
+    color: #000000;
+    text-align: center;
+  }
+  .card-offer-content p {
+    font-size: 15px;
+    line-height: 32px;
+    color: #637381;
+  }
+  .see-more-btn button {
+    background: #f5593d;
+    box-shadow: 0px 1.281px 12.81px rgba(0, 0, 0, 0.22);
+    border-radius: 7px;
+    padding: 10px 35px;
+    color: #ffffff;
+    border: none;
+    margin-top: 50px;
+  }
+  .offer-col {
+    display: none;
+  }
+
+  .mission-vission {
+    background: #62626210;
+  }
+  .card-vission {
+    background: #ffffff;
+    box-shadow: 0px 0px 5.74px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    padding: 15px;
+    max-width: 310px;
+  }
+  .card-vission h3 {
+    color: #373737;
+    letter-spacing: -0.011em;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .card-vission p {
+    text-align: center;
+    letter-spacing: -0.011em;
+    color: #333333;
+    padding: 0 20px;
+    font-size: 16px;
+    line-height: 27px;
+  }
+  .vision-img {
+    text-align: center;
+    margin-top: -50px;
+  }
+  .vision-img img {
+    width: 100px;
+  }
+  .card-mission {
+    margin-right: 6rem;
+  }
+  .vission-pos {
+    position: absolute;
+    z-index: 99;
+    margin-top:-200px ;
+  }
+  
+  .card-vission:hover{
+    background-color: #FFF6F3;
+  }
+
+/* Industries */
+
+  .head-indus {
+    font-size: 39.871px;
+    line-height: 49px;
+    letter-spacing: 0.01em;
+    color: #151f20;
+    font-weight: 600;
+  }
+  .head-indus span {
+    color: #f5593d;
+  }
+  .indus-content h3 {
+    letter-spacing: 0.01em;
+    color: #151f20;
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .indus-content h6 {
+    text-transform: capitalize;
+    color: #151f20;
+    font-weight: 600;
+  }
+  .indus-content p {
+    letter-spacing: 0.01em;
+
+    color: #424242;
+    line-height: 30px;
+  }
+  .read-more-link a {
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #f5593d;
+  }
+  .our-industries{
+    display: none;
+  }

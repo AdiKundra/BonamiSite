@@ -4,7 +4,7 @@ $('.top-icon-slider').slick({
     arrows: false,
     infinite: true,
     speed: 300,
-    slidesToShow: 5,
+    slidesToShow: 8,
     slidesToScroll: 1,
     responsive: [
         {

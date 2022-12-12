@@ -85,13 +85,33 @@ a{
 .opacity-0{
     opacity: 0;
 }
+.custom_bg{
+    position: relative;
+}
+.bg-color{
+    background: #FFF5F5;
+}
+.custom_bg::after{
+    content: '';
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    background-color: #eee;
+    min-height: 60%;
+    z-index: -1;
+}
 @media(max-width: 768px){
     .opacity-0{
         display: none;
     }
 }
 /* Hedaer */
-
+header{
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
 header , .bannersection {
     background: #151F20;
 }

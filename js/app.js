@@ -27,6 +27,17 @@ $('.top-icon-slider').slick({
 });
 
 
+$('.boxSliderWithRow').slick({
+  rows: 3,
+  dots: true,
+  arrows: false,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 3,
+  slidesToScroll: 3
+});
+
+
 // counter Home page
 var a = 0;
 $(window).scroll(function() {

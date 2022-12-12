@@ -1,3 +1,132 @@
-a{
-    
+.hiringCards img{
+    max-width: 50px;
+    width: 100%;
+}
+.hiringCards {
+    color: #151F20;
+    letter-spacing: 0.01em;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 27px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+.hiringCards .title{
+    font-size: 34px;
+    line-height: 177.9%;
+    color: #151F20;
+    font-weight: bold;
+}
+.hiringCards .keyvalue{
+    font-weight: 500;
+    text-align: left !important;
+    font-size: 24px;
+}
+.hiringCards .keyvalue .key{
+    font-size: 20px;
+    line-height: 177.9%;
+    letter-spacing: 0.01em;
+}
+
+.hiringCards .keyvalue .value{
+    line-height: 177.9%;
+    font-size: 20px;
+}
+
+.hiringCards .keyvalue .value span{
+    color: #F5593D;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.hiredeveloper .boxSliderWithRow .item .inner{
+    padding: 30px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+    color: #373737;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    margin: 10px;
+}
+.hiredeveloper .boxSliderWithRow .slick-dots button{
+    display: none;
+}
+.hiredeveloper .boxSliderWithRow .slick-dots {
+    max-width: 120px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.hiredeveloper .boxSliderWithRow .slick-dots li::after {
+    content: ' ';
+    padding: 4px;
+    width: 30px;
+    position: absolute;
+    cursor: pointer;
+    background-color: #D0D0D0;
+}
+.hiredeveloper .boxSliderWithRow .slick-dots li.slick-active::after {
+    background-color: #F5593D;
+}
+
+.core_services .item{
+    padding: 2rem;
+    background: #FFFFFF;
+    border-radius: 12px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.core_services .item p{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 129.6%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #3B4047;
+    margin-top: 10px;
+}
+
+.stepsEngage .item{
+    padding: 20px;
+}
+.stepsEngage .item_inner{
+    max-width: 650px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.07);
+    border-radius: 12px;
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stepsEngage .item .content{
+    padding-left: 20px;
+}
+.stepsEngage .item .content .title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 129.6%;
+    text-transform: capitalize;
+    color: #3B4047;
+}
+.stepsEngage .item .content .title span{
+    color: #F5593D;
+}
+.stepsEngage .line_image{
+    position: relative;
+}
+.stepsEngage .line_image::after{
+    content: url('../images/Vectorline.png');   
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    z-index: -1;
 }

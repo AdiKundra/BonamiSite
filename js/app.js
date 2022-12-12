@@ -3,7 +3,7 @@ $('.top-icon-slider').slick({
     autoplay: true,
     arrows: false,
     infinite: true,
-    speed: 1300,
+    speed: 300,
     autoplaySpeed: 1000,
     slidesToShow: 8,
     slidesToScroll: 1,
@@ -96,8 +96,7 @@ lists.forEach(el => {
 // accordion
 
 $(function () {
-  $(".accordion-content(:first-of-type)").css("display", "none");
-  $(".js-accordion-title:first-of-type").addClass("open");
+  $(".accordion-content").css("display", "none");
  
   $(".js-accordion-title").click(function () {
     $(".open").not(this).removeClass("open").next().slideUp(300);
@@ -119,6 +118,8 @@ $(document).ready(function () {
     }
   });
 });
+
+ 
 
 
 // type writter

@@ -532,12 +532,12 @@
             </p>
 
             <div class="see-more-btn mt-0">
-              <a href="#" class="mt-0">view more</a>
+              <button id="loadmoreAwards" class="mt-0">View more</button>
             </div>
           </div>
         </div>
         <div class="col-12 col-sm-12 col-md-5 col-lg-5 gx-5">
-          <div class="row">
+          <div class="row Awardsimage">
             <div class="col-4">
               <img src="./images/cloud.png" class="w-100 mb-3" alt="">
             </div>
@@ -548,10 +548,22 @@
               <img src="./images/good.png" class="w-100 mb-3" alt="">
             </div>
             <div class="col-4">
-              <img src="./images/clutch.png" class="w-100" alt="">
+              <img src="./images/clutch.png" class="w-100 mb-3" alt="">
             </div>
             <div class="col-4">
-              <img src="./images/short.png" class="w-100 " alt="">
+              <img src="./images/short.png" class="w-100 mb-3" alt="">
+            </div>
+            <div class="col-4">
+              <img src="./images/award1.png" class="w-100 mb-3" alt="">
+            </div>
+            <div class="col-4">
+              <img src="./images/award2.png" class="w-100 " alt="">
+            </div>
+            <div class="col-4">
+              <img src="./images/award3.png" class="w-100 " alt="">
+            </div>
+            <div class="col-4">
+              <img src="./images/award4.png" class="w-100 " alt="">
             </div>
           </div>
         </div>
@@ -656,8 +668,21 @@
           $("#loadMore").text("No Content").addClass("d-none");
         }
       });
+
+
+      $(".Awardsimage .col-4").slice(0, 6).show();
+      $("#loadmoreAwards").on("click", function (e) {
+        e.preventDefault();
+
+        $(".Awardsimage .col-4:hidden").slideDown();
+        // if ($(".Awardsimage .col-4:hidden").length == 0) {
+          $("#loadmoreAwards").addClass("d-none");
+        // }
+      });  
     });
   </script>
+
+    
   <!-- top-icon-slider -->
   <script src="./js/app.js"></script>
 </body>

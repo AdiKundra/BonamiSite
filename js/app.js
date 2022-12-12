@@ -110,12 +110,9 @@ $(document).ready(function () {
   };
 
   $("#loadMore").on("click", function (e) {
+    $("#loadMore").addClass("d-none");
     e.preventDefault();
     $('.accordion-container .accordion-title').show().speed('500');
-    if ($(".accord-wrapper:hidden").length == 0) {
-      $("#loadMore").text("No Content").addClass("noContent");
-
-    }
   });
 });
 

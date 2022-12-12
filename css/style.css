@@ -90,8 +90,12 @@
     border: 1.5px solid #9A9A9A;
     border-radius: 8px;
     overflow: hidden;
+    transition: 0.3s;
 }
-
+.technology_stack .boxwrapper:hover{
+    box-shadow: 0px 5.33333px 16px rgba(0, 0, 0, 0.1);
+    transform: scale(1.02);
+}
 .technology_stack .stack .row>div {
     margin-bottom: 2rem;
 }

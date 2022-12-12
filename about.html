@@ -17,6 +17,7 @@
   <!-- common css -->
   <link rel="stylesheet" href="./css/global.css" />
   <link rel="stylesheet" href="./css/style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   <title>Bonami Software | About Us</title>
 </head>
 
@@ -50,7 +51,7 @@
               <a class="nav-link" href="./about.html">About Us</a>
             </li>
             <li class="nav-item ms-5">
-              <a class="btn mainbtn" href="#contact">Contact Us</a>
+              <a class="btn mainbtn" href="./index.html#contact">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -82,10 +83,10 @@
   <section class="about py-60">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6" data-aos="fade-right" data-aos-duration="2000">
           <img src="./images/about-2.png" / class="w-100">
         </div>
-        <div class="col-12 col-sm-12 col-md-5 col-lg-5 offset-lg-1 gx-5">
+        <div class="col-12 col-sm-12 col-md-5 col-lg-5 offset-lg-1 gx-5"  data-aos="fade-left" data-aos-duration="2000">
           <div class="who-heading">
             <span>About us</span>
             <h2 class="mainHeading mt-2 mb-0">
@@ -333,7 +334,7 @@
 
       <!-- heading end -->
       <div class="row align-items-center">
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6"  data-aos="fade-right" data-aos-duration="2000">
           <div class="postion-relative">
             <div class="card-vission vission-pos ms-5">
               <div class="vision-img">
@@ -360,7 +361,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6"  data-aos="fade-left" data-aos-duration="2000">
           <img src="./images/vission.png" class="w-100" />
         </div>
       </div>
@@ -653,6 +654,7 @@
   </footer>
   <!-- jquery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
   <!-- Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -678,6 +680,9 @@
           $("#loadmoreAwards").addClass("d-none");
       });  
     });
+
+
+    AOS.init();
   </script>
 
     

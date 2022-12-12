@@ -68,6 +68,7 @@
     width: 30px;
     position: absolute;
     cursor: pointer;
+    border-radius: 6px;
     background-color: #D0D0D0;
 }
 .hiredeveloper .boxSliderWithRow .slick-dots li.slick-active::after {

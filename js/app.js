@@ -3,7 +3,8 @@ $('.top-icon-slider').slick({
     autoplay: true,
     arrows: false,
     infinite: true,
-    speed: 300,
+    speed: 1300,
+    autoplaySpeed: 1000,
     slidesToShow: 8,
     slidesToScroll: 1,
     responsive: [
@@ -30,9 +31,12 @@ $('.top-icon-slider').slick({
 $('.boxSliderWithRow').slick({
   rows: 3,
   dots: true,
+  autoplay: true,
   arrows: false,
+  loop: true,
   infinite: true,
-  speed: 300,
+  speed: 1000,
+  autoplaySpeed: 3000,
   slidesToShow: 3,
   slidesToScroll: 3
 });
@@ -92,7 +96,7 @@ lists.forEach(el => {
 // accordion
 
 $(function () {
-  $(".accordion-content:not(:first-of-type)").css("display", "none");
+  $(".accordion-content(:first-of-type)").css("display", "none");
   $(".js-accordion-title:first-of-type").addClass("open");
  
   $(".js-accordion-title").click(function () {

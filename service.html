@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -11,220 +12,68 @@
 
 
     <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
     <!-- bootstrap 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- slick css -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"/>
-    
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
+
     <!-- Light Gallery -->
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lightgallery.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lg-zoom.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lg-thumbnail.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lightgallery.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lg-zoom.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lg-thumbnail.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- common css -->
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/style.css">
-
+    <link rel="stylesheet" href="./css/services.css">
     <title>Bonami Software | Service</title>
-    <style>
-        .sectionHeading{
-            font-size: 22px;
-            font-weight: 500;
-            line-height: 32px;
-            color: #151F20;
-        }
-        .headingRow .headingText{
-            font-weight: 400;
-            font-size: 16px;
-            text-align: center;
-            color: #9A9A9A;
-        }
-        .fs-30{
-            font-size: 30px;
-        }
-        /* .sectionSubHeading{
-            font-size: 54px;
-            font-weight: 700;
-            color: #373737;
-        }
-        .sectionSubHeading span{
-            color: #F5593D;
-        } */
-        .cardSection .serviceCards{
-            background: #FFFFFF;
-            box-shadow: 0px 4.06371px 13.5457px rgba(0, 0, 0, 0.06);
-            border-radius: 16.2549px;
-        }
-        .cardSection .serviceCards .cardHeading h2{
-            font-family: 'Montserrat';
-            font-weight: 700;
-            font-size: 35px;
-            line-height: 129.6%;
-            text-align: center;
-            text-transform: capitalize;
-            color: #3B4047;
-        }
-        .cardSection .seeMoreBtn{
-            font-weight: 500;
-            font-size: 16px;
-        }
-        .caseStudySection{
-            background-color: #EEEEEE;
-        }
-        .caseStudySection .nav-pills .nav-link{
-            color: #7A7A7A;
-            font-weight: 500;
-            font-size: 16px;
-            padding: 15px 20px !important;
-            margin: 10px 20px;
-            border-radius: 12px;
-            transition: all 0.3s ease;
-        }
-        .caseStudySection .nav-pills .nav-link.active{
-            background-color: #F5593D;
-            color: #fff;
-        }
-        .caseStudySection .projectCard{
-            background: #fff;
-            border-radius: 40px;
-        }
-        .caseStudySection .caseStudySlider .projectCard .projectDetails h2{
-            font-size: 37px;
-            color: #000;
-            font-weight: 500;
-        }
-        .caseStudySection .projectCard .projectDetails hr{
-            width: 10%;
-            height: 10px;
-            background: #F5593D;
-            opacity: 1;
-        }
-        .caseStudySection .caseStudySlider .projectCard .projectDetails p, 
-        .caseStudySection .caseStudySlider .projectCard .projectDetails ul li{
-            font-family: 'Poppins', sans-serif;
-            font-weight: 400;
-            color: #7a7a7a;
-            line-height: 35px;
-            font-size: 16px;
-        }
-        .caseStudySection .caseStudySlider .projectCard .projectDetails ul li{
-            list-style: none;
-        }
-        .caseStudySection .slick-dots{
-            bottom: -50px !important;
-        }
-        .caseStudySection .slick-dots li{
-            margin: 0px 10px;
-        }
-        .caseStudySection .slick-dots li button{
-            height: 100%;
-            width: 100%;
-        }
-        .caseStudySection .slick-dots li.slick-active button:before{
-            opacity: .75;
-            height: 6px;
-            width: 30px;
-            border-radius: 10px;
-            content: '';
-            background: #F5593D;
-            padding: 0;
-            line-height: 0px;
-        }
-        .caseStudySection .slick-dots li button:before{
-            opacity: .75;
-            height: 6px;
-            width: 30px;
-            border-radius: 10px;
-            content: '';
-            background: #D0D0D0;
-            padding: 0;
-            line-height: 0px;
-            transition: all 0.3s ease;
-        }
-        .mobileAppSlider, .webDevSlider, .cmsDevSlider{
-            width: 100%;
-        }
-        .engagementModels .mainHeading p::before{
-            content: '';
-            background-image: url('./images/headingArrow.png');
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-            position: absolute;
-            height: 100px;
-            width: 100px;
-            top: -50px;
-            left: -60px;
-        }
-        .getInTouch{
-            background-color: #EEEEEE;
-            border-radius: 25px;
-        }
-        .getInTouch h2{
-            font-size: 28px;
-            font-weight: 700;
-            color: #373737;
-        }
-        .getInTouch p{
-            font-size: 16px;
-            color: #7B7B7B;
-        }
+   
+</head>
 
-    </style>
-  </head>
-  <body>
+<body>
     <header>
         <nav class="container navbar navbar-expand-lg p-3">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"
-              ><img src="./images/logo.png" alt=""
-            /></a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="./service.html"
-                    >Services</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Hire Developers</a>
-                </li>
-                <!-- <li class="nav-item">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="./images/logo.png" alt="" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./service.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./hiredevloper.html">Hire Developers</a>
+                        </li>
+                        <!-- <li class="nav-item">
                   <a class="nav-link" href="#">Technology Stack</a>
                 </li> -->
-                <!-- <li class="nav-item">
+                        <!-- <li class="nav-item">
                   <a class="nav-link" href="#">Solutions</a>
                 </li> -->
-                <li class="nav-item">
-                  <a class="nav-link" href="./industries.html">Industries</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./about.html">About Us</a>
-                </li>
-                <li class="nav-item ms-5">
-                  <a class="btn mainbtn" href="#">Contact Us</a>
-                </li>
-              </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./industries.html">Industries</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">About Us</a>
+                        </li>
+                        <li class="nav-item ms-5">
+                            <a class="btn mainbtn" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </div>
         </nav>
-      </header>
-        
+    </header>
+
     <!-- Breadcrumb -->
 
     <section class="breadcrumb" style=" background: url('./images/servicesBanner.png'); background-size: 100% 100%;">
@@ -233,10 +82,9 @@
                 <div class="col-12">
                     <div class="breadcrumb-content text-center">
                         <h1 class="mainHeading text-white text-center">Services</h1>
-                        <span class="text-center text-white"
-                        ><a href="index.html" class="text-white text-none">Home</a> -
-                        Services</span
-                        >
+                        <span class="text-center text-white"><a href="index.html" class="text-white text-none">Home</a>
+                            -
+                            Services</span>
                     </div>
                 </div>
             </div>
@@ -345,17 +193,24 @@
                 <div class="col-12">
                     <ul class="nav nav-pills py-5 justify-content-center" id="pills-tab" role="tablist">
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Mobile Application</button>
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">Mobile Application</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Web Application</button>
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">Web Application</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">CMS & E- Commerce</button>
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false">CMS & E- Commerce</button>
                         </li>
-                      </ul>
-                      <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                            aria-labelledby="pills-home-tab">
                             <div class="caseStudySlider">
                                 <div class="item px-2">
                                     <div class="row">
@@ -364,7 +219,8 @@
                                                 <div class="row align-items-center">
                                                     <div class="col-12 col-lg-6">
                                                         <div class="projectImage">
-                                                            <img src="./images/hotpointProject.png" alt="Hotpoint Media" class="img-responsive img-fluid m-auto">
+                                                            <img src="./images/hotpointProject.png" alt="Hotpoint Media"
+                                                                class="img-responsive img-fluid m-auto">
                                                         </div>
                                                     </div>
                                                     <div class="col-12 col-lg-6">
@@ -372,7 +228,18 @@
                                                             <h2>Hotpoint Media</h2>
                                                             <hr>
                                                             <p>
-                                                                The coolest thing which we could do nowadays is sharing and uploading our pictures and videos online on different platforms like Instagram, Facebook, and numerous other virtual platforms. The aim of this project was to create and deploy a platform where the user could come up with various kinds of light-boxes and incorporate them into their respective events where they like to, and use that platform to sync up with their social media platforms. This platform created a huge buzz among the users and thousands of venues were installed with Hotpoint lightboxes with millions of active users.
+                                                                The coolest thing which we could do nowadays is sharing
+                                                                and uploading our pictures and videos online on
+                                                                different platforms like Instagram, Facebook, and
+                                                                numerous other virtual platforms. The aim of this
+                                                                project was to create and deploy a platform where the
+                                                                user could come up with various kinds of light-boxes and
+                                                                incorporate them into their respective events where they
+                                                                like to, and use that platform to sync up with their
+                                                                social media platforms. This platform created a huge
+                                                                buzz among the users and thousands of venues were
+                                                                installed with Hotpoint lightboxes with millions of
+                                                                active users.
                                                             </p>
                                                             <p>
                                                                 Various inside features of the platform include :
@@ -397,7 +264,8 @@
                                                 <div class="row align-items-center">
                                                     <div class="col-12 col-lg-6">
                                                         <div class="projectImage">
-                                                            <img src="./images/guardians.png" alt="Guardians" class="img-responsive img-fluid m-auto">
+                                                            <img src="./images/guardians.png" alt="Guardians"
+                                                                class="img-responsive img-fluid m-auto">
                                                         </div>
                                                     </div>
                                                     <div class="col-12 col-lg-6">
@@ -405,7 +273,10 @@
                                                             <h2>Guardians</h2>
                                                             <hr>
                                                             <p>
-                                                                The Guardians app was created with community security in mind to enable selected contacts within your network to be notified via an alert sent from your device if you are in trouble or in need of assistance.
+                                                                The Guardians app was created with community security in
+                                                                mind to enable selected contacts within your network to
+                                                                be notified via an alert sent from your device if you
+                                                                are in trouble or in need of assistance.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -421,7 +292,8 @@
                                                 <div class="row align-items-center">
                                                     <div class="col-12 col-lg-6">
                                                         <div class="projectImage">
-                                                            <img src="./images/xeniApp.png" alt="XeniApp" class="img-responsive img-fluid m-auto">
+                                                            <img src="./images/xeniApp.png" alt="XeniApp"
+                                                                class="img-responsive img-fluid m-auto">
                                                         </div>
                                                     </div>
                                                     <div class="col-12 col-lg-6">
@@ -429,7 +301,12 @@
                                                             <h2>XeniApp</h2>
                                                             <hr>
                                                             <p>
-                                                                Xeniapp is one of the most innovative platforms for travel booking and planning. The platform provides booking to almost every amenities that is to be required while travelling. You can book Travel tickets, hotels, cabs, Adventure sport booking and various other things at the same time on a single platform.
+                                                                Xeniapp is one of the most innovative platforms for
+                                                                travel booking and planning. The platform provides
+                                                                booking to almost every amenities that is to be required
+                                                                while travelling. You can book Travel tickets, hotels,
+                                                                cabs, Adventure sport booking and various other things
+                                                                at the same time on a single platform.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -440,7 +317,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                            aria-labelledby="pills-profile-tab">
                             <div class="caseStudySlider">
                                 <div class="item px-2">
                                     <div class="row">
@@ -449,7 +327,8 @@
                                                 <div class="row align-items-center">
                                                     <div class="col-12 col-lg-6">
                                                         <div class="projectImage">
-                                                            <img src="./images/simplified.png" alt="Simplified" class="img-responsive img-fluid m-auto">
+                                                            <img src="./images/simplified.png" alt="Simplified"
+                                                                class="img-responsive img-fluid m-auto">
                                                         </div>
                                                     </div>
                                                     <div class="col-12 col-lg-6">
@@ -457,7 +336,12 @@
                                                             <h2>Simplified</h2>
                                                             <hr>
                                                             <p>
-                                                                Simplified is the time saving, all in one app that your modern marketing team can use for collaboration. Millions of free images, videos, and audio clips. Thousands of designer templates. Long and short-form content writing in 30+ languages. Content Calendar to schedule and publish posts to social media. 
+                                                                Simplified is the time saving, all in one app that your
+                                                                modern marketing team can use for collaboration.
+                                                                Millions of free images, videos, and audio clips.
+                                                                Thousands of designer templates. Long and short-form
+                                                                content writing in 30+ languages. Content Calendar to
+                                                                schedule and publish posts to social media.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -473,7 +357,8 @@
                                                 <div class="row align-items-center">
                                                     <div class="col-12 col-lg-6">
                                                         <div class="projectImage">
-                                                            <img src="./images/riverus.png" alt="Riverus" class="img-responsive img-fluid m-auto">
+                                                            <img src="./images/riverus.png" alt="Riverus"
+                                                                class="img-responsive img-fluid m-auto">
                                                         </div>
                                                     </div>
                                                     <div class="col-12 col-lg-6">
@@ -481,7 +366,10 @@
                                                             <h2>Riverus</h2>
                                                             <hr>
                                                             <p>
-                                                                Riverus is an AI powered Contract Lifecycle Management solution which helps enterprises automate their contracting processes and make contracts real assets for their organisation.
+                                                                Riverus is an AI powered Contract Lifecycle Management
+                                                                solution which helps enterprises automate their
+                                                                contracting processes and make contracts real assets for
+                                                                their organisation.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -497,7 +385,8 @@
                                                 <div class="row align-items-center">
                                                     <div class="col-12 col-lg-6">
                                                         <div class="projectImage">
-                                                            <img src="./images/dgMarket.png" alt="DG Market" class="img-responsive img-fluid m-auto">
+                                                            <img src="./images/dgMarket.png" alt="DG Market"
+                                                                class="img-responsive img-fluid m-auto">
                                                         </div>
                                                     </div>
                                                     <div class="col-12 col-lg-6">
@@ -505,7 +394,11 @@
                                                             <h2>DG Market</h2>
                                                             <hr>
                                                             <p>
-                                                                DG Market is a platform that allows buyers and sellers of tenders to meet from all over the globe, they can publish notices regarding tenders, and buyers can approach them if they are interested, then the bidding takes place.
+                                                                DG Market is a platform that allows buyers and sellers
+                                                                of tenders to meet from all over the globe, they can
+                                                                publish notices regarding tenders, and buyers can
+                                                                approach them if they are interested, then the bidding
+                                                                takes place.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -516,7 +409,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                            aria-labelledby="pills-contact-tab">
                             <div class="caseStudySlider">
                                 <div class="item px-2">
                                     <div class="row">
@@ -525,7 +419,8 @@
                                                 <div class="row align-items-center">
                                                     <div class="col-12 col-lg-6">
                                                         <div class="projectImage">
-                                                            <img src="./images/primefone.png" alt="Primefone" class="img-responsive img-fluid m-auto">
+                                                            <img src="./images/primefone.png" alt="Primefone"
+                                                                class="img-responsive img-fluid m-auto">
                                                         </div>
                                                     </div>
                                                     <div class="col-12 col-lg-6">
@@ -533,7 +428,12 @@
                                                             <h2>Primefone</h2>
                                                             <hr>
                                                             <p>
-                                                                Primefone is an online store for phone cases and accessories. This e-commerce website was designed and developed from scratch and includes features such as: User Feedback, Product Reviews, System API Integration, Appointment Booking, Plugin customization for Product Filters.
+                                                                Primefone is an online store for phone cases and
+                                                                accessories. This e-commerce website was designed and
+                                                                developed from scratch and includes features such as:
+                                                                User Feedback, Product Reviews, System API Integration,
+                                                                Appointment Booking, Plugin customization for Product
+                                                                Filters.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -549,7 +449,8 @@
                                                 <div class="row align-items-center">
                                                     <div class="col-12 col-lg-6">
                                                         <div class="projectImage">
-                                                            <img src="./images/panchVastu.png" alt="Panch Vastu" class="img-responsive img-fluid m-auto">
+                                                            <img src="./images/panchVastu.png" alt="Panch Vastu"
+                                                                class="img-responsive img-fluid m-auto">
                                                         </div>
                                                     </div>
                                                     <div class="col-12 col-lg-6">
@@ -557,7 +458,12 @@
                                                             <h2>Panch Vastu</h2>
                                                             <hr>
                                                             <p>
-                                                                Panch vastu is a well-known Vastu & Numerology consultancy in delhi. We designed and developed the website from scratch on WordPress. Includes features such as: Custom Plugin Development for the Numerology Calculator, Booking Packages, Appointments, and Custom Filters, User Feedback, Product Reviews System.
+                                                                Panch vastu is a well-known Vastu & Numerology
+                                                                consultancy in delhi. We designed and developed the
+                                                                website from scratch on WordPress. Includes features
+                                                                such as: Custom Plugin Development for the Numerology
+                                                                Calculator, Booking Packages, Appointments, and Custom
+                                                                Filters, User Feedback, Product Reviews System.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -573,7 +479,8 @@
                                                 <div class="row align-items-center">
                                                     <div class="col-12 col-lg-6">
                                                         <div class="projectImage">
-                                                            <img src="./images/leadSchool.png" alt="LeadSchool" class="img-responsive img-fluid m-auto">
+                                                            <img src="./images/leadSchool.png" alt="LeadSchool"
+                                                                class="img-responsive img-fluid m-auto">
                                                         </div>
                                                     </div>
                                                     <div class="col-12 col-lg-6">
@@ -581,8 +488,12 @@
                                                             <h2>LeadSchool</h2>
                                                             <hr>
                                                             <p>
-                                                                LEAD is India's largest School EdTech company powering 2000+ schools to deliver international standard education.
-                                                                We worked on the back-end and front-end development, and website design.  and worked with multiple teams simultaneously using agile methodologies.
+                                                                LEAD is India's largest School EdTech company powering
+                                                                2000+ schools to deliver international standard
+                                                                education.
+                                                                We worked on the back-end and front-end development, and
+                                                                website design. and worked with multiple teams
+                                                                simultaneously using agile methodologies.
                                                             </p>
                                                         </div>
                                                     </div>
@@ -593,7 +504,7 @@
                                 </div>
                             </div>
                         </div>
-                      </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -611,7 +522,8 @@
                             Engagement <span>Models</span>
                         </p>
                     </div>
-                    <p class="headingText w-50 m-auto my-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
+                    <p class="headingText w-50 m-auto my-3">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the industry's standard</p>
                 </div>
             </div>
             <div class="row py-5">
@@ -646,129 +558,147 @@
             <div class="row">
                 <div class="col-12 mt-5">
                     <div id="animated-thumbnails" data-masonry='{"percentPosition": true , "columnWidth": }'>
-                       <div class="col-12 col-md-6 col-lg-4">
+                        <div class="col-12 col-md-6 col-lg-4">
                             <a href="./images/project1.png">
                                 <img src="/images/project1.png" class="img-responsive img-fluid" />
                             </a>
-                       </div>
-                       <div class="col-12 col-md-6 col-lg-4">
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
                             <a href="/images/project2.png">
                                 <img src="/images/project2.png" class="img-responsive img-fluid" />
                             </a>
-                       </div>
-                       <div class="col-12 col-md-6 col-lg-4">
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
                             <a href="/images/project3.png">
                                 <img src="/images/project3.png" class="img-responsive img-fluid" />
                             </a>
-                       </div>
-                       <div class="col-12 col-md-6 col-lg-4">
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
                             <a href="/images/project4.png">
                                 <img src="/images/project4.png" class="img-responsive img-fluid" />
                             </a>
-                       </div>
-                       <div class="col-12 col-md-6 col-lg-4">
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
                             <a href="/images/project5.png">
                                 <img src="/images/project5.png" class="img-responsive img-fluid" />
                             </a>
-                       </div>
-                       <div class="col-12 col-md-6 col-lg-4">
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
                             <a href="/images/project6.png">
                                 <img src="/images/project6.png" class="img-responsive img-fluid" />
                             </a>
-                       </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </section>
 
     <section class="contact_section my-80">
         <div class="container">
-          <div class="row">
-            <div class="col-12 col-lg-10 mx-auto bordre-sec">
-              <div class="row">
-                <div class="col-12 col-lg-9 mx-auto">
-                  <div class="top_head pt-3 pt-lg-5 text-center">
-                    <p class="heading mb-0">Contact Us</p>
-                    <h2 class="mainHeading">Let's <span>Talk Business!</span></h2>
-                    <p class="description pb-4">
-                      Have questions about your idea? Drop in your details to
-                      discuss with our solution consultants. We look forward to
-                      hear from you.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-12 col-lg-10 mx-auto">
-                  <form>
+            <div class="row">
+                <div class="col-12 col-lg-10 mx-auto bordre-sec">
                     <div class="row">
-                      <div class="col-12 col-md-6 mb-3">
-                        <label for="fname" class="from-label">First name</label>
-                        <input type="text" name="fname" id="fname" placeholder="e.g. Ross" class="form-control">
-                      </div>
-                      <div class="col-12 col-md-6 mb-3">
-                        <label for="lname" class="from-label">last name</label>
-                        <input type="text" name="lname" id="lname" placeholder="e.g. McCarthy" class="form-control">
-                      </div>
-                      <div class="col-12 col-md-6 mb-3">
-                        <label for="email" class="from-label">email</label>
-                        <input type="email" name="email" id="email" placeholder="Email Address" class="form-control">
-                      </div>
-                      <div class="col-12 col-md-6 mb-3">
-                        <label for="contact" class="from-label">contact</label>
-                        <input type="tel" name="contact" id="contact" placeholder="Contact" class="form-control">
-                      </div>
-                      <div class="col-12 mb-3">
-                        <label class="form-label">Services</label>
-                        <div class="checkboxes">
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="Mobile Development" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">Mobile Development</label>
-                          </div>
-                          <div class="form-check justify-content-center">
-                            <input class="form-check-input" type="checkbox" value="Web Development" id="flexCheckChecked">
-                            <label class="form-check-label" for="flexCheckChecked">Web Development</label>
-                          </div>
-                          <div class="form-check justify-content-end">
-                            <input class="form-check-input" type="checkbox" value="Hire Developer" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">Hire Developer</label>
-                          </div>
-                          <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="Maintenance &amp; Support" id="flexCheckChecked">
-                            <label class="form-check-label" for="flexCheckChecked">Maintenance &amp; Support</label>
-                          </div>
-                          <div class="form-check justify-content-center">
-                            <input class="form-check-input" type="checkbox" value="Technical Consultancy" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">Technical Consultancy</label>
-                          </div>
-                          <div class="form-check justify-content-end">
-                            <input class="form-check-input" type="checkbox" value="Other Services" id="flexCheckChecked">
-                            <label class="form-check-label" for="flexCheckChecked">Other Services</label>
-                          </div>
+                        <div class="col-12 col-lg-9 mx-auto">
+                            <div class="top_head pt-3 pt-lg-5 text-center">
+                                <p class="heading mb-0">Contact Us</p>
+                                <h2 class="mainHeading imagewithheading">Let's <span>Talk Business!</span></h2>
+                                <p class="description pb-4">
+                                    Have questions about your idea? Drop in your details to
+                                    discuss with our solution consultants. We look forward to
+                                    hear from you.
+                                </p>
+                            </div>
                         </div>
-                      </div>
-                      <hr>
-                      <div class="col-12 mb-3">
-                        <label for="aboutproject" class="from-label">about project</label>
-                        <textarea name="aboutproject" id="aboutproject" placeholder="Description (Optional)" class="form-control" cols="30" rows="10"></textarea>
-                      </div>
-                      <div class="col-12 mb-3">
-                        <label for="file">Document (if any):</label>
-                        <input type="file" id="file" name="file" class="form-control">
-                      </div>
                     </div>
-                    <button type="submit" class="btn mainbtn contact_btn mb-3 mb-lg-5">
-                      Submit
-                    </button>
-                  </form>
+                    <div class="row">
+                        <div class="col-12 col-lg-10 mx-auto">
+                            <form>
+                                <div class="row">
+                                    <div class="col-12 col-md-6 mb-3">
+                                        <label for="fname" class="from-label">First name</label>
+                                        <input type="text" name="fname" id="fname" placeholder="e.g. Ross"
+                                            class="form-control">
+                                    </div>
+                                    <div class="col-12 col-md-6 mb-3">
+                                        <label for="lname" class="from-label">last name</label>
+                                        <input type="text" name="lname" id="lname" placeholder="e.g. McCarthy"
+                                            class="form-control">
+                                    </div>
+                                    <div class="col-12 col-md-6 mb-3">
+                                        <label for="email" class="from-label">email</label>
+                                        <input type="email" name="email" id="email" placeholder="Email Address"
+                                            class="form-control">
+                                    </div>
+                                    <div class="col-12 col-md-6 mb-3">
+                                        <label for="contact" class="from-label">contact</label>
+                                        <input type="tel" name="contact" id="contact" placeholder="Contact"
+                                            class="form-control">
+                                    </div>
+                                    <div class="col-12 mb-3">
+                                        <label class="form-label">Services</label>
+                                        <div class="checkboxes">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox"
+                                                    value="Mobile Development" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">Mobile
+                                                    Development</label>
+                                            </div>
+                                            <div class="form-check justify-content-center">
+                                                <input class="form-check-input" type="checkbox" value="Web Development"
+                                                    id="flexCheckChecked">
+                                                <label class="form-check-label" for="flexCheckChecked">Web
+                                                    Development</label>
+                                            </div>
+                                            <div class="form-check justify-content-end">
+                                                <input class="form-check-input" type="checkbox" value="Hire Developer"
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">Hire
+                                                    Developer</label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox"
+                                                    value="Maintenance &amp; Support" id="flexCheckChecked">
+                                                <label class="form-check-label" for="flexCheckChecked">Maintenance &amp;
+                                                    Support</label>
+                                            </div>
+                                            <div class="form-check justify-content-center">
+                                                <input class="form-check-input" type="checkbox"
+                                                    value="Technical Consultancy" id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">Technical
+                                                    Consultancy</label>
+                                            </div>
+                                            <div class="form-check justify-content-end">
+                                                <input class="form-check-input" type="checkbox" value="Other Services"
+                                                    id="flexCheckChecked">
+                                                <label class="form-check-label" for="flexCheckChecked">Other
+                                                    Services</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="col-12 mb-3">
+                                        <label for="aboutproject" class="from-label">about project</label>
+                                        <textarea name="aboutproject" id="aboutproject"
+                                            placeholder="Description (Optional)" class="form-control" cols="30"
+                                            rows="10"></textarea>
+                                    </div>
+                                    <div class="col-12 mb-3">
+                                        <label for="file">Document (if any):</label>
+                                        <input type="file" id="file" name="file" class="form-control">
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn mainbtn contact_btn mb-3 mb-lg-5">
+                                    Submit
+                                </button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </section>
+    </section>
 
     <section class="getInTouchSection py-60">
         <div class="container">
@@ -779,7 +709,7 @@
                             Still have questions?
                         </h2>
                         <p class="my-4">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.  
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         </p>
                         <button type="button" class="mainbtn m-auto border-0 px-5">Get in touch</button>
                     </div>
@@ -790,69 +720,72 @@
 
     <footer class="footer py-60">
         <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="./images/dark_logo.png" alt="Bonami logo" />
-              <p class="my-4 aboutp">
-                Bonami is a software development company providing outsourcing services and on-demand software development teams.
-              </p>
-              <ul
-                class="list-unstyled p-0 d-flex align-items-center mb-3 mb-md-4 mb-lg-5"
-              >
-              <li class="me-2">
-                <a href="https://www.linkedin.com/company/bonamisoftware/" target="_blank"><img src="./images/linkedin.png" alt="" /></a>
-              </li>
-                <li class="me-2">
-                  <a href="https://www.facebook.com/bonamisoftwares" target="_blank"><img src="./images/facebook.png" alt="" /></a>
-                </li>
-                <li class="me-2">
-                  <a href="https://www.instagram.com/bonamisoftware_/" target="_blank"><img src="./images/insta.png" alt="" /></a>
-                </li>
-                <li class="me-2">
-                  <a href="https://www.youtube.com/@bonamisoftware" target="_blank"><img src="./images/youtube.png" alt="" /></a>
-                </li>
-                <!-- <li class="me-2">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <img src="./images/dark_logo.png" alt="Bonami logo" />
+                    <p class="my-4 aboutp">
+                        Bonami is a software development company providing outsourcing services and on-demand software
+                        development teams.
+                    </p>
+                    <ul class="list-unstyled p-0 d-flex align-items-center mb-3 mb-md-4 mb-lg-5">
+                        <li class="me-2">
+                            <a href="https://www.linkedin.com/company/bonamisoftware/" target="_blank"><img
+                                    src="./images/linkedin.png" alt="" /></a>
+                        </li>
+                        <li class="me-2">
+                            <a href="https://www.facebook.com/bonamisoftwares" target="_blank"><img
+                                    src="./images/facebook.png" alt="" /></a>
+                        </li>
+                        <li class="me-2">
+                            <a href="https://www.instagram.com/bonamisoftware_/" target="_blank"><img
+                                    src="./images/insta.png" alt="" /></a>
+                        </li>
+                        <li class="me-2">
+                            <a href="https://www.youtube.com/@bonamisoftware" target="_blank"><img
+                                    src="./images/youtube.png" alt="" /></a>
+                        </li>
+                        <!-- <li class="me-2">
                   <a href="https://twitter.com/BonamiSoftware"><img src="./images/twitter.png" alt="" /></a>
                 </li> -->
-              </ul>
-              <p class="mb-0 aboutp">Copyright &copy; 2022 All right reserved</p>
+                    </ul>
+                    <p class="mb-0 aboutp">Copyright &copy; 2022 All right reserved</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="p-0 ps-md-4">
+                        <p class="listTitle">SIte map</p>
+                        <ul class="list-unstyled p-0 mb-3 mb-md-4 mb-lg-0">
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="./about.html">About</a></li>
+                            <li><a href="./hiredevloper.html">Hire Developers</a></li>
+                            <li><a href="./industries.html">Industries</a></li>
+                            <li><a href="./service.html">service</a></li>
+                            <li><a href="#">contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="p-0 ps-md-4">
+                        <p class="listTitle">Company</p>
+                        <ul class="list-unstyled p-0 mb-3 mb-md-4 mb-lg-0">
+                            <li><a href="">Help & Support</a></li>
+                            <li><a href="">terms & condition</a></li>
+                            <li><a href="">privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="p-0 ps-md-4">
+                        <p class="listTitle">resource</p>
+                        <ul class="list-unstyled p-0 mb-3 mb-md-4 mb-lg-0">
+                            <li><a href="">partner</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Newsletter</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <div class="p-0 ps-md-4">
-                <p class="listTitle">SIte map</p>
-                <ul class="list-unstyled p-0 mb-3 mb-md-4 mb-lg-0">
-                  <li><a href="./index.html">Home</a></li>
-                  <li><a href="./about.html">About</a></li>
-                  <li><a href="#">Hire Developers</a></li>
-                  <li><a href="./industries.html">Industries</a></li>
-                  <li><a href="./service.html">service</a></li>
-                  <li><a href="#">contact</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <div class="p-0 ps-md-4">
-                <p class="listTitle">Company</p>
-                <ul class="list-unstyled p-0 mb-3 mb-md-4 mb-lg-0">
-                  <li><a href="">Help & Support</a></li>
-                  <li><a href="">terms & condition</a></li>
-                  <li><a href="">privacy Policy</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <div class="p-0 ps-md-4">
-                <p class="listTitle">resource</p>
-                <ul class="list-unstyled p-0 mb-3 mb-md-4 mb-lg-0">
-                  <li><a href="">partner</a></li>
-                  <li><a href="">Blog</a></li>
-                  <li><a href="">Newsletter</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
         </div>
-      </footer>
+    </footer>
 
     <!-- jquery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
@@ -862,28 +795,33 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
     <!-- masonry layout bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" crossorigin="anonymous" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" crossorigin="anonymous"
+        async></script>
 
     <!-- Lightgallery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/lightgallery.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/lightgallery.umd.min.js"
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/lightgallery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/lightgallery.min.js" crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/plugins/thumbnail/lg-thumbnail.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/plugins/thumbnail/lg-thumbnail.umd.min.js"
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/plugins/zoom/lg-zoom.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/plugins/zoom/lg-zoom.umd.min.js"
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- top-icon-slider -->
     <!-- <script src="./js/app.js"></script> -->
     <script>
 
-        $('.caseStudySection li .nav-link').on('click', function(event, tab) {
+        $('.caseStudySection li .nav-link').on('click', function (event, tab) {
             $('.caseStudySlider').slick('refresh');
         });
 
         $('.caseStudySlider').slick({
             dots: true,
-            arrows:false,
+            arrows: false,
             infinite: false,
             speed: 300,
             slidesToShow: 1,
@@ -904,5 +842,6 @@
 
 
     </script>
-  </body>
+</body>
+
 </html>

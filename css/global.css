@@ -36,6 +36,21 @@ a{
 .mainHeading span{ 
     color: #F33816;
 }
+.mainHeading.imagewithheading{
+    position: relative;
+    display: inline-block;
+}
+.imagewithheading::after{
+    content: '';
+    background-image: url(/images/headingArrow.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: -50px;
+    left: -60px;
+}
 .description{
     font-size: 18px;
     color: #9A9A9A;

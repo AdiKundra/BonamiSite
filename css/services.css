@@ -1,0 +1,166 @@
+.sectionHeading {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #151F20;
+}
+
+.headingRow .headingText {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #9A9A9A;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+/* .sectionSubHeading{
+    font-size: 54px;
+    font-weight: 700;
+    color: #373737;
+}
+.sectionSubHeading span{
+    color: #F5593D;
+} */
+.cardSection .serviceCards {
+    background: #FFFFFF;
+    box-shadow: 0px 4.06371px 13.5457px rgba(0, 0, 0, 0.06);
+    border-radius: 16.2549px;
+}
+
+.cardSection .serviceCards .cardHeading h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 129.6%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #3B4047;
+}
+
+.cardSection .seeMoreBtn {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.caseStudySection {
+    background-color: #EEEEEE;
+}
+
+.caseStudySection .nav-pills .nav-link {
+    color: #7A7A7A;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 15px 20px !important;
+    margin: 10px 20px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.caseStudySection .nav-pills .nav-link.active {
+    background-color: #F5593D;
+    color: #fff;
+}
+
+.caseStudySection .projectCard {
+    background: #fff;
+    border-radius: 40px;
+}
+
+.caseStudySection .caseStudySlider .projectCard .projectDetails h2 {
+    font-size: 37px;
+    color: #000;
+    font-weight: 500;
+}
+
+.caseStudySection .projectCard .projectDetails hr {
+    width: 10%;
+    height: 10px;
+    background: #F5593D;
+    opacity: 1;
+}
+
+.caseStudySection .caseStudySlider .projectCard .projectDetails p,
+.caseStudySection .caseStudySlider .projectCard .projectDetails ul li {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #7a7a7a;
+    line-height: 35px;
+    font-size: 16px;
+}
+
+.caseStudySection .caseStudySlider .projectCard .projectDetails ul li {
+    list-style: none;
+}
+
+.caseStudySection .slick-dots {
+    bottom: -50px !important;
+}
+
+.caseStudySection .slick-dots li {
+    margin: 0px 10px;
+}
+
+.caseStudySection .slick-dots li button {
+    height: 100%;
+    width: 100%;
+}
+
+.caseStudySection .slick-dots li.slick-active button:before {
+    opacity: .75;
+    height: 6px;
+    width: 30px;
+    border-radius: 10px;
+    content: '';
+    background: #F5593D;
+    padding: 0;
+    line-height: 0px;
+}
+
+.caseStudySection .slick-dots li button:before {
+    opacity: .75;
+    height: 6px;
+    width: 30px;
+    border-radius: 10px;
+    content: '';
+    background: #D0D0D0;
+    padding: 0;
+    line-height: 0px;
+    transition: all 0.3s ease;
+}
+
+.mobileAppSlider,
+.webDevSlider,
+.cmsDevSlider {
+    width: 100%;
+}
+
+.engagementModels .mainHeading p::before {
+    content: '';
+    background-image: url('./images/headingArrow.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: -50px;
+    left: -60px;
+}
+
+.getInTouch {
+    background-color: #EEEEEE;
+    border-radius: 25px;
+}
+
+.getInTouch h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #373737;
+}
+
+.getInTouch p {
+    font-size: 16px;
+    color: #7B7B7B;
+}

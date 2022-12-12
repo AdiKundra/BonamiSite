@@ -1,518 +1,454 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- font awesome -->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-    />
-    <!-- font awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-    />
-    <!-- bootstrap 5 -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <!-- slick css -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
-    <!-- common css -->
-    <link rel="stylesheet" href="./css/global.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>Bonami Software | Industries</title>
-    <style>
-      .ourIndustriesSection .mainHeading p::before{
-            content: '';
-            background-image: url('/images/headingArrow.png');
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-            position: absolute;
-            height: 100px;
-            width: 100px;
-            top: -50px;
-            left: -60px;
-        }
-        .ourIndustriesSection .headingRow .headingText{
-            font-weight: 400;
-            font-size: 16px;
-            text-align: center;
-            color: #9A9A9A;
-        }
-        .ourIndustriesSection .sectionHeading{
-            font-size: 22px;
-            font-weight: 500;
-            line-height: 32px;
-            color: #151F20;
-        }
-    </style>
-  </head>
-  <body>
-    <header>
-        <nav class="container navbar navbar-expand-lg p-3">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"
-              ><img src="./images/logo.png" alt=""
-            /></a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    aria-current="page"
-                    href="./service.html"
-                    >Services</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Hire Developers</a>
-                </li>
-                <!-- <li class="nav-item">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" />
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  <!-- bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- slick css -->
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <!-- common css -->
+  <link rel="stylesheet" href="./css/global.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="./css/industries.css">
+  <title>Bonami Software | Industries</title>
+
+</head>
+
+<body>
+  <header>
+    <nav class="container navbar navbar-expand-lg p-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="./images/logo.png" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./service.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./hiredevloper.html">Hire Developers</a>
+            </li>
+            <!-- <li class="nav-item">
                   <a class="nav-link" href="#">Technology Stack</a>
                 </li> -->
-                <!-- <li class="nav-item">
+            <!-- <li class="nav-item">
                   <a class="nav-link" href="#">Solutions</a>
                 </li> -->
-                <li class="nav-item">
-                  <a class="nav-link" href="./industries.html">Industries</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./about.html">About Us</a>
-                </li>
-                <li class="nav-item ms-5">
-                  <a class="btn mainbtn" href="#">Contact Us</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
-    <!-- Breadcrumb -->
+            <li class="nav-item">
+              <a class="nav-link" href="./industries.html">Industries</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About Us</a>
+            </li>
+            <li class="nav-item ms-5">
+              <a class="btn mainbtn" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Breadcrumb -->
 
-    <section
-      class="breadcrumb"
-      style="
+  <section class="breadcrumb" style="
         background: url('./images/indus-bread.jpg');
         background-size: 100% 100%;
-      "
-    >
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="breadcrumb-content text-center">
-              <h1 class="mainHeading text-white text-center">Industries</h1>
-              <span class="text-center text-white"
-                ><a href="index.html" class="text-white text-none">Home</a> -
-                Industries</span
-              >
-            </div>
+      ">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="breadcrumb-content text-center">
+            <h1 class="mainHeading text-white text-center">Industries</h1>
+            <span class="text-center text-white"><a href="index.html" class="text-white text-none">Home</a> -
+              Industries</span>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="py-60 ourIndustriesSection">
-      <div class="container">
-        <div class="row headingRow">
-            <div class="col-12">
-                <div class="sectionHeading">
-                    <p class="text-center mb-0">Industries</p>
-                </div>
-                <div class="mainHeading text-center">
-                    <p class="text-center mb-0 d-inline position-relative">
-                        Industries <span>we serve </span>
-                    </p>
-                </div>
-                <p class="headingText w-50 m-auto my-3">We focus every project, regardless of industry, on the best technology solutions and business understanding as an industry-neutral company serving a variety of business niches. Leverage our industry experts to exploit your product at all stages.</p>
-            </div>
-        </div>
-        <div class="row align-items-center">
-          <h3 class="head-indus ms-3">Our <span>Industries</span></h3>
-          <div class="our-industries">
-            <div class="row align-items-center justify-content-center">
-              <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
-                <img src="./images/prime.png" class="w-100 img-responsive" />
-              </div>
-              <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
-                <div class="indus-content">
-                  <h3>1. Retail & E-Commerce</h3>
-                  <h6 class="mt-3">Primefone</h6>
-                  <p>
-                    Primefone is an online store for phone cases and
-                    accessories. This e-commerce website was designed and
-                    developed from scratch and includes
-                  </p>
-
-                  <p>
-                    features such as User Feedback, Product Reviews, System API
-                    Integration, Appointment Booking, and Plugin customization
-                    for Product Filters.
-                  </p>
-                  <div class="read-more-link">
-                    <a href="https://primefone.nl/" target="_blank"
-                      >read more</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
+  <section class="py-60 ourIndustriesSection">
+    <div class="container">
+      <div class="row headingRow">
+        <div class="col-12">
+          <div class="sectionHeading">
+            <p class="text-center mb-0">Industries</p>
           </div>
-          <div class="our-industries">
-            <div class="row align-items-center justify-content-center">
-              <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
-                <div class="indus-content">
-                  <h3>2. Banking & Finance</h3>
-                  <h6 class="mt-3">Kotak 811</h6>
-                  <p>
-                    The Kotak project is in the Proof of concept phase, so it is
-                    still in the development phase and not available publicly
-                    yet. Engagement in the project :
-                  </p>
-
-                  <ul>
-                    <li>
-                      Backend development for Kotak onboarding processes for
-                      credit/debit card feature
-                    </li>
-                    <li>The architecture of the backend</li>
-                    <li>
-                      Major enhancements are conversion from Java to Node.js
-                    </li>
-                  </ul>
-                  <div class="read-more-link">
-                    <a href="https://dev.wyreless.org/811-acqui" target="_blank"
-                      >read more</a
-                    >
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
-                <img
-                  src="./images/kotak-web.png"
-                  class="w-100 img-responsive"
-                />
-              </div>
-            </div>
+          <div class="mainHeading text-center">
+            <p class="text-center mb-0 d-inline position-relative">
+              Industries <span>we serve </span>
+            </p>
           </div>
-          <div class="our-industries">
-            <div class="row align-items-center justify-content-center">
-              <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
-                <img src="./images/tabs7.png" class="w-100 img-responsive" />
-              </div>
-              <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
-                <div class="indus-content">
-                  <h3>3. Healthcare</h3>
-                  <h6 class="mt-3">Bant</h6>
-                  <p>
-                    As the 21st century has unfolded many innovations and
-                    inventions to us it also has led us to severe disasters and
-                    destruction in almost every field. Looking at the field of
-                    Health Science the year 2020 was cursed with the COVID
-                    Pandemic and also in the past, there have been several such
-                    incidents.
-                  </p>
-
-                  <div class="read-more-link">
-                    <a href="https://bant.org.uk/" target="_blank">read more</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="our-industries">
-            <div class="row align-items-center justify-content-center">
-              <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
-                <div class="indus-content">
-                  <h3>4. Education & E-learning</h3>
-                  <h6 class="mt-3">LeadSchool</h6>
-                  <p>
-                    LEAD is India's largest School EdTech company powering 2000+
-                    schools to deliver international standard education.
-                    LeadSchool is helping parents, teachers, and school owners
-                    achieve this, through an international standard curriculum
-                    combined with innovative school ed-tech solutions. A
-                    platform for disruptive ed-tech solutions providing
-                    e-schooling to ensure visible improvement in a student’s
-                    learning. It also offers a list of schools where students
-                    can register based on their area.
-                  </p>
-
-                  <div class="read-more-link">
-                    <a href="https://leadschool.in/" target="_blank"
-                      >read more</a
-                    >
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
-                <img src="./images/lead-web.png" class="w-100 img-responsive" />
-              </div>
-            </div>
-          </div>
-          <div class="our-industries">
-            <div class="row align-items-center justify-content-center">
-              <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
-                <img src="./images/tabs2.png" class="w-100 img-responsive" />
-              </div>
-              <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
-                <div class="indus-content">
-                  <h3>5. Travel & Tourism</h3>
-                  <h6 class="mt-3">Xeniapp</h6>
-                  <p>
-                    Xeniapp is one of the most innovative platforms for travel
-                    booking and planning. The platform provides booking to
-                    almost every amenities that are to be required while
-                    traveling. You can book Travel tickets, hotels, cabs,
-                    Adventure sports booking, and various other things at the
-                    same time on a single platform.
-                  </p>
-
-                  <div class="read-more-link">
-                    <a href="https://xeniapp.com/" target="_blank">read more</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="our-industries">
-            <div class="row align-items-center justify-content-center">
-              <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
-                <div class="indus-content">
-                  <h3>6. Media & Entertainment</h3>
-                  <h6 class="mt-3">Hotpoint Media</h6>
-                  <p>
-                    The coolest thing we could do nowadays is share and upload
-                    our pictures and videos online on different platforms like
-                    Instagram, Facebook, and numerous other virtual platforms.
-                    The aim of this project was to create and deploy a platform
-                    where the user could come up with various kinds of
-                    light-boxes and incorporate them into their respective
-                    events where they like to, and use that platform to sync up
-                    with their social media platforms.
-                  </p>
-
-                  <div class="read-more-link">
-                    <a href="https://www.hotpointapp.com/" target="_blank"
-                      >read more</a
-                    >
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
-                <img src="./images/prime.png" class="w-100 img-responsive" />
-              </div>
-            </div>
-          </div>
-          <div class="our-industries">
-            <div class="row align-items-center justify-content-center">
-              <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
-                <img src="./images/tabs4.png" class="w-100 img-responsive" />
-              </div>
-              <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
-                <div class="indus-content">
-                  <h3>7. ISVs & Software Product Companies</h3>
-                  <h6 class="mt-3">Hydrus</h6>
-                  <p>
-                    The pillars of sustainability have been studied in academia
-                    and proven to impact organizational performance. We believe
-                    organizations can leverage ESG analytics, automated
-                    reporting, and advanced technology to achieve proven
-                    sustainable growth, improve stakeholder confidence, and
-                    create a better tomorrow. We at Hydrus, streamline the ESG
-                    data collection, reporting, and auditing process so your
-                    organization can be more
-                  </p>
-                  <div class="read-more-link">
-                    <a href="https://hydrus.ai" target="_blank">read more</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="see-more-btn text-center">
-            <button id="loadMore">See More</button>
-          </div>
+          <p class="headingText w-50 m-auto my-3">We focus every project, regardless of industry, on the best technology
+            solutions and business understanding as an industry-neutral company serving a variety of business niches.
+            Leverage our industry experts to exploit your product at all stages.</p>
         </div>
       </div>
-    </section>
-    <!-- Our key client -->
-    <section class="about py-60">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-12 col-sm-12 col-md-5 col-lg-5 gx-5">
-            <div class="who-heading">
-              <span>Our key clients & proud contribution</span>
-              <h2 class="mainHeading mt-2 mb-0">
-                We collaborate with the world's <span> top businesses. </span>
-              </h2>
+      <div class="row align-items-center">
+        <h3 class="head-indus ms-3">Our <span>Industries</span></h3>
+        <div class="our-industries">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
+              <img src="./images/prime.png" class="w-100 img-responsive" />
             </div>
-            <div class="who-content mt-3">
-              <p>
-                In order to influence web, software, and mobile app development
-                solutions, Bonami Software ensures technology updates on a
-                regular basis. Since 2019, we have been concentrating on
-                providing the best development services in the global market
-                with 100% project delivery success.
-              </p>
-            </div>
-          </div>
-          <div class="col-12 col-sm-12 col-md-7 col-lg-7 gx-5">
-            <div class="row">
-              <div class="col-4">
-                <img src="./images/hotpoint.png" alt="" />
-              </div>
-              <div class="col-4">
-                <img src="./images/biz.png" alt="" />
-              </div>
-              <div class="col-4">
-                <img src="./images/kotak.png" alt="" />
-              </div>
-              <div class="col-4">
-                <img src="./images/frame.png" alt="" />
-              </div>
-              <div class="col-4">
-                <img src="./images/wet.png" alt="" />
-              </div>
-              <div class="col-4">
-                <img src="./images/apna.png" alt="" />
-              </div>
-              <div class="col-4">
-                <img src="./images/sephora.png" alt="" />
-              </div>
-              <div class="col-4">
-                <img src="./images/leadGrab.png" alt="" />
-              </div>
-              <div class="col-4">
-                <img src="./images/poker.png" alt="" />
-              </div>
-              <div class="col-4">
-                <img src="./images/visiual.png" alt="" />
-              </div>
-              <div class="col-4">
-                <img src="./images/lead.png" alt="" />
-              </div>
-              <div class="col-4">
-                <img src="./images/talkView.png" alt="" />
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
+              <div class="indus-content">
+                <h3>1. Retail & E-Commerce</h3>
+                <h6 class="mt-3">Primefone</h6>
+                <p>
+                  Primefone is an online store for phone cases and
+                  accessories. This e-commerce website was designed and
+                  developed from scratch and includes
+                </p>
+
+                <p>
+                  features such as User Feedback, Product Reviews, System API
+                  Integration, Appointment Booking, and Plugin customization
+                  for Product Filters.
+                </p>
+                <div class="read-more-link">
+                  <a href="https://primefone.nl/" target="_blank">read more</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
+        <div class="our-industries">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
+              <div class="indus-content">
+                <h3>2. Banking & Finance</h3>
+                <h6 class="mt-3">Kotak 811</h6>
+                <p>
+                  The Kotak project is in the Proof of concept phase, so it is
+                  still in the development phase and not available publicly
+                  yet. Engagement in the project :
+                </p>
+
+                <ul>
+                  <li>
+                    Backend development for Kotak onboarding processes for
+                    credit/debit card feature
+                  </li>
+                  <li>The architecture of the backend</li>
+                  <li>
+                    Major enhancements are conversion from Java to Node.js
+                  </li>
+                </ul>
+                <div class="read-more-link">
+                  <a href="https://dev.wyreless.org/811-acqui" target="_blank">read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
+              <img src="./images/kotak-web.png" class="w-100 img-responsive" />
+            </div>
+          </div>
+        </div>
+        <div class="our-industries">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
+              <img src="./images/tabs7.png" class="w-100 img-responsive" />
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
+              <div class="indus-content">
+                <h3>3. Healthcare</h3>
+                <h6 class="mt-3">Bant</h6>
+                <p>
+                  As the 21st century has unfolded many innovations and
+                  inventions to us it also has led us to severe disasters and
+                  destruction in almost every field. Looking at the field of
+                  Health Science the year 2020 was cursed with the COVID
+                  Pandemic and also in the past, there have been several such
+                  incidents.
+                </p>
+
+                <div class="read-more-link">
+                  <a href="https://bant.org.uk/" target="_blank">read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="our-industries">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
+              <div class="indus-content">
+                <h3>4. Education & E-learning</h3>
+                <h6 class="mt-3">LeadSchool</h6>
+                <p>
+                  LEAD is India's largest School EdTech company powering 2000+
+                  schools to deliver international standard education.
+                  LeadSchool is helping parents, teachers, and school owners
+                  achieve this, through an international standard curriculum
+                  combined with innovative school ed-tech solutions. A
+                  platform for disruptive ed-tech solutions providing
+                  e-schooling to ensure visible improvement in a student’s
+                  learning. It also offers a list of schools where students
+                  can register based on their area.
+                </p>
+
+                <div class="read-more-link">
+                  <a href="https://leadschool.in/" target="_blank">read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
+              <img src="./images/lead-web.png" class="w-100 img-responsive" />
+            </div>
+          </div>
+        </div>
+        <div class="our-industries">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
+              <img src="./images/tabs2.png" class="w-100 img-responsive" />
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
+              <div class="indus-content">
+                <h3>5. Travel & Tourism</h3>
+                <h6 class="mt-3">Xeniapp</h6>
+                <p>
+                  Xeniapp is one of the most innovative platforms for travel
+                  booking and planning. The platform provides booking to
+                  almost every amenities that are to be required while
+                  traveling. You can book Travel tickets, hotels, cabs,
+                  Adventure sports booking, and various other things at the
+                  same time on a single platform.
+                </p>
+
+                <div class="read-more-link">
+                  <a href="https://xeniapp.com/" target="_blank">read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="our-industries">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
+              <div class="indus-content">
+                <h3>6. Media & Entertainment</h3>
+                <h6 class="mt-3">Hotpoint Media</h6>
+                <p>
+                  The coolest thing we could do nowadays is share and upload
+                  our pictures and videos online on different platforms like
+                  Instagram, Facebook, and numerous other virtual platforms.
+                  The aim of this project was to create and deploy a platform
+                  where the user could come up with various kinds of
+                  light-boxes and incorporate them into their respective
+                  events where they like to, and use that platform to sync up
+                  with their social media platforms.
+                </p>
+
+                <div class="read-more-link">
+                  <a href="https://www.hotpointapp.com/" target="_blank">read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
+              <img src="./images/prime.png" class="w-100 img-responsive" />
+            </div>
+          </div>
+        </div>
+        <div class="our-industries">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
+              <img src="./images/tabs4.png" class="w-100 img-responsive" />
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 gx-5">
+              <div class="indus-content">
+                <h3>7. ISVs & Software Product Companies</h3>
+                <h6 class="mt-3">Hydrus</h6>
+                <p>
+                  The pillars of sustainability have been studied in academia
+                  and proven to impact organizational performance. We believe
+                  organizations can leverage ESG analytics, automated
+                  reporting, and advanced technology to achieve proven
+                  sustainable growth, improve stakeholder confidence, and
+                  create a better tomorrow. We at Hydrus, streamline the ESG
+                  data collection, reporting, and auditing process so your
+                  organization can be more
+                </p>
+                <div class="read-more-link">
+                  <a href="https://hydrus.ai" target="_blank">read more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="see-more-btn text-center">
+          <button id="loadMore">See More</button>
+        </div>
       </div>
-    </section>
-    <!-- footer -->
-    <footer class="footer py-60">
-        <div class="container">
+    </div>
+  </section>
+  <!-- Our key client -->
+  <section class="about py-60">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-sm-12 col-md-5 col-lg-5 gx-5">
+          <div class="who-heading">
+            <span>Our key clients & proud contribution</span>
+            <h2 class="mainHeading mt-2 mb-0">
+              We collaborate with the world's <span> top businesses. </span>
+            </h2>
+          </div>
+          <div class="who-content mt-3">
+            <p>
+              In order to influence web, software, and mobile app development
+              solutions, Bonami Software ensures technology updates on a
+              regular basis. Since 2019, we have been concentrating on
+              providing the best development services in the global market
+              with 100% project delivery success.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-12 col-md-7 col-lg-7 gx-5">
           <div class="row">
-            <div class="col-12 col-md-6 col-lg-3">
-              <img src="./images/dark_logo.png" alt="Bonami logo" />
-              <p class="my-4 aboutp">
-                Bonami is a software development company providing outsourcing services and on-demand software development teams.
-              </p>
-              <ul
-                class="list-unstyled p-0 d-flex align-items-center mb-3 mb-md-4 mb-lg-5"
-              >
-              <li class="me-2">
-                <a href="https://www.linkedin.com/company/bonamisoftware/" target="_blank"><img src="./images/linkedin.png" alt="" /></a>
-              </li>
-                <li class="me-2">
-                  <a href="https://www.facebook.com/bonamisoftwares" target="_blank"><img src="./images/facebook.png" alt="" /></a>
-                </li>
-                <li class="me-2">
-                  <a href="https://www.instagram.com/bonamisoftware_/" target="_blank"><img src="./images/insta.png" alt="" /></a>
-                </li>
-                <li class="me-2">
-                  <a href="https://www.youtube.com/@bonamisoftware" target="_blank"><img src="./images/youtube.png" alt="" /></a>
-                </li>
-                <!-- <li class="me-2">
+            <div class="col-4">
+              <img src="./images/hotpoint.png" alt="" />
+            </div>
+            <div class="col-4">
+              <img src="./images/biz.png" alt="" />
+            </div>
+            <div class="col-4">
+              <img src="./images/kotak.png" alt="" />
+            </div>
+            <div class="col-4">
+              <img src="./images/frame.png" alt="" />
+            </div>
+            <div class="col-4">
+              <img src="./images/wet.png" alt="" />
+            </div>
+            <div class="col-4">
+              <img src="./images/apna.png" alt="" />
+            </div>
+            <div class="col-4">
+              <img src="./images/sephora.png" alt="" />
+            </div>
+            <div class="col-4">
+              <img src="./images/leadGrab.png" alt="" />
+            </div>
+            <div class="col-4">
+              <img src="./images/poker.png" alt="" />
+            </div>
+            <div class="col-4">
+              <img src="./images/visiual.png" alt="" />
+            </div>
+            <div class="col-4">
+              <img src="./images/lead.png" alt="" />
+            </div>
+            <div class="col-4">
+              <img src="./images/talkView.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer class="footer py-60">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3">
+          <img src="./images/dark_logo.png" alt="Bonami logo" />
+          <p class="my-4 aboutp">
+            Bonami is a software development company providing outsourcing services and on-demand software development
+            teams.
+          </p>
+          <ul class="list-unstyled p-0 d-flex align-items-center mb-3 mb-md-4 mb-lg-5">
+            <li class="me-2">
+              <a href="https://www.linkedin.com/company/bonamisoftware/" target="_blank"><img
+                  src="./images/linkedin.png" alt="" /></a>
+            </li>
+            <li class="me-2">
+              <a href="https://www.facebook.com/bonamisoftwares" target="_blank"><img src="./images/facebook.png"
+                  alt="" /></a>
+            </li>
+            <li class="me-2">
+              <a href="https://www.instagram.com/bonamisoftware_/" target="_blank"><img src="./images/insta.png"
+                  alt="" /></a>
+            </li>
+            <li class="me-2">
+              <a href="https://www.youtube.com/@bonamisoftware" target="_blank"><img src="./images/youtube.png"
+                  alt="" /></a>
+            </li>
+            <!-- <li class="me-2">
                   <a href="https://twitter.com/BonamiSoftware"><img src="./images/twitter.png" alt="" /></a>
                 </li> -->
-              </ul>
-              <p class="mb-0 aboutp">Copyright &copy; 2022 All right reserved</p>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <div class="p-0 ps-md-4">
-                <p class="listTitle">SIte map</p>
-                <ul class="list-unstyled p-0 mb-3 mb-md-4 mb-lg-0">
-                  <li><a href="./index.html">Home</a></li>
-                  <li><a href="./about.html">About</a></li>
-                  <li><a href="#">Hire Developers</a></li>
-                  <li><a href="./industries.html">Industries</a></li>
-                  <li><a href="./service.html">service</a></li>
-                  <li><a href="#">contact</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <div class="p-0 ps-md-4">
-                <p class="listTitle">Company</p>
-                <ul class="list-unstyled p-0 mb-3 mb-md-4 mb-lg-0">
-                  <li><a href="">Help & Support</a></li>
-                  <li><a href="">terms & condition</a></li>
-                  <li><a href="">privacy Policy</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <div class="p-0 ps-md-4">
-                <p class="listTitle">resource</p>
-                <ul class="list-unstyled p-0 mb-3 mb-md-4 mb-lg-0">
-                  <li><a href="">partner</a></li>
-                  <li><a href="">Blog</a></li>
-                  <li><a href="">Newsletter</a></li>
-                </ul>
-              </div>
-            </div>
+          </ul>
+          <p class="mb-0 aboutp">Copyright &copy; 2022 All right reserved</p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="p-0 ps-md-4">
+            <p class="listTitle">SIte map</p>
+            <ul class="list-unstyled p-0 mb-3 mb-md-4 mb-lg-0">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="#">Hire Developers</a></li>
+              <li><a href="./industries.html">Industries</a></li>
+              <li><a href="./service.html">service</a></li>
+              <li><a href="#">contact</a></li>
+            </ul>
           </div>
         </div>
-      </footer>
-    <!-- jquery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- slick script -->
-    <script
-      type="text/javascript"
-      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
-    <script>
-      $(document).ready(function () {
-        $(".our-industries").slice(0, 4).show();
-        $("#loadMore").on("click", function (e) {
-          e.preventDefault();
-          $(".our-industries:hidden").slice(0, 3).slideDown();
-          if ($(".our-industries:hidden").length == 0) {
-            $("#loadMore").text("No Content").addClass("d-none");
-          }
-        });
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="p-0 ps-md-4">
+            <p class="listTitle">Company</p>
+            <ul class="list-unstyled p-0 mb-3 mb-md-4 mb-lg-0">
+              <li><a href="">Help & Support</a></li>
+              <li><a href="">terms & condition</a></li>
+              <li><a href="">privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="p-0 ps-md-4">
+            <p class="listTitle">resource</p>
+            <ul class="list-unstyled p-0 mb-3 mb-md-4 mb-lg-0">
+              <li><a href="">partner</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Newsletter</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- slick script -->
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".our-industries").slice(0, 4).show();
+      $("#loadMore").on("click", function (e) {
+        e.preventDefault();
+        $(".our-industries:hidden").slice(0, 3).slideDown();
+        if ($(".our-industries:hidden").length == 0) {
+          $("#loadMore").text("No Content").addClass("d-none");
+        }
       });
-    </script>
-  </body>
+    });
+  </script>
+</body>
+
 </html>

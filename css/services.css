@@ -149,18 +149,3 @@
     left: -60px;
 }
 
-.getInTouch {
-    background-color: #EEEEEE;
-    border-radius: 25px;
-}
-
-.getInTouch h2 {
-    font-size: 28px;
-    font-weight: 700;
-    color: #373737;
-}
-
-.getInTouch p {
-    font-size: 16px;
-    color: #7B7B7B;
-}

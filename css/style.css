@@ -84,7 +84,22 @@
     margin-top: 15px;
     margin-bottom: 0;
 }
-
+.offer-col:hover .card-offer-img img,
+.core_services .col-md-6 .item img,
+.itemsAbout .col-md-6 .itemBox img{
+    transition: all .8s;
+}
+.offer-col:hover .card-offer-img img,
+.core_services .col-md-6:nth-child(odd) .item:hover img,
+.itemsAbout .col-md-6:nth-child(odd) .itemBox:hover img{
+    box-shadow: inset 0px 2px 2px rgba(255, 255, 255, 0.25);
+    filter: drop-shadow(2px 2px 6px rgba(255, 83, 0, 0.4));
+}
+.core_services .col-md-6:nth-child(even) .item:hover img,
+.itemsAbout .col-md-6:nth-child(even) .itemBox:hover img{
+    box-shadow: inset 0px 2px 2px rgba(255, 255, 255, 0.25);
+    filter: drop-shadow(2px 2px 6px  rgba(0, 0, 0, 0.4));
+}
 /* technology_stack */
 .technology_stack .boxwrapper {
     border: 1.5px solid #9A9A9A;
@@ -94,7 +109,7 @@
 }
 .technology_stack .boxwrapper:hover{
     box-shadow: 0px 5.33333px 16px rgba(0, 0, 0, 0.1);
-    transform: scale(1.02);
+    transform: scale(1.002);
 }
 .technology_stack .stack .row>div {
     margin-bottom: 2rem;
@@ -206,6 +221,7 @@
     background: #fff;
     padding-left: 30px;
     border-left: 5px solid #EAEAEA;
+    padding-bottom: 10px;
 }
 
 .tabs .rightsidebar li.active {
@@ -418,14 +434,20 @@
 .see-more-btn button,
 .see-more-btn a {
     background: #f5593d;
-    box-shadow: 0px 1.281px 12.81px rgba(0, 0, 0, 0.22);
     border-radius: 7px;
     padding: 10px 35px;
     color: #ffffff;
     border: none;
     margin-top: 50px;
+    transition: all .8s;
 }
 
+.see-more-btn button:hover,
+.see-more-btn a:hover{
+    background-color: #F33816;
+    color: #fff;
+    box-shadow: 0px 1.281px 12.81px rgba(0, 0, 0, 0.22);
+}
 .offer-col {
     display: none;
 }

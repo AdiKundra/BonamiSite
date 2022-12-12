@@ -1,1257 +1,1491 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+    />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <!-- bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- slick css -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- common css -->
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/style.css" />
 
-  <!-- font awesome -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" />
-  <!-- font awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
-  <!-- bootstrap 5 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <!-- slick css -->
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-  <!-- common css -->
-  <link rel="stylesheet" href="./css/global.css" />
-  <link rel="stylesheet" href="./css/style.css" />
+    <title>Bonami Software</title>
+  </head>
 
-  <title>Bonami Software</title>
-</head>
-
-<body>
-  <header>
-    <nav class="container navbar navbar-expand-lg p-3">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="./images/logo.png" alt="" /></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./service.html">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./hiredevloper.html">Hire Developers</a>
-            </li>
-            <!-- <li class="nav-item">
+  <body>
+    <header>
+      <nav class="container navbar navbar-expand-lg p-3">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"
+            ><img src="./images/logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./service.html"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./hiredevloper.html"
+                  >Hire Developers</a
+                >
+              </li>
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="#">Technology Stack</a>
               </li> -->
-            <!-- <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="#">Solutions</a>
               </li> -->
-            <li class="nav-item">
-              <a class="nav-link" href="./industries.html">Industries</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./about.html">About Us</a>
-            </li>
-            <li class="nav-item ms-5">
-              <a class="btn mainbtn" href="#contact">Contact Us</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </header>
-
-  <section class="bannersection">
-    <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <div class="content">
-            <h1>
-              Software Engineering,<span> IT Consulting</span> & Outsourcing
-            </h1>
-            <p>
-              We are a software development company providing outsourcing
-              services and on-demand software development teams.
-            </p>
-            <blockquote class="typewrite" data-period="2000"
-              data-type='[ "On-demand product teams", "Hire remote developer in 3 days", "Early engagement at zero cost" ]'>
-            </blockquote>
-            <a href="#contact" class="mainbtn">Contact Us </a>
+              <li class="nav-item">
+                <a class="nav-link" href="./industries.html">Industries</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About Us</a>
+              </li>
+              <li class="nav-item ms-5">
+                <a class="btn mainbtn" href="#contact">Contact Us</a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="col-lg-6">
-          <img src="./images/banner.png" alt="" />
-        </div>
-      </div>
-    </div>
-    <div class="conatainer-fluid">
-      <div class="head1 my-5">
-        <h3 class="text-center">
-          From startups to the world’s <span>largest companies</span>
-        </h3>
-      </div>
-      <div class="top-icon-slider">
-        <div class="item">
-          <img src="./images/logo/clients1.png" />
-        </div>
-        <div class="item">
-          <img src="./images/logo/clients2.png" />
-        </div>
-        <div class="item">
-          <img src="./images/logo/clients13.png" />
-        </div>
-        <div class="item">
-          <img src="./images/logo/clients4.png" />
-        </div>
-        <div class="item">
-          <img src="./images/logo/clients5.png" />
-        </div>
-        <div class="item">
-          <img src="./images/logo/clients6.png" />
-        </div>
-        <div class="item">
-          <img src="./images/logo/clients7.png" />
-        </div>
-        <div class="item">
-          <img src="./images/logo/clients8.png" />
-        </div>
-        <div class="item">
-          <img src="./images/logo/clients9.png" />
-        </div>
-        <div class="item">
-          <img src="./images/logo/clients10.png" />
-        </div>
-        <div class="item">
-          <img src="./images/logo/clients11.png" />
-        </div>
-        <div class="item">
-          <img src="./images/logo/clients12.png" />
-        </div>
-        <div class="item">
-          <img src="./images/logo/clients3.png" />
-        </div>
-      </div>
-    </div>
-  </section>
+      </nav>
+    </header>
 
-  <section class="about py-60">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <img src="./images/About.png" alt="" class="w-100" />
+    <section class="bannersection">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <div class="content">
+              <h1>
+                Software Engineering,<span> IT Consulting</span> & Outsourcing
+              </h1>
+              <p>
+                We are a software development company providing outsourcing
+                services and on-demand software development teams.
+              </p>
+              <blockquote
+                class="typewrite"
+                data-period="2000"
+                data-type='[ "On-demand product teams", "Hire remote developer in 3 days", "Early engagement at zero cost" ]'
+              ></blockquote>
+              <a href="#contact" class="mainbtn">Contact Us </a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="./images/banner.png" alt="" />
+          </div>
         </div>
-        <div class="col-lg-6">
-          <div class="content">
-            <h4 class="mb-0">About Us</h4>
+      </div>
+      <div class="conatainer-fluid">
+        <div class="head1 my-5">
+          <h3 class="text-center">
+            From startups to the world’s <span>largest companies</span>
+          </h3>
+        </div>
+        <div class="top-icon-slider">
+          <div class="item">
+            <img src="./images/logo/clients1.png" />
+          </div>
+          <div class="item">
+            <img src="./images/logo/clients2.png" />
+          </div>
+          <div class="item">
+            <img src="./images/logo/clients13.png" />
+          </div>
+          <div class="item">
+            <img src="./images/logo/clients4.png" />
+          </div>
+          <div class="item">
+            <img src="./images/logo/clients5.png" />
+          </div>
+          <div class="item">
+            <img src="./images/logo/clients6.png" />
+          </div>
+          <div class="item">
+            <img src="./images/logo/clients7.png" />
+          </div>
+          <div class="item">
+            <img src="./images/logo/clients8.png" />
+          </div>
+          <div class="item">
+            <img src="./images/logo/clients9.png" />
+          </div>
+          <div class="item">
+            <img src="./images/logo/clients10.png" />
+          </div>
+          <div class="item">
+            <img src="./images/logo/clients11.png" />
+          </div>
+          <div class="item">
+            <img src="./images/logo/clients12.png" />
+          </div>
+          <div class="item">
+            <img src="./images/logo/clients3.png" />
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="about py-60">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <img
+              src="./images/About.png"
+              alt=""
+              class="w-100"
+              data-aos="fade-right"
+              data-aos-duration="3000"
+            />
+          </div>
+          <div class="col-lg-6"  data-aos="fade-left" data-aos-duration="3000">
+            <div class="content">
+              <h4 class="mb-0">About Us</h4>
+
+              <h2 class="mainHeading mt-2 mb-0">
+                On-Demand /<span> Offshore </span>Software Development Team
+                with<span> Bonami Software</span>
+              </h2>
+
+              <div class="description my-4">
+                <p>
+                  Bonami Software is a Software development company in India,
+                  with a global presence, providing full-fledged technology and
+                  business solutions to help global brands across diverse
+                  industries.
+                </p>
+                <p>
+                  We are one of India's top software outsourcing firms because
+                  of our business domain understanding, technology know-how, and
+                  tried-and-true techniques that provide high quality solutions
+                  that offer value to enterprises.
+                </p>
+                <p>
+                  We are profoundly committed to delivering highly captivating
+                  solutions that adhere to business needs and serving a wide
+                  range of projects with the utmost client satisfaction in mind.
+                </p>
+              </div>
+
+              <a href="./about.html" class="mainbtn">View more </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-60 itemsAbout">
+        <div class="row">
+          <div class="col-md-6 col-lg-3" >
+            <div class="itemBox mb-3 mt-0 mt-md-4">
+              <img src="./images/aboutIcon1.png" alt=""  />
+              <p class="title">
+                14- Days <br />
+                Trial
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="itemBox mb-3 mt-0 mt-md-4">
+              <img src="./images/aboutIcon2.png" alt="" />
+              <p class="title">
+                Build a Remote <br />
+                team in 3 days.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" >
+            <div class="itemBox mb-3 mt-0 mt-md-4">
+              <img src="./images/aboutIcon3.png" alt="" />
+              <p class="title">
+                Agile <br />
+                Methodology
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3">
+            <div class="itemBox mb-3 mt-0 mt-md-4">
+              <img src="./images/aboutIcon4.png" alt="" />
+              <p class="title">
+                Project management & <br />
+                Quality Assurance Team
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="technology_stack py-60 bg_section">
+      <div class="container">
+        <div class="row top_head">
+          <div class="col-12 col-lg-8 text-center mx-auto">
+            <h2 class="mainHeading">Technology <span>Stack</span></h2>
+            <p class="description mt-3 mb-0">
+              Bonami Software is a Software development company in India, with a
+              global presence, providing full-fledged technology and business
+              solutions to help global brands across diverse industries.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-60 stack">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="boxwrapper">
+              <div class="boxStack">
+                <div class="top">
+                  <img src="./images/Front-end.png" alt="Front-end" />
+                  <h3>Front-end</h3>
+                </div>
+                <div class="bottom">
+                  <div class="techicon">
+                    <img src="./images/Html.png" alt="Html" />
+                    <p class="title my-0">HTML 5</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/css.png" alt="css" />
+                    <p class="title my-0">CSS</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/css.png" alt="css" />
+                    <p class="title my-0">Bootstrap</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/front end/React JS.png" alt="React js" />
+                    <p class="title my-0">React Js</p>
+                  </div>
+                  <div class="techicon">
+                    <img
+                      src="./images/front end/Angular.png"
+                      alt="Angular JS"
+                    />
+                    <p class="title my-0">Angular</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/front end/Vue JS.png" alt="Vue js" />
+                    <p class="title my-0">Vue Js</p>
+                  </div>
+                  <div class="techicon">
+                    <img
+                      src="./images/front end/Redux  JS.png"
+                      alt="Redux  JS"
+                    />
+                    <p class="title my-0">Redux JS</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/front end/Next JS.png" alt="Next JS" />
+                    <p class="title my-0">Next JS</p>
+                  </div>
+                  <div class="techicon">
+                    <img
+                      src="./images/front end/Typescript.png"
+                      alt="Typescript"
+                    />
+                    <p class="title my-0">Typescript</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="boxwrapper">
+              <div class="boxStack">
+                <div class="top">
+                  <img src="./images/Back-end.png" alt="Front-end" />
+                  <h3>Back-end</h3>
+                </div>
+                <div class="bottom">
+                  <div class="techicon">
+                    <img src="./images/Back-end/Python.png" alt="Python" />
+                    <p class="title my-0">Python</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/Back-end/Django.png" alt="Django" />
+                    <p class="title my-0">Django</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/Back-end/Flask.png" alt="Flask" />
+                    <p class="title my-0">Flask</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/Back-end/Node JS.png" alt="Node JS" />
+                    <p class="title my-0">Node JS</p>
+                  </div>
+
+                  <div class="techicon">
+                    <img src="./images/Back-end/Nest JS.png" alt="Next JS" />
+                    <p class="title my-0">Next JS</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/Back-end/Java.png" alt="Java" />
+                    <p class="title my-0">Java</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/Back-end/PHP.png" alt="PHP" />
+                    <p class="title my-0">PHP</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/Back-end/Laravel.png" alt="Laravel" />
+                    <p class="title my-0">Laravel</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/Back-end/Go Lang.png" alt="Go Lang" />
+                    <p class="title my-0">Go Lang</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="boxwrapper">
+              <div class="boxStack">
+                <div class="top">
+                  <img src="./images/mobile.png" alt="mobile" />
+                  <h3>Mobile</h3>
+                </div>
+                <div class="bottom">
+                  <div class="techicon">
+                    <img src="./images/Mobile/Android.png" alt="Android" />
+                    <p class="title my-0">Android</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/Mobile/Flutter.png" alt="Flutter" />
+                    <p class="title my-0">Flutter</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/Mobile/Ionic.png" alt="Ionic" />
+                    <p class="title my-0">Ionic</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/Mobile/iOS.png" alt="iOS" />
+                    <p class="title my-0">iOS</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/Mobile/Kotlin.png" alt="Flutter" />
+                    <p class="title my-0">Flutter</p>
+                  </div>
+                  <div class="techicon">
+                    <img
+                      src="./images/Mobile/React Native.png"
+                      alt="React NativeJS"
+                    />
+                    <p class="title my-0">React Native</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/Mobile/Swift.png" alt="Swift" />
+                    <p class="title my-0">Swift</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="boxwrapper">
+              <div class="boxStack">
+                <div class="top">
+                  <img src="./images/eccon.png" alt="E-Commerce & CMS" />
+                  <h3>E-Commerce & CMS</h3>
+                </div>
+                <div class="bottom">
+                  <div class="techicon">
+                    <img
+                      src="./images/E-Commerce & CMS/WordPress.png"
+                      alt="WordPress"
+                    />
+                    <p class="title my-0">WordPress</p>
+                  </div>
+                  <div class="techicon">
+                    <img
+                      src="./images/E-Commerce & CMS/Shopify.png"
+                      alt="Shopify"
+                    />
+                    <p class="title my-0">Shopify</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/E-Commerce & CMS/Wix.png" alt="Wix" />
+                    <p class="title my-0">Wix</p>
+                  </div>
+
+                  <div class="techicon">
+                    <img
+                      src="./images/E-Commerce & CMS/WebFlow.png"
+                      alt="WebFlow"
+                    />
+                    <p class="title my-0">WebFlow</p>
+                  </div>
+                  <div class="techicon">
+                    <img
+                      src="./images/E-Commerce & CMS/Squarespace.png"
+                      alt="Squarespace"
+                    />
+                    <p class="title my-0">Squarespace</p>
+                  </div>
+                  <div class="techicon">
+                    <img
+                      src="./images/E-Commerce & CMS/Drupal.png"
+                      alt="Drupal"
+                    />
+                    <p class="title my-0">Drupal</p>
+                  </div>
+                  <div class="techicon">
+                    <img
+                      src="./images/E-Commerce & CMS/Magento.png"
+                      alt="Magento"
+                    />
+                    <p class="title my-0">Magento</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="boxwrapper">
+              <div class="boxStack">
+                <div class="top">
+                  <img src="./images/tehcloud.png" alt="Cloud & Devops" />
+                  <h3>Cloud & Devops</h3>
+                </div>
+                <div class="bottom">
+                  <div class="techicon">
+                    <img src="./images/Cloud & Devops/Azure.png" alt="Azure" />
+                    <p class="title my-0">Azure</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/Cloud & Devops/AWS.png" alt="AWS" />
+                    <p class="title my-0">AWS</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/Cloud & Devops/GCP.png" alt="GCP" />
+                    <p class="title my-0">GCP</p>
+                  </div>
+                  <div class="techicon">
+                    <img
+                      src="./images/Cloud & Devops/Firebase.png"
+                      alt="Firebase"
+                    />
+                    <p class="title my-0">Firebase</p>
+                  </div>
+                  <div class="techicon">
+                    <img
+                      src="./images/Cloud & Devops/Jenkins.png"
+                      alt="Jenkins"
+                    />
+                    <p class="title my-0">Jenkins</p>
+                  </div>
+                  <div class="techicon">
+                    <img
+                      src="./images/Cloud & Devops/Docker.png"
+                      alt="Docker"
+                    />
+                    <p class="title my-0">Docker</p>
+                  </div>
+                  <div class="techicon">
+                    <img
+                      src="./images/Cloud & Devops/Kubernetes.png"
+                      alt="Kubernetes"
+                    />
+                    <p class="title my-0">Kubernetes</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="boxwrapper">
+              <div class="boxStack">
+                <div class="top">
+                  <img src="./images/techblockchain.png" alt="Blockchain" />
+                  <h3>Blockchain</h3>
+                </div>
+                <div class="bottom">
+                  <div class="techicon">
+                    <img
+                      src="./images/Blockchain/Cryptocurrency.png"
+                      alt="Cryptocurrency"
+                    />
+                    <p class="title my-0">Cryptocurrency</p>
+                  </div>
+                  <div class="techicon">
+                    <img
+                      src="./images/Blockchain/Ethereum.png"
+                      alt="Ethereum"
+                    />
+                    <p class="title my-0">Ethereum</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/Blockchain/ICO.png" alt="ICO" />
+                    <p class="title my-0">ICO</p>
+                  </div>
+                  <div class="techicon">
+                    <img
+                      src="./images/Blockchain/Smart Contract.png"
+                      alt="Smart Contract"
+                    />
+                    <p class="title my-0">Smart Contract</p>
+                  </div>
+
+                  <div class="techicon">
+                    <img
+                      src="./images/Blockchain/Solidity.png"
+                      alt="Solidity"
+                    />
+                    <p class="title my-0">Solidity</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/Blockchain/NFT.png" alt="NFT" />
+                    <p class="title my-0">NFT</p>
+                  </div>
+                  <div class="techicon opacity-0">
+                    <img src="./images/Blockchain/ICO.png" alt="PHP" />
+                    <p class="title my-0">PHP</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-4 mb-md-0">
+            <div class="boxwrapper">
+              <div class="boxStack">
+                <div class="top">
+                  <img src="./images/teachDB.png" alt="DataBase" />
+                  <h3>DataBase</h3>
+                </div>
+                <div class="bottom">
+                  <div class="techicon">
+                    <img
+                      src="./images/DataBase/PostgreSQL.png"
+                      alt="PostgreSQL"
+                    />
+                    <p class="title my-0">PostgreSQL</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/DataBase/MongoDB.png" alt="MongoDB" />
+                    <p class="title my-0">MongoDB</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/DataBase/MySQL.png" alt="MySQL" />
+                    <p class="title my-0">MySQL</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/DataBase/NoSQL.png" alt="NoSQL" />
+                    <p class="title my-0">NoSQL</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/DataBase/GraphQL.png" alt="GraphQL" />
+                    <p class="title my-0">GraphQL</p>
+                  </div>
+                  <div class="techicon">
+                    <img
+                      src="./images/DataBase/Microsoft SQL Server.png"
+                      alt="Microsoft SQL Server"
+                    />
+                    <p class="title my-0">Microsoft SQL Server</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 mb-0">
+            <div class="boxwrapper">
+              <div class="boxStack">
+                <div class="top">
+                  <img src="./images/tech.png" alt="Digital Marketing" />
+                  <h3>Digital Marketing</h3>
+                </div>
+                <div class="bottom">
+                  <div class="techicon">
+                    <img
+                      src="./images/Digital Marketing/Search Engine Optimization (SEO).png"
+                      alt="Search Engine Optimization (SEO)"
+                    />
+                    <p class="title my-0">SEO</p>
+                  </div>
+                  <div class="techicon">
+                    <img
+                      src="./images/Digital Marketing/Social Media Marketing (SMM).png"
+                      alt="SMM"
+                    />
+                    <p class="title my-0">SMM</p>
+                  </div>
+                  <div class="techicon">
+                    <img
+                      src="./images/Digital Marketing/Pay Per Click (PPC) Advertisement.png"
+                      alt="PPC"
+                    />
+                    <p class="title my-0">PPC</p>
+                  </div>
+                  <div class="techicon">
+                    <img
+                      src="./images/Digital Marketing/App Store Optimization (ASO).png"
+                      alt="ASO"
+                    />
+                    <p class="title my-0">ASO</p>
+                  </div>
+
+                  <div class="techicon">
+                    <img
+                      src="./images/Digital Marketing/kr.png"
+                      alt="Keyword Research"
+                    />
+                    <p class="title my-0">Keyword Research</p>
+                  </div>
+                  <div class="techicon">
+                    <img src="./images/Digital Marketing/sem.png" alt="SEM" />
+                    <p class="title my-0">SEM</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats py-60 bg-dark">
+      <div class="container">
+        <div class="row level-counter">
+          <div class="col-md-6 col-lg-3">
+            <div class="wrapperBox text-center">
+              <img src="./images/one.png" alt="" />
+              <div class="counter">
+                <span class="js-counter-up" data-value="100"></span>+
+              </div>
+              <p class="title"><b>Satisfied clients </b><br />happy clients</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="wrapperBox text-center">
+              <img src="./images/two.png" alt="" />
+              <div class="counter">
+                <span class="js-counter-up" data-value="98"></span>%
+              </div>
+              <p class="title"><b>Job Success Rate</b><br />over Upwork</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="wrapperBox text-center">
+              <img src="./images/msg.png" alt="" />
+              <div class="counter">
+                <span class="js-counter-up" data-value="200"></span>+
+              </div>
+              <p class="title">
+                <b>Projects delivered </b><br />happy customers
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="wrapperBox text-center">
+              <img src="./images/graph.png" alt="" />
+              <div class="counter">
+                <span class="js-counter-up" data-value="100"></span>+
+              </div>
+              <p class="title"><b>Professionals </b><br />service provider</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tabs py-60">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <span style="font-size: 22px; line-height: 32px; font-weight: 600"
+              >Industries</span
+            >
             <h2 class="mainHeading mt-2 mb-0">
-              On-Demand /<span> Offshore </span>Software Development Team
-              with<span> Bonami Software</span>
+              Industries <span> We Serve </span>
             </h2>
-
-            <div class="description my-4">
-              <p>
-                Bonami Software is a Software development company in India,
-                with a global presence, providing full-fledged technology and
-                business solutions to help global brands across diverse
-                industries.
-              </p>
-              <p>
-                We are one of India's top software outsourcing firms because
-                of our business domain understanding, technology know-how, and
-                tried-and-true techniques that provide high quality solutions
-                that offer value to enterprises.
-              </p>
-              <p>
-                We are profoundly committed to delivering highly captivating
-                solutions that adhere to business needs and serving a wide
-                range of projects with the utmost client satisfaction in mind.
-              </p>
-            </div>
-
-            <a href="./about.html" class="mainbtn">View more </a>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="container mt-60 itemsAbout">
-      <div class="row">
-        <div class="col-md-6 col-lg-3">
-          <div class="itemBox mb-3 mt-0 mt-md-4">
-            <img src="./images/aboutIcon1.png" alt="" />
-            <p class="title">
-              14- Days <br />
-              Trial
-            </p>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-3">
-          <div class="itemBox mb-3 mt-0 mt-md-4">
-            <img src="./images/aboutIcon2.png" alt="" />
-            <p class="title">
-              Build a Remote <br />
-              team in 3 days.
-            </p>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-3">
-          <div class="itemBox mb-3 mt-0 mt-md-4">
-            <img src="./images/aboutIcon3.png" alt="" />
-            <p class="title">
-              Agile <br />
-              Methodology
-            </p>
-          </div>
-        </div>
-
-        <div class="col-md-6 col-lg-3">
-          <div class="itemBox mb-3 mt-0 mt-md-4">
-            <img src="./images/aboutIcon4.png" alt="" />
-            <p class="title">
-              Project management & <br />
-              Quality Assurance Team
+        <div class="row">
+          <div class="col-8 mx-auto">
+            <p class="tab_desc mt-3" style="color: #9a9a9a; font-size: 22px">
+              We focus every project, regardless of industry, on the best
+              technology solutions and business understanding as an
+              industry-neutral company serving a variety of business niches.
+              Leverage our industry experts to exploit your product at all
+              stages.
             </p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-  <section class="technology_stack py-60 bg_section">
-    <div class="container">
-      <div class="row top_head">
-        <div class="col-12 col-lg-8 text-center mx-auto">
-          <h2 class="mainHeading">Technology <span>Stack</span></h2>
-          <p class="description mt-3 mb-0">
-            Bonami Software is a Software development company in India, with a
-            global presence, providing full-fledged technology and business
-            solutions to help global brands across diverse industries.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="container mt-60 stack">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="boxwrapper">
-            <div class="boxStack">
-              <div class="top">
-                <img src="./images/Front-end.png" alt="Front-end" />
-                <h3>Front-end</h3>
-              </div>
-              <div class="bottom">
-                <div class="techicon">
-                  <img src="./images/Html.png" alt="Html" />
-                  <p class="title my-0">HTML 5</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/css.png" alt="css" />
-                  <p class="title my-0">CSS</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/css.png" alt="css" />
-                  <p class="title my-0">Bootstrap</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/front end/React JS.png" alt="React js" />
-                  <p class="title my-0">React Js</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/front end/Angular.png" alt="Angular JS" />
-                  <p class="title my-0">Angular</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/front end/Vue JS.png" alt="Vue js" />
-                  <p class="title my-0">Vue Js</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/front end/Redux  JS.png" alt="Redux  JS" />
-                  <p class="title my-0">Redux JS</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/front end/Next JS.png" alt="Next JS" />
-                  <p class="title my-0">Next JS</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/front end/Typescript.png" alt="Typescript" />
-                  <p class="title my-0">Typescript</p>
-                </div>
-              </div>
-            </div>
+      <div class="container pt-5 tabsMainSection">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-7 leftsidebar" data-aos="fade-right" data-aos-duration="1000" >
+            <img src="./images/tabs5.png" alt="" class="w-100" />
           </div>
-        </div>
-        <div class="col-md-6">
-          <div class="boxwrapper">
-            <div class="boxStack">
-              <div class="top">
-                <img src="./images/Back-end.png" alt="Front-end" />
-                <h3>Back-end</h3>
-              </div>
-              <div class="bottom">
-                <div class="techicon">
-                  <img src="./images/Back-end/Python.png" alt="Python" />
-                  <p class="title my-0">Python</p>
+          <div class="col-md-5 rightsidebar">
+            <ul>
+              <li class="active">
+                <p class="title mb-0" data-imageUrl="./images/tabs5.png">
+                  Ecommerce
+                </p>
+                <div class="content">
+                  <p class="description mb-2">
+                    Primefone is an online store for phone cases and
+                    accessories. This e-commerce website was designed and
+                    developed from scratch and includes features such as User
+                    Feedback, Product Reviews, System API Integration,
+                    Appointment Booking, and Plugin customization for Product
+                    Filters.
+                  </p>
+                  <a href="./industries.html" class="tablink" 
+                    >Learn More <i class="fas fa-arrow-right"></i
+                  ></a>
                 </div>
-                <div class="techicon">
-                  <img src="./images/Back-end/Django.png" alt="Django" />
-                  <p class="title my-0">Django</p>
+              </li>
+              <li>
+                <p class="title mb-0" data-imageUrl="./images/tabs1.png">
+                  Education & E-Learning
+                </p>
+                <div class="content">
+                  <p class="description mb-2">
+                    LEAD is India's largest School EdTech company powering 2000+
+                    schools to deliver international standard education.
+                    LeadSchool is helping parents, teachers, and school owners
+                    achieve this, through an international standard curriculum
+                    combined with innovative school ed-tech solutions.
+                  </p>
+                  <a href="./industries.html" class="tablink"
+                    >Learn More <i class="fas fa-arrow-right"></i
+                  ></a>
                 </div>
-                <div class="techicon">
-                  <img src="./images/Back-end/Flask.png" alt="Flask" />
-                  <p class="title my-0">Flask</p>
+              </li>
+              <li>
+                <p class="title mb-0" data-imageUrl="./images/tabs6.png">
+                  Banking & Finance
+                </p>
+                <div class="content">
+                  <p class="description mb-2">
+                    The Kotak project is in the Proof of concept phase, so it is
+                    still in the development phase and not available publicly
+                    yet.
+                  </p>
+                  <a href="./industries.html" class="tablink"
+                    >Learn More <i class="fas fa-arrow-right"></i
+                  ></a>
                 </div>
-                <div class="techicon">
-                  <img src="./images/Back-end/Node JS.png" alt="Node JS" />
-                  <p class="title my-0">Node JS</p>
+              </li>
+              <li>
+                <p class="title mb-0" data-imageUrl="./images/tabs7.png">
+                  Healthcare
+                </p>
+                <div class="content">
+                  <p class="description mb-2">
+                    As the 21st century has unfolded many innovations and
+                    inventions to us it also has led us to severe disasters and
+                    destruction in almost every field. Looking at the field of
+                    Health Science the year 2020 was cursed with the COVID
+                    Pandemic and also in the past, there have been several such
+                    incidents.
+                  </p>
+                  <a href="./industries.html" class="tablink"
+                    >Learn More <i class="fas fa-arrow-right"></i
+                  ></a>
                 </div>
-
-                <div class="techicon">
-                  <img src="./images/Back-end/Nest JS.png" alt="Next JS" />
-                  <p class="title my-0">Next JS</p>
+              </li>
+              <li>
+                <p class="title mb-0" data-imageUrl="./images/tabs2.png">
+                  Travel & Tourism
+                </p>
+                <div class="content">
+                  <p class="description mb-2">
+                    Xeniapp is one of the most innovative platforms for travel
+                    booking and planning. The platform provides booking to
+                    almost every amenities that are to be required while
+                    traveling. You can book Travel tickets, hotels, cabs,
+                    Adventure sports booking, and various other things at the
+                    same time on a single platform.
+                  </p>
+                  <a href="./industries.html" class="tablink"
+                    >Learn More <i class="fas fa-arrow-right"></i
+                  ></a>
                 </div>
-                <div class="techicon">
-                  <img src="./images/Back-end/Java.png" alt="Java" />
-                  <p class="title my-0">Java</p>
+              </li>
+              <li>
+                <p class="title mb-0" data-imageUrl="./images/tabs4.png">
+                  ISVs & Software Product Companies
+                </p>
+                <div class="content">
+                  <p class="description mb-2">
+                    The pillars of sustainability have been studied in academia
+                    and proven to impact organizational performance. We believe
+                    organizations can leverage ESG analytics, automated
+                    reporting, and advanced technology to achieve proven
+                    sustainable growth, improve stakeholder confidence, and
+                    create a better tomorrow. We at Hydrus, streamline the ESG
+                    data collection, reporting, and auditing process so your
+                    organization can be more sustainable without the hassle.
+                  </p>
+                  <a href="./industries.html" class="tablink"
+                    >Learn More <i class="fas fa-arrow-right"></i
+                  ></a>
                 </div>
-                <div class="techicon">
-                  <img src="./images/Back-end/PHP.png" alt="PHP" />
-                  <p class="title my-0">PHP</p>
+              </li>
+              <li>
+                <p class="title mb-0" data-imageUrl="./images/tabs3.png">
+                  Media & Entertainment
+                </p>
+                <div class="content">
+                  <p class="description mb-2">
+                    The coolest thing we could do nowadays is share and upload
+                    our pictures and videos online on different platforms like
+                    Instagram, Facebook, and numerous other virtual platforms.
+                    The aim of this project was to create and deploy a platform
+                    where the user could come up with various kinds of
+                    light-boxes and incorporate them into their respective
+                    events where they like to, and use that platform to sync up
+                    with their social media platforms. Various inside features
+                    of the platform include :
+                  </p>
+                  <a href="./industries.html" class="tablink"
+                    >Learn More <i class="fas fa-arrow-right"></i
+                  ></a>
                 </div>
-                <div class="techicon">
-                  <img src="./images/Back-end/Laravel.png" alt="Laravel" />
-                  <p class="title my-0">Laravel</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/Back-end/Go Lang.png" alt="Go Lang" />
-                  <p class="title my-0">Go Lang</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="boxwrapper">
-            <div class="boxStack">
-              <div class="top">
-                <img src="./images/mobile.png" alt="mobile" />
-                <h3>Mobile</h3>
-              </div>
-              <div class="bottom">
-                <div class="techicon">
-                  <img src="./images/Mobile/Android.png" alt="Android" />
-                  <p class="title my-0">Android</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/Mobile/Flutter.png" alt="Flutter" />
-                  <p class="title my-0">Flutter</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/Mobile/Ionic.png" alt="Ionic" />
-                  <p class="title my-0">Ionic</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/Mobile/iOS.png" alt="iOS">
-                  <p class="title my-0">iOS</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/Mobile/Kotlin.png" alt="Flutter" />
-                  <p class="title my-0">Flutter</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/Mobile/React Native.png" alt="React NativeJS" />
-                  <p class="title my-0">React Native</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/Mobile/Swift.png" alt="Swift" />
-                  <p class="title my-0">Swift</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="boxwrapper">
-            <div class="boxStack">
-              <div class="top">
-                <img src="./images/eccon.png" alt="E-Commerce & CMS" />
-                <h3>E-Commerce & CMS</h3>
-              </div>
-              <div class="bottom">
-                <div class="techicon">
-                  <img src="./images/E-Commerce & CMS/WordPress.png" alt="WordPress" />
-                  <p class="title my-0">WordPress</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/E-Commerce & CMS/Shopify.png" alt="Shopify" />
-                  <p class="title my-0">Shopify</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/E-Commerce & CMS/Wix.png" alt="Wix" />
-                  <p class="title my-0">Wix</p>
-                </div>
-
-                <div class="techicon">
-                  <img src="./images/E-Commerce & CMS/WebFlow.png" alt="WebFlow" />
-                  <p class="title my-0">WebFlow</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/E-Commerce & CMS/Squarespace.png" alt="Squarespace" />
-                  <p class="title my-0">Squarespace</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/E-Commerce & CMS/Drupal.png" alt="Drupal" />
-                  <p class="title my-0">Drupal</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/E-Commerce & CMS/Magento.png" alt="Magento" />
-                  <p class="title my-0">Magento</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="boxwrapper">
-            <div class="boxStack">
-              <div class="top">
-                <img src="./images/tehcloud.png" alt="Cloud & Devops" />
-                <h3>Cloud & Devops</h3>
-              </div>
-              <div class="bottom">
-                <div class="techicon">
-                  <img src="./images/Cloud & Devops/Azure.png" alt="Azure" />
-                  <p class="title my-0">Azure</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/Cloud & Devops/AWS.png" alt="AWS" />
-                  <p class="title my-0">AWS</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/Cloud & Devops/GCP.png" alt="GCP" />
-                  <p class="title my-0">GCP</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/Cloud & Devops/Firebase.png" alt="Firebase" />
-                  <p class="title my-0">Firebase</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/Cloud & Devops/Jenkins.png" alt="Jenkins" />
-                  <p class="title my-0">Jenkins</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/Cloud & Devops/Docker.png" alt="Docker" />
-                  <p class="title my-0">Docker</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/Cloud & Devops/Kubernetes.png" alt="Kubernetes" />
-                  <p class="title my-0">Kubernetes</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="boxwrapper">
-            <div class="boxStack">
-              <div class="top">
-                <img src="./images/techblockchain.png" alt="Blockchain" />
-                <h3>Blockchain</h3>
-              </div>
-              <div class="bottom">
-                <div class="techicon">
-                  <img src="./images/Blockchain/Cryptocurrency.png" alt="Cryptocurrency" />
-                  <p class="title my-0">Cryptocurrency</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/Blockchain/Ethereum.png" alt="Ethereum" />
-                  <p class="title my-0">Ethereum</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/Blockchain/ICO.png" alt="ICO" />
-                  <p class="title my-0">ICO</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/Blockchain/Smart Contract.png" alt="Smart Contract" />
-                  <p class="title my-0">Smart Contract</p>
-                </div>
-
-                <div class="techicon">
-                  <img src="./images/Blockchain/Solidity.png" alt="Solidity" />
-                  <p class="title my-0">Solidity</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/Blockchain/NFT.png" alt="NFT" />
-                  <p class="title my-0">NFT</p>
-                </div>
-                <div class="techicon opacity-0">
-                  <img src="./images/Blockchain/ICO.png" alt="PHP" />
-                  <p class="title my-0">PHP</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 mb-4 mb-md-0">
-          <div class="boxwrapper">
-            <div class="boxStack">
-              <div class="top">
-                <img src="./images/teachDB.png" alt="DataBase" />
-                <h3>DataBase</h3>
-              </div>
-              <div class="bottom">
-                <div class="techicon">
-                  <img src="./images/DataBase/PostgreSQL.png" alt="PostgreSQL" />
-                  <p class="title my-0">PostgreSQL</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/DataBase/MongoDB.png" alt="MongoDB" />
-                  <p class="title my-0">MongoDB</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/DataBase/MySQL.png" alt="MySQL" />
-                  <p class="title my-0">MySQL</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/DataBase/NoSQL.png" alt="NoSQL" />
-                  <p class="title my-0">NoSQL</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/DataBase/GraphQL.png" alt="GraphQL" />
-                  <p class="title my-0">GraphQL</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/DataBase/Microsoft SQL Server.png" alt="Microsoft SQL Server" />
-                  <p class="title my-0">Microsoft SQL Server</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 mb-0">
-          <div class="boxwrapper">
-            <div class="boxStack">
-              <div class="top">
-                <img src="./images/tech.png" alt="Digital Marketing" />
-                <h3>Digital Marketing</h3>
-              </div>
-              <div class="bottom">
-                <div class="techicon">
-                  <img src="./images/Digital Marketing/Search Engine Optimization (SEO).png"
-                    alt="Search Engine Optimization (SEO)" />
-                  <p class="title my-0">SEO</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/Digital Marketing/Social Media Marketing (SMM).png" alt="SMM" />
-                  <p class="title my-0">SMM</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/Digital Marketing/Pay Per Click (PPC) Advertisement.png" alt="PPC" />
-                  <p class="title my-0">PPC</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/Digital Marketing/App Store Optimization (ASO).png" alt="ASO" />
-                  <p class="title my-0">ASO</p>
-                </div>
-
-                <div class="techicon">
-                  <img src="./images/Digital Marketing/kr.png" alt="Keyword Research" />
-                  <p class="title my-0">Keyword Research</p>
-                </div>
-                <div class="techicon">
-                  <img src="./images/Digital Marketing/sem.png" alt="SEM" />
-                  <p class="title my-0">SEM</p>
-                </div>
-              </div>
-            </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="stats py-60 bg-dark">
-    <div class="container">
-      <div class="row level-counter">
-        <div class="col-md-6 col-lg-3">
-          <div class="wrapperBox text-center">
-            <img src="./images/one.png" alt="" />
-            <div class="counter">
-              <span class="js-counter-up" data-value="100"></span>+
-            </div>
-            <p class="title"><b>Satisfied clients </b><br />happy clients</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="wrapperBox text-center">
-            <img src="./images/two.png" alt="" />
-            <div class="counter">
-              <span class="js-counter-up" data-value="98"></span>%
-            </div>
-            <p class="title"><b>Job Success Rate</b><br />over Upwork</p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="wrapperBox text-center">
-            <img src="./images/msg.png" alt="" />
-            <div class="counter">
-              <span class="js-counter-up" data-value="200"></span>+
-            </div>
-            <p class="title"><b>Projects delivered </b><br />happy customers </p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="wrapperBox text-center">
-            <img src="./images/graph.png" alt="" />
-            <div class="counter">
-              <span class="js-counter-up" data-value="100"></span>+
-            </div>
-            <p class="title"><b>Professionals </b><br />service provider</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="tabs py-60">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 text-center">
-          <span style="font-size: 22px; line-height: 32px; font-weight: 600;">Industries</span>
-          <h2 class="mainHeading mt-2 mb-0">
-            Industries <span> We Serve </span>
-          </h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-8 mx-auto">
-          <p class="tab_desc mt-3" style="color: #9A9A9A; font-size: 22px;">
-            We focus every project, regardless of industry, on the best technology solutions and business understanding
-            as an industry-neutral company serving a variety of business niches. Leverage our industry experts to
-            exploit your product at all stages.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="container pt-5 tabsMainSection">
-      <div class="row justify-content-center align-items-center">
-        <div class="col-md-7 leftsidebar">
-          <img src="./images/tabs5.png" alt="" class="w-100" />
-        </div>
-        <div class="col-md-5 rightsidebar">
-          <ul>
-            <li class="active">
-              <p class="title mb-0" data-imageUrl="./images/tabs5.png">
-                Ecommerce
+    <section class="accordian_section bg_section py-60">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-8 mx-auto">
+            <div class="top_content text-center">
+              <h2 class="mainHeading">Good to know</h2>
+              <p class="pt-0 description mb-0">
+                Everything you need to know about the my services.
               </p>
-              <div class="content">
-                <p class="description mb-2">
-                  Primefone is an online store for phone cases and
-                  accessories. This e-commerce website was designed and
-                  developed from scratch and includes features such as User
-                  Feedback, Product Reviews, System API Integration,
-                  Appointment Booking, and Plugin customization for Product
-                  Filters.
-                </p>
-                <a href="./industries.html" class="tablink">Learn More <i class="fas fa-arrow-right"></i></a>
-              </div>
-            </li>
-            <li>
-              <p class="title mb-0" data-imageUrl="./images/tabs1.png">
-                Education & E-Learning
-              </p>
-              <div class="content">
-                <p class="description mb-2">
-                  LEAD is India's largest School EdTech company powering 2000+
-                  schools to deliver international standard education.
-                  LeadSchool is helping parents, teachers, and school owners
-                  achieve this, through an international standard curriculum
-                  combined with innovative school ed-tech solutions.
-                </p>
-                <a href="./industries.html" class="tablink">Learn More <i class="fas fa-arrow-right"></i></a>
-              </div>
-            </li>
-            <li>
-              <p class="title mb-0" data-imageUrl="./images/tabs6.png">
-                Banking & Finance
-              </p>
-              <div class="content">
-                <p class="description mb-2">
-                  The Kotak project is in the Proof of concept phase, so it is
-                  still in the development phase and not available publicly
-                  yet.
-                </p>
-                <a href="./industries.html" class="tablink">Learn More <i class="fas fa-arrow-right"></i></a>
-              </div>
-            </li>
-            <li>
-              <p class="title mb-0" data-imageUrl="./images/tabs7.png">
-                Healthcare
-              </p>
-              <div class="content">
-                <p class="description mb-2">
-                  As the 21st century has unfolded many innovations and
-                  inventions to us it also has led us to severe disasters and
-                  destruction in almost every field. Looking at the field of
-                  Health Science the year 2020 was cursed with the COVID
-                  Pandemic and also in the past, there have been several such
-                  incidents.
-                </p>
-                <a href="./industries.html" class="tablink">Learn More <i class="fas fa-arrow-right"></i></a>
-              </div>
-            </li>
-            <li>
-              <p class="title mb-0" data-imageUrl="./images/tabs2.png">
-                Travel & Tourism
-              </p>
-              <div class="content">
-                <p class="description mb-2">
-                  Xeniapp is one of the most innovative platforms for travel
-                  booking and planning. The platform provides booking to
-                  almost every amenities that are to be required while
-                  traveling. You can book Travel tickets, hotels, cabs,
-                  Adventure sports booking, and various other things at the
-                  same time on a single platform.
-                </p>
-                <a href="./industries.html" class="tablink">Learn More <i class="fas fa-arrow-right"></i></a>
-              </div>
-            </li>
-            <li>
-              <p class="title mb-0" data-imageUrl="./images/tabs4.png">
-                ISVs & Software Product Companies
-              </p>
-              <div class="content">
-                <p class="description mb-2">
-                  The pillars of sustainability have been studied in academia
-                  and proven to impact organizational performance. We believe
-                  organizations can leverage ESG analytics, automated
-                  reporting, and advanced technology to achieve proven
-                  sustainable growth, improve stakeholder confidence, and
-                  create a better tomorrow. We at Hydrus, streamline the ESG
-                  data collection, reporting, and auditing process so your
-                  organization can be more sustainable without the hassle.
-                </p>
-                <a href="./industries.html" class="tablink">Learn More <i class="fas fa-arrow-right"></i></a>
-              </div>
-            </li>
-            <li>
-              <p class="title mb-0" data-imageUrl="./images/tabs3.png">
-                Media & Entertainment
-              </p>
-              <div class="content">
-                <p class="description mb-2">
-                  The coolest thing we could do nowadays is share and upload
-                  our pictures and videos online on different platforms like
-                  Instagram, Facebook, and numerous other virtual platforms.
-                  The aim of this project was to create and deploy a platform
-                  where the user could come up with various kinds of
-                  light-boxes and incorporate them into their respective
-                  events where they like to, and use that platform to sync up
-                  with their social media platforms. Various inside features
-                  of the platform include :
-                </p>
-                <a href="./industries.html" class="tablink">Learn More <i class="fas fa-arrow-right"></i></a>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="accordian_section bg_section py-60">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-lg-8 mx-auto">
-          <div class="top_content text-center">
-            <h2 class="mainHeading">Good to know</h2>
-            <p class="pt-0 description mb-0">
-              Everything you need to know about the my services.
-            </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-lg-10 mx-auto">
-          <div id="accordion" class="accordion-container pt-60">
-            <h4 class="accordion-title js-accordion-title">
-              Why should I consider Bonami for outsourcing, consulting, and
-              software development?
-            </h4>
-            <div class="accordion-content">
-              <div class="description">
-                <p>
-                  We are a highly skilled and experienced group of experts
-                  committed to giving our clients the finest service possible.
-                  We have a remarkable track record of delivering high-quality
-                  software solutions, and we're dedicated to making sure that
-                  they get the most out of their investment.
-                </p>
-                <p>
-                  A leading provider of software development services, Bonami
-                  Software places a high priority on quality and client
-                  satisfaction.
-                </p>
-                <p>
-                  We have highly qualified and experienced engineers who are
-                  experts in their industry and dedicated to providing our
-                  clients with the best results possible.
-                </p>
-                <p>We are well known for doing high-quality work.</p>
-                <p>
-                  We have a reputation for completing successful projects and
-                  providing competitive rates.
-                </p>
-                <p>
-                  In addition to requirements analysis, architecture design,
-                  coding, testing, deployment, and maintenance, we also
-                  provide end-to-end services for software development.
-                </p>
-                <p>
-                  By offering top-notch software products and services, we
-                  assist our clients in achieving their company goals.
-                </p>
-                <p>
-                  We are committed to what we do and work hard to give our
-                  clients the greatest outcomes.
-                </p>
-              </div>
-            </div>
-
-            <h4 class="accordion-title js-accordion-title">
-              Is there any option for Trial, before committing to Long-term
-              engagements?
-            </h4>
-            <div class="accordion-content">
-              <div class="description">
-                <p>
-                  Our company offers a 14 days trial to all our clients
-                  worldwide.
-                </p>
-                <p>
-                  With this, prospective clients can test out our software
-                  development services without taking any risks before
-                  deciding to collaborate with us on a long-term basis. We
-                  strongly believe in the value of our products and solutions
-                  and want everyone to experience firsthand the value we can
-                  bring.
-                </p>
-              </div>
-            </div>
-
-            <h4 class="accordion-title js-accordion-title">
-              Why Should I Choose Bonami Software to Design & Develop the
-              Software based in India?
-            </h4>
-            <div class="accordion-content">
-              <div class="description">
-                <p>
-                  There are several advantages to Bonami Software using Indian
-                  software development and consulting services.
-                </p>
-                <p>
-                  One of the greatest global pools of qualified software
-                  engineers who can produce high-quality code quickly and
-                  effectively
-                </p>
-                <p>
-                  Indian businesses have competitive pricing, making them an
-                  inexpensive choice for low capital.
-                </p>
-                <p>
-                  In comparison to their Western peers, they also offer a
-                  better level of customer help and support, which is vital
-                  for resolving any problems that can come up while developing
-                  a product.
-                </p>
-                <p>
-                  If you outsource your backend development project to Bonami
-                  Software, a top software engineering, consulting, and
-                  outsourcing firm in India, you may enjoy all these
-                  advantages as well as many more.
-                </p>
-              </div>
-            </div>
-
-            <h4 class="accordion-title js-accordion-title extra">
-              How much does it cost to Outsource Software development in
-              India?
-            </h4>
-            <div class="accordion-content">
-              <div class="description">
-                <p>
-                  The pricing of outsourcing software development is dependent
-                  on a variety of elements, including the application's size
-                  and structure, its functionality and third-party
-                  integrations, its APIs, animations, localizations, backend,
-                  cross-platform toolkits, platforms, etc.
-                </p>
-                <p>
-                  We can give you an ETA and an estimated cost if you share
-                  your basic idea.
-                </p>
-              </div>
-            </div>
-
-            <h4 class="accordion-title js-accordion-title extra">
-              I have a Startup Idea. Are you compatible with someone who's on
-              a Budget?
-            </h4>
-            <div class="accordion-content">
-              <div class="description">
-                <p>
-                  We do, in fact, work collaboratively with startups. Since
-                  our founding, we have collaborated with tens of thousands of
-                  companies around the world, becoming their proud partner in
-                  success.
-                </p>
-                <p>
-                  Additionally, we offer initial technological consultancy to
-                  assist you to save money and time. Our specialists are eager
-                  to assist you
-                </p>
-              </div>
-            </div>
-
-            <h4 class="accordion-title js-accordion-title extra">
-              Is outsourcing software development risky? How do you ensure
-              Privacy and Security Concerns?
-            </h4>
-            <div class="accordion-content">
-              <div class="description">
-                <p>
-                  If your project is outsourced to a renowned agency, there is
-                  absolutely no risk involved.
-                </p>
-                <p>
-                  Bonami Software ensures Privacy and security in the
-                  following way:
-                </p>
-                <div class="ps-2">
-                  <p>We consent to non-disclosure (NDA)</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-10 mx-auto">
+            <div id="accordion" class="accordion-container pt-60">
+              <h4 class="accordion-title js-accordion-title">
+                Why should I consider Bonami for outsourcing, consulting, and
+                software development?
+              </h4>
+              <div class="accordion-content">
+                <div class="description">
                   <p>
-                    We adhere to unique industry standards including GDPR and
-                    HIPAA
+                    We are a highly skilled and experienced group of experts
+                    committed to giving our clients the finest service possible.
+                    We have a remarkable track record of delivering high-quality
+                    software solutions, and we're dedicated to making sure that
+                    they get the most out of their investment.
                   </p>
                   <p>
-                    We adhere to safe coding and data protection standards.
+                    A leading provider of software development services, Bonami
+                    Software places a high priority on quality and client
+                    satisfaction.
                   </p>
                   <p>
-                    We set up VPN services, firewalls, and encryption to guard
-                    against internet security breaches.
+                    We have highly qualified and experienced engineers who are
+                    experts in their industry and dedicated to providing our
+                    clients with the best results possible.
+                  </p>
+                  <p>We are well known for doing high-quality work.</p>
+                  <p>
+                    We have a reputation for completing successful projects and
+                    providing competitive rates.
                   </p>
                   <p>
-                    Before hiring, all of our workers undergo rigorous
-                    verification.
+                    In addition to requirements analysis, architecture design,
+                    coding, testing, deployment, and maintenance, we also
+                    provide end-to-end services for software development.
+                  </p>
+                  <p>
+                    By offering top-notch software products and services, we
+                    assist our clients in achieving their company goals.
+                  </p>
+                  <p>
+                    We are committed to what we do and work hard to give our
+                    clients the greatest outcomes.
                   </p>
                 </div>
               </div>
-            </div>
 
-            <h4 class="accordion-title js-accordion-title extra">
-              What Engagement Models do you offer?
-            </h4>
-            <div class="accordion-content">
-              <div class="description">
-                <p>
-                  Committed Team - A PM, an SW engineer, a QA engineer, and
-                  additional roles that are specialized to each project are
-                  included in the dedicated team model.
-                </p>
-                <p>
-                  Staff augmentation - To support your specific task, we offer
-                  additional talent. This additional staff collaborates with
-                  your local team, participates in daily meetings, and answers
-                  to your manager.
-                </p>
-                <p>
-                  Offshore Development Center - We also offer a specialized
-                  software development office in India, complete with the
-                  necessary staff and facilities. Our ODC process allows you
-                  to cut costs while accelerating development, hiring,
-                  accounting, and HR optimization.
-                </p>
-              </div>
-            </div>
-
-            <h4 class="accordion-title js-accordion-title extra">
-              why prefer outsourcing over Freelancing?
-            </h4>
-            <div class="accordion-content">
-              <div class="description">
-                <p>
-                  Hiring a freelancer entails a variety of disadvantages, such
-                  as:
-                </p>
-                <div class="ps-2">
-                  <p>Freelancers' Timelines and Availability.</p>
+              <h4 class="accordion-title js-accordion-title">
+                Is there any option for Trial, before committing to Long-term
+                engagements?
+              </h4>
+              <div class="accordion-content">
+                <div class="description">
                   <p>
-                    It's possible that freelancers aren't as serious and
-                    invested as regular employees.
+                    Our company offers a 14 days trial to all our clients
+                    worldwide.
                   </p>
                   <p>
-                    Freelancers have the potential to misuse or disclose data.
-                  </p>
-                  <p>
-                    Freelancers frequently exhibit less dedication &
-                    commitment.
-                  </p>
-                </div>
-                <p>
-                  On the other side, there are many advantages to hiring a
-                  software product development outsourcing company, including:
-                </p>
-                <div class="ps-2">
-                  <p>
-                    Companies that outsource software development have
-                    industry specialists and established procedures.
-                  </p>
-                  <p>
-                    If you don't like the current developers, you may easily
-                    find alternatives.
-                  </p>
-                  <p>
-                    A strict NDA (non-disclosure agreement) is signed by you
-                    to protect your privacy and intellectual property.
-                  </p>
-                  <p>
-                    You can pick from a variety of customizable engagement
-                    options and dedicated software teams.
-                  </p>
-                  <p>
-                    Therefore, it is best to choose software outsourcing
-                    businesses if you want to outsource work for software
-                    product development because it gives you peace of mind.
+                    With this, prospective clients can test out our software
+                    development services without taking any risks before
+                    deciding to collaborate with us on a long-term basis. We
+                    strongly believe in the value of our products and solutions
+                    and want everyone to experience firsthand the value we can
+                    bring.
                   </p>
                 </div>
               </div>
-            </div>
 
-            <h4 class="accordion-title js-accordion-title extra">
-              How the development outsourcing process works?
-            </h4>
-            <div class="accordion-content">
-              <div class="description">
-                <ol class="ps-2">
-                  <li>
-                    The company specifies the project's goals and scope.
-                  </li>
-                  <li>
-                    We assemble a group of qualified experts to work on the
-                    project. To guarantee that all deliverables meet or exceed
-                    expectations, the team closely collaborates with the
-                    customer.
-                  </li>
-                  <li>
-                    The client grants final confirmation and pays for the
-                    service after it is finished. This approach will vary a
-                    little bit from case to case because every outsourcing
-                    project for software development is different.
-                  </li>
-                </ol>
-                <p>
-                  It effectively satisfies the need for qualified staff, and
-                  you receive technical assistance once the project is
-                  finished by professionals.
-                </p>
+              <h4 class="accordion-title js-accordion-title">
+                Why Should I Choose Bonami Software to Design & Develop the
+                Software based in India?
+              </h4>
+              <div class="accordion-content">
+                <div class="description">
+                  <p>
+                    There are several advantages to Bonami Software using Indian
+                    software development and consulting services.
+                  </p>
+                  <p>
+                    One of the greatest global pools of qualified software
+                    engineers who can produce high-quality code quickly and
+                    effectively
+                  </p>
+                  <p>
+                    Indian businesses have competitive pricing, making them an
+                    inexpensive choice for low capital.
+                  </p>
+                  <p>
+                    In comparison to their Western peers, they also offer a
+                    better level of customer help and support, which is vital
+                    for resolving any problems that can come up while developing
+                    a product.
+                  </p>
+                  <p>
+                    If you outsource your backend development project to Bonami
+                    Software, a top software engineering, consulting, and
+                    outsourcing firm in India, you may enjoy all these
+                    advantages as well as many more.
+                  </p>
+                </div>
               </div>
-            </div>
 
-            <h4 class="accordion-title js-accordion-title extra">
-              Are you flexible in adopting our standards or methodologies for
-              the development of our projects?
-            </h4>
-            <div class="accordion-content">
-              <div class="description">
-                <p>
-                  Bonami Software is flexible to acknowledge your standards
-                  and app development methodologies to establish a successful
-                  and market-winning project. Our developers are open to
-                  working according to your plans if the project requirements
-                  are met on time.
-                </p>
+              <h4 class="accordion-title js-accordion-title extra">
+                How much does it cost to Outsource Software development in
+                India?
+              </h4>
+              <div class="accordion-content">
+                <div class="description">
+                  <p>
+                    The pricing of outsourcing software development is dependent
+                    on a variety of elements, including the application's size
+                    and structure, its functionality and third-party
+                    integrations, its APIs, animations, localizations, backend,
+                    cross-platform toolkits, platforms, etc.
+                  </p>
+                  <p>
+                    We can give you an ETA and an estimated cost if you share
+                    your basic idea.
+                  </p>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="see-more-btn text-center">
-            <button id="loadMore">See More</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-
-  <section class="contact_section my-80" id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-lg-10 mx-auto bordre-sec">
-          <div class="row">
-            <div class="col-12 col-lg-9 mx-auto">
-              <div class="top_head pt-3 pt-lg-5 text-center">
-                <p class="heading mb-0">Contact Us</p>
-                <h2 class="mainHeading imagewithheading">Let's <span>Talk Business!</span></h2>
-                <p class="description pb-4">
-                  Have questions about your idea? Drop in your details to
-                  discuss with our solution consultants. We look forward to
-                  hear from you.
-                </p>
+              <h4 class="accordion-title js-accordion-title extra">
+                I have a Startup Idea. Are you compatible with someone who's on
+                a Budget?
+              </h4>
+              <div class="accordion-content">
+                <div class="description">
+                  <p>
+                    We do, in fact, work collaboratively with startups. Since
+                    our founding, we have collaborated with tens of thousands of
+                    companies around the world, becoming their proud partner in
+                    success.
+                  </p>
+                  <p>
+                    Additionally, we offer initial technological consultancy to
+                    assist you to save money and time. Our specialists are eager
+                    to assist you
+                  </p>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-12 col-lg-10 mx-auto">
-              <form>
-                <div class="row">
-                  <div class="col-12 col-md-6 mb-3">
-                    <label for="fname" class="from-label">First name</label>
-                    <input type="text" name="fname" id="fname" placeholder="e.g. Ross" class="form-control">
+
+              <h4 class="accordion-title js-accordion-title extra">
+                Is outsourcing software development risky? How do you ensure
+                Privacy and Security Concerns?
+              </h4>
+              <div class="accordion-content">
+                <div class="description">
+                  <p>
+                    If your project is outsourced to a renowned agency, there is
+                    absolutely no risk involved.
+                  </p>
+                  <p>
+                    Bonami Software ensures Privacy and security in the
+                    following way:
+                  </p>
+                  <div class="ps-2">
+                    <p>We consent to non-disclosure (NDA)</p>
+                    <p>
+                      We adhere to unique industry standards including GDPR and
+                      HIPAA
+                    </p>
+                    <p>
+                      We adhere to safe coding and data protection standards.
+                    </p>
+                    <p>
+                      We set up VPN services, firewalls, and encryption to guard
+                      against internet security breaches.
+                    </p>
+                    <p>
+                      Before hiring, all of our workers undergo rigorous
+                      verification.
+                    </p>
                   </div>
-                  <div class="col-12 col-md-6 mb-3">
-                    <label for="lname" class="from-label">last name</label>
-                    <input type="text" name="lname" id="lname" placeholder="e.g. McCarthy" class="form-control">
+                </div>
+              </div>
+
+              <h4 class="accordion-title js-accordion-title extra">
+                What Engagement Models do you offer?
+              </h4>
+              <div class="accordion-content">
+                <div class="description">
+                  <p>
+                    Committed Team - A PM, an SW engineer, a QA engineer, and
+                    additional roles that are specialized to each project are
+                    included in the dedicated team model.
+                  </p>
+                  <p>
+                    Staff augmentation - To support your specific task, we offer
+                    additional talent. This additional staff collaborates with
+                    your local team, participates in daily meetings, and answers
+                    to your manager.
+                  </p>
+                  <p>
+                    Offshore Development Center - We also offer a specialized
+                    software development office in India, complete with the
+                    necessary staff and facilities. Our ODC process allows you
+                    to cut costs while accelerating development, hiring,
+                    accounting, and HR optimization.
+                  </p>
+                </div>
+              </div>
+
+              <h4 class="accordion-title js-accordion-title extra">
+                why prefer outsourcing over Freelancing?
+              </h4>
+              <div class="accordion-content">
+                <div class="description">
+                  <p>
+                    Hiring a freelancer entails a variety of disadvantages, such
+                    as:
+                  </p>
+                  <div class="ps-2">
+                    <p>Freelancers' Timelines and Availability.</p>
+                    <p>
+                      It's possible that freelancers aren't as serious and
+                      invested as regular employees.
+                    </p>
+                    <p>
+                      Freelancers have the potential to misuse or disclose data.
+                    </p>
+                    <p>
+                      Freelancers frequently exhibit less dedication &
+                      commitment.
+                    </p>
                   </div>
-                  <div class="col-12 col-md-6 mb-3">
-                    <label for="email" class="from-label">email</label>
-                    <input type="email" name="email" id="email" placeholder="Email Address" class="form-control">
+                  <p>
+                    On the other side, there are many advantages to hiring a
+                    software product development outsourcing company, including:
+                  </p>
+                  <div class="ps-2">
+                    <p>
+                      Companies that outsource software development have
+                      industry specialists and established procedures.
+                    </p>
+                    <p>
+                      If you don't like the current developers, you may easily
+                      find alternatives.
+                    </p>
+                    <p>
+                      A strict NDA (non-disclosure agreement) is signed by you
+                      to protect your privacy and intellectual property.
+                    </p>
+                    <p>
+                      You can pick from a variety of customizable engagement
+                      options and dedicated software teams.
+                    </p>
+                    <p>
+                      Therefore, it is best to choose software outsourcing
+                      businesses if you want to outsource work for software
+                      product development because it gives you peace of mind.
+                    </p>
                   </div>
-                  <div class="col-12 col-md-6 mb-3">
-                    <label for="contact" class="from-label">contact</label>
-                    <input type="tel" name="contact" id="contact" placeholder="Contact" class="form-control">
-                  </div>
-                  <div class="col-12 mb-3">
-                    <label class="form-label">Services</label>
-                    <div class="checkboxes">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Mobile Development"
-                          id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault">Mobile Development</label>
-                      </div>
-                      <div class="form-check justify-content-center">
-                        <input class="form-check-input" type="checkbox" value="Web Development" id="flexCheckChecked">
-                        <label class="form-check-label" for="flexCheckChecked">Web Development</label>
-                      </div>
-                      <div class="form-check justify-content-end">
-                        <input class="form-check-input" type="checkbox" value="Hire Developer" id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault">Hire Developer</label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Maintenance &amp; Support"
-                          id="flexCheckChecked">
-                        <label class="form-check-label" for="flexCheckChecked">Maintenance &amp; Support</label>
-                      </div>
-                      <div class="form-check justify-content-center">
-                        <input class="form-check-input" type="checkbox" value="Technical Consultancy"
-                          id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault">Technical Consultancy</label>
-                      </div>
-                      <div class="form-check justify-content-end">
-                        <input class="form-check-input" type="checkbox" value="Other Services" id="flexCheckChecked">
-                        <label class="form-check-label" for="flexCheckChecked">Other Services</label>
+                </div>
+              </div>
+
+              <h4 class="accordion-title js-accordion-title extra">
+                How the development outsourcing process works?
+              </h4>
+              <div class="accordion-content">
+                <div class="description">
+                  <ol class="ps-2">
+                    <li>
+                      The company specifies the project's goals and scope.
+                    </li>
+                    <li>
+                      We assemble a group of qualified experts to work on the
+                      project. To guarantee that all deliverables meet or exceed
+                      expectations, the team closely collaborates with the
+                      customer.
+                    </li>
+                    <li>
+                      The client grants final confirmation and pays for the
+                      service after it is finished. This approach will vary a
+                      little bit from case to case because every outsourcing
+                      project for software development is different.
+                    </li>
+                  </ol>
+                  <p>
+                    It effectively satisfies the need for qualified staff, and
+                    you receive technical assistance once the project is
+                    finished by professionals.
+                  </p>
+                </div>
+              </div>
+
+              <h4 class="accordion-title js-accordion-title extra">
+                Are you flexible in adopting our standards or methodologies for
+                the development of our projects?
+              </h4>
+              <div class="accordion-content">
+                <div class="description">
+                  <p>
+                    Bonami Software is flexible to acknowledge your standards
+                    and app development methodologies to establish a successful
+                    and market-winning project. Our developers are open to
+                    working according to your plans if the project requirements
+                    are met on time.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="see-more-btn text-center">
+              <button id="loadMore">See More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact_section my-80" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-10 mx-auto bordre-sec">
+            <div class="row">
+              <div class="col-12 col-lg-9 mx-auto">
+                <div class="top_head pt-3 pt-lg-5 text-center">
+                  <p class="heading mb-0">Contact Us</p>
+                  <h2 class="mainHeading imagewithheading">
+                    Let's <span>Talk Business!</span>
+                  </h2>
+                  <p class="description pb-4">
+                    Have questions about your idea? Drop in your details to
+                    discuss with our solution consultants. We look forward to
+                    hear from you.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-lg-10 mx-auto">
+                <form>
+                  <div class="row">
+                    <div class="col-12 col-md-6 mb-3">
+                      <label for="fname" class="from-label">First name</label>
+                      <input
+                        type="text"
+                        name="fname"
+                        id="fname"
+                        placeholder="e.g. Ross"
+                        class="form-control"
+                      />
+                    </div>
+                    <div class="col-12 col-md-6 mb-3">
+                      <label for="lname" class="from-label">last name</label>
+                      <input
+                        type="text"
+                        name="lname"
+                        id="lname"
+                        placeholder="e.g. McCarthy"
+                        class="form-control"
+                      />
+                    </div>
+                    <div class="col-12 col-md-6 mb-3">
+                      <label for="email" class="from-label">email</label>
+                      <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="Email Address"
+                        class="form-control"
+                      />
+                    </div>
+                    <div class="col-12 col-md-6 mb-3">
+                      <label for="contact" class="from-label">contact</label>
+                      <input
+                        type="tel"
+                        name="contact"
+                        id="contact"
+                        placeholder="Contact"
+                        class="form-control"
+                      />
+                    </div>
+                    <div class="col-12 mb-3">
+                      <label class="form-label">Services</label>
+                      <div class="checkboxes">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            value="Mobile Development"
+                            id="flexCheckDefault"
+                          />
+                          <label class="form-check-label" for="flexCheckDefault"
+                            >Mobile Development</label
+                          >
+                        </div>
+                        <div class="form-check justify-content-center">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            value="Web Development"
+                            id="flexCheckChecked"
+                          />
+                          <label class="form-check-label" for="flexCheckChecked"
+                            >Web Development</label
+                          >
+                        </div>
+                        <div class="form-check justify-content-end">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            value="Hire Developer"
+                            id="flexCheckDefault"
+                          />
+                          <label class="form-check-label" for="flexCheckDefault"
+                            >Hire Developer</label
+                          >
+                        </div>
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            value="Maintenance &amp; Support"
+                            id="flexCheckChecked"
+                          />
+                          <label class="form-check-label" for="flexCheckChecked"
+                            >Maintenance &amp; Support</label
+                          >
+                        </div>
+                        <div class="form-check justify-content-center">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            value="Technical Consultancy"
+                            id="flexCheckDefault"
+                          />
+                          <label class="form-check-label" for="flexCheckDefault"
+                            >Technical Consultancy</label
+                          >
+                        </div>
+                        <div class="form-check justify-content-end">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            value="Other Services"
+                            id="flexCheckChecked"
+                          />
+                          <label class="form-check-label" for="flexCheckChecked"
+                            >Other Services</label
+                          >
+                        </div>
                       </div>
                     </div>
+                    <hr />
+                    <div class="col-12 mb-3">
+                      <label for="aboutproject" class="from-label"
+                        >about project</label
+                      >
+                      <textarea
+                        name="aboutproject"
+                        id="aboutproject"
+                        placeholder="Description (Optional)"
+                        class="form-control"
+                        cols="30"
+                        rows="10"
+                      ></textarea>
+                    </div>
+                    <div class="col-12 mb-3">
+                      <label for="file">Document (if any):</label>
+                      <input
+                        type="file"
+                        id="file"
+                        name="file"
+                        class="form-control"
+                      />
+                    </div>
                   </div>
-                  <hr>
-                  <div class="col-12 mb-3">
-                    <label for="aboutproject" class="from-label">about project</label>
-                    <textarea name="aboutproject" id="aboutproject" placeholder="Description (Optional)"
-                      class="form-control" cols="30" rows="10"></textarea>
-                  </div>
-                  <div class="col-12 mb-3">
-                    <label for="file">Document (if any):</label>
-                    <input type="file" id="file" name="file" class="form-control">
-                  </div>
-                </div>
-                <button type="submit" class="btn mainbtn contact_btn mb-3 mb-lg-5">
-                  Submit
-                </button>
-              </form>
+                  <button
+                    type="submit"
+                    class="btn mainbtn contact_btn mb-3 mb-lg-5"
+                  >
+                    Submit
+                  </button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <footer class="footer bg-dark py-60">
-    <div class="container">
-      <div class="row">
-        <div class="col-12 col-md-6 col-lg-3">
-          <img src="./images/dark_logo.png" alt="Bonami logo" />
-          <p class="my-4 aboutp">
-            Bonami is a software development company providing outsourcing services and on-demand software development
-            teams.
-          </p>
-          <ul class="list-unstyled p-0 d-flex align-items-center mb-3 mb-md-4 mb-lg-5">
-            <li class="me-2">
-              <a href="https://www.linkedin.com/company/bonamisoftware/" target="_blank"><img
-                  src="./images/linkedin.png" alt="" /></a>
-            </li>
-            <li class="me-2">
-              <a href="https://www.facebook.com/bonamisoftwares" target="_blank"><img src="./images/facebook.png"
-                  alt="" /></a>
-            </li>
-            <li class="me-2">
-              <a href="https://www.instagram.com/bonamisoftware_/" target="_blank"><img src="./images/insta.png"
-                  alt="" /></a>
-            </li>
-            <li class="me-2">
-              <a href="https://www.youtube.com/@bonamisoftware" target="_blank"><img src="./images/youtube.png"
-                  alt="" /></a>
-            </li>
-            <!-- <li class="me-2">
+    <footer class="footer bg-dark py-60">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <img src="./images/dark_logo.png" alt="Bonami logo" />
+            <p class="my-4 aboutp">
+              Bonami is a software development company providing outsourcing
+              services and on-demand software development teams.
+            </p>
+            <ul
+              class="list-unstyled p-0 d-flex align-items-center mb-3 mb-md-4 mb-lg-5"
+            >
+              <li class="me-2">
+                <a
+                  href="https://www.linkedin.com/company/bonamisoftware/"
+                  target="_blank"
+                  ><img src="./images/linkedin.png" alt=""
+                /></a>
+              </li>
+              <li class="me-2">
+                <a
+                  href="https://www.facebook.com/bonamisoftwares"
+                  target="_blank"
+                  ><img src="./images/facebook.png" alt=""
+                /></a>
+              </li>
+              <li class="me-2">
+                <a
+                  href="https://www.instagram.com/bonamisoftware_/"
+                  target="_blank"
+                  ><img src="./images/insta.png" alt=""
+                /></a>
+              </li>
+              <li class="me-2">
+                <a
+                  href="https://www.youtube.com/@bonamisoftware"
+                  target="_blank"
+                  ><img src="./images/youtube.png" alt=""
+                /></a>
+              </li>
+              <!-- <li class="me-2">
                 <a href="https://twitter.com/BonamiSoftware"><img src="./images/twitter.png" alt="" /></a>
               </li> -->
-          </ul>
-          <p class="mb-0 aboutp">Copyright &copy; 2022 All right reserved</p>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="p-0 ps-md-4">
-            <p class="listTitle">SIte map</p>
-            <ul class="list-unstyled p-0 mb-3 mb-md-4 mb-lg-0">
-              <li><a href="./index.html">Home</a></li>
-              <li><a href="./about.html">About</a></li>
-              <li><a href="./hiredevloper.html">Hire Developers</a></li>
-              <li><a href="./industries.html">Industries</a></li>
-              <li><a href="./service.html">service</a></li>
-              <li><a href="#contact">contact</a></li>
             </ul>
+            <p class="mb-0 aboutp">Copyright &copy; 2022 All right reserved</p>
           </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="p-0 ps-md-4">
-            <p class="listTitle">Company</p>
-            <ul class="list-unstyled p-0 mb-3 mb-md-4 mb-lg-0">
-              <li><a href="">Help & Support</a></li>
-              <li><a href="">terms & condition</a></li>
-              <li><a href="">privacy Policy</a></li>
-            </ul>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="p-0 ps-md-4">
+              <p class="listTitle">SIte map</p>
+              <ul class="list-unstyled p-0 mb-3 mb-md-4 mb-lg-0">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./hiredevloper.html">Hire Developers</a></li>
+                <li><a href="./industries.html">Industries</a></li>
+                <li><a href="./service.html">service</a></li>
+                <li><a href="#contact">contact</a></li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3">
-          <div class="p-0 ps-md-4">
-            <p class="listTitle">resource</p>
-            <ul class="list-unstyled p-0 mb-3 mb-md-4 mb-lg-0">
-              <li><a href="">partner</a></li>
-              <li><a href="">Blog</a></li>
-              <li><a href="">Newsletter</a></li>
-            </ul>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="p-0 ps-md-4">
+              <p class="listTitle">Company</p>
+              <ul class="list-unstyled p-0 mb-3 mb-md-4 mb-lg-0">
+                <li><a href="">Help & Support</a></li>
+                <li><a href="">terms & condition</a></li>
+                <li><a href="">privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="p-0 ps-md-4">
+              <p class="listTitle">resource</p>
+              <ul class="list-unstyled p-0 mb-3 mb-md-4 mb-lg-0">
+                <li><a href="">partner</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Newsletter</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <!-- jquery -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-  <!-- Bootstrap Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- slick script -->
-  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-
-  <!-- top-icon-slider -->
-  <script src="./js/app.js"></script>
-</body>
-
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- slick script -->
+    <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    
+    <!-- top-icon-slider -->
+    <script src="./js/app.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>

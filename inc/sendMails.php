@@ -15,19 +15,20 @@ $mail = new PHPMailer(true);
 
 function sendMail($email,$subject,$message){
 	//required parameters...
-	$production = PROD;
-	$siteName = SITE_NAME;
-	$MailFrom = SITE_EMAIL;
+	$production = 1;
+	$siteName = 'Bonami Software';
+	$MailFrom = 'aditiyakundra@bonamisoftware.com';
 
 	//smtp request...
 	$mail = new PHPMailer;
-	$mail->Host       = '';                     //Set the SMTP server to send through
+	$mail->IsSMTP();
+	$mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
     $mail->SMTPSecure = 'tls'; // Which security method to use. TLS is most secure.
-    $mail->Username   = '';                     //SMTP username
-    $mail->Password   = '';                  
+    $mail->Username   = 'aditiyakundra@bonamisoftware.com';                     //SMTP username
+    $mail->Password   = 'rnyhwkydkqszchzk';                  
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
-    $mail->Port       = 465;           
+    $mail->Port       = 587;           
     $mail->setFrom($MailFrom, $siteName);
     $mail->addAddress($email);     //Add a recipient
     $mail->addReplyTo($MailFrom, $siteName);
@@ -41,7 +42,8 @@ function sendMail($email,$subject,$message){
 		return true;
 	} else {
 		if(!$mail->send()) {
-			return false;
+			// return 0;
+			return $mail->ErrorInfo;
 		} else {
 			return true;
 		}

@@ -18,12 +18,14 @@ if(isset($_POST)){
         $fileName = rand(111111111,999999999).".".$ext;
         if(move_uploaded_file($tmpName, '../uploads/'.$fileName)==true){
             echo "File upladed";
-            // $sendMail = sendMail();
-            if($sendMail){
-                // do something
-            }else{
-                // do something
-            }
+            // $msg = 'name : ' . $fname . ' ' . $lname. '<br> email :' . $email . '<br> contact :' . $contact. '<br> aboutproject :' . $aboutproject. '<br> services :' . $services; 
+            $sendMail = sendMail('sahil.prajapati@bonamisoftware.com' , 'form subbmission' , 'Test Message');
+            // if($sendMail){
+            //     echo 'sucess';
+            // }else{
+            //     echo 'error';
+            // }
+            print_r($sendMail);
         }else{
             echo "Something went wrong, Please try again later";
         }

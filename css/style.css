@@ -274,7 +274,7 @@
 
 .accordion-container .accordion-title::after {
     color: #f33816;
-    content: "-";
+    content: "+";
     position: absolute;
     right: 25px;
     height: 2rem;
@@ -287,7 +287,7 @@
 }
 
 .accordion-container .accordion-title.open::after {
-    content: "+";
+    content: "-";
     position: absolute;
     font-size: 1.7rem;
 }

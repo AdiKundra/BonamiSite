@@ -99,6 +99,10 @@ a{
 .bg-color{
     background: #FFF5F5;
 }
+.bg-color-grey{
+    background-color: #EEEEEE;
+    border-radius: 20px;
+}
 .custom_bg::after{
     content: '';
     position: absolute;

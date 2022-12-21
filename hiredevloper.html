@@ -22,42 +22,36 @@
   <title>Bonami Software</title>
 </head>
 <body>
-    <header>
-      <nav class="container navbar navbar-expand-lg p-3">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="./images/logo.png" alt="" /></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./service.html">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./hiredevloper.html">Hire Developers</a>
-              </li>
-              <!-- <li class="nav-item">
-                  <a class="nav-link" href="#">Technology Stack</a>
-                </li> -->
-              <!-- <li class="nav-item">
-                  <a class="nav-link" href="#">Solutions</a>
-                </li> -->
-              <li class="nav-item">
-                <a class="nav-link" href="./industries.html">Industries</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./about.html">About Us</a>
-              </li>
-              <li class="nav-item ms-5">
-                <a class="btn mainbtn" href="#contact">Contact Us</a>
-              </li>
-            </ul>
-          </div>
+  <header>
+    <nav class="container navbar navbar-expand-lg p-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="./images/logo.png" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./service.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./hiredevloper.html">Hire Developers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./industries.html">Industries</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About Us</a>
+            </li>
+            <li class="nav-item ms-5">
+              <a class="btn mainbtn" href="#contact">Contact Us</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
     <main class="hiredeveloper">
       <!-- Breadcrumb -->
@@ -439,17 +433,15 @@
         </div>
       </section>
       
-
-
       <section class="contact_section my-80" id="contact">
         <div class="container">
           <div class="row">
-            <div class="col-12 col-lg-10 mx-auto bordre-sec">
+            <div class="col-12 col-lg-8 mx-auto bordre-sec">
               <div class="row">
-                <div class="col-12 col-lg-9 mx-auto">
+                <div class="col-12 col-lg-10 mx-auto">
                   <div class="top_head pt-3 pt-lg-5 text-center">
-                    <p class="heading mb-0">Contact Us</p>
-                    <h2 class="mainHeading imagewithheading">Let's <span>Talk Business!</span></h2>
+                    <p class="heading mb-0 d-none">Contact Us</p>
+                    <h2 class="mainHeading mb-2">Book Free Consultation</h2>
                     <p class="description pb-4">
                       Have questions about your idea? Drop in your details to
                       discuss with our solution consultants. We look forward to
@@ -463,66 +455,73 @@
                   <form method="post" class="contactForm" enctype="multipart/form-data">
                     <div class="row">
                       <div class="col-12 col-md-6 mb-3">
-                        <label for="fname" class="from-label">First name</label>
-                        <input type="text" name="fname" id="fname" placeholder="e.g. Ross" class="form-control">
+                        <label for="fname" class="from-label">Your Name</label>
+                        <input type="text" name="name" id="name" placeholder="e.g. Ross" class="form-control" />
                       </div>
-                      <div class="col-12 col-md-6 mb-3">
+                      <div class="col-12 col-md-6 mb-3 d-none">
+                        <label for="fname" class="from-label">First name</label>
+                        <input type="text" name="fname" id="fname" placeholder="e.g. Ross" class="form-control" />
+                      </div>
+                      <div class="col-12 col-md-6 mb-3 d-none">
                         <label for="lname" class="from-label">last name</label>
-                        <input type="text" name="lname" id="lname" placeholder="e.g. McCarthy" class="form-control">
+                        <input type="text" name="lname" id="lname" placeholder="e.g. McCarthy" class="form-control" />
                       </div>
                       <div class="col-12 col-md-6 mb-3">
                         <label for="email" class="from-label">email</label>
-                        <input type="email" name="email" id="email" placeholder="Email Address" class="form-control">
-                      </div>
-                      <div class="col-12 col-md-6 mb-3">
-                        <label for="contact" class="from-label">contact</label>
-                        <input type="tel" name="contact" id="contact" placeholder="Contact" class="form-control">
+                        <input type="email" name="email" id="email" placeholder="Email Address" class="form-control" />
                       </div>
                       <div class="col-12 mb-3">
+                        <label for="contact" class="from-label">contact</label>
+                        <input type="tel" name="contact" id="contact" placeholder="Contact" class="form-control" />
+                      </div>
+                      <div class="col-12 mb-3 d-none">
                         <label class="form-label">Services</label>
                         <div class="checkboxes">
                           <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="Mobile Development"
-                              id="flexCheckDefault">
+                            <input class="form-check-input" type="checkbox" value="Mobile Development" id="flexCheckDefault"
+                              name="service[]" />
                             <label class="form-check-label" for="flexCheckDefault">Mobile Development</label>
                           </div>
                           <div class="form-check justify-content-center">
-                            <input class="form-check-input" type="checkbox" value="Web Development" id="flexCheckChecked">
+                            <input class="form-check-input" type="checkbox" value="Web Development" id="flexCheckChecked"
+                              name="service[]" />
                             <label class="form-check-label" for="flexCheckChecked">Web Development</label>
                           </div>
                           <div class="form-check justify-content-end">
-                            <input class="form-check-input" type="checkbox" value="Hire Developer" id="flexCheckDefault">
+                            <input class="form-check-input" type="checkbox" value="Hire Developer" id="flexCheckDefault"
+                              name="service[]" />
                             <label class="form-check-label" for="flexCheckDefault">Hire Developer</label>
                           </div>
                           <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="Maintenance &amp; Support"
-                              id="flexCheckChecked">
+                              id="flexCheckChecked" name="service[]" />
                             <label class="form-check-label" for="flexCheckChecked">Maintenance &amp; Support</label>
                           </div>
                           <div class="form-check justify-content-center">
                             <input class="form-check-input" type="checkbox" value="Technical Consultancy"
-                              id="flexCheckDefault">
+                              id="flexCheckDefault" name="service[]" />
                             <label class="form-check-label" for="flexCheckDefault">Technical Consultancy</label>
                           </div>
                           <div class="form-check justify-content-end">
-                            <input class="form-check-input" type="checkbox" value="Other Services" id="flexCheckChecked">
+                            <input class="form-check-input" type="checkbox" value="Other Services" id="flexCheckChecked"
+                              name="service[]" />
                             <label class="form-check-label" for="flexCheckChecked">Other Services</label>
                           </div>
                         </div>
                       </div>
-                      <hr>
+                      <hr class="d-none"/>
                       <div class="col-12 mb-3">
                         <label for="aboutproject" class="from-label">about project</label>
                         <textarea name="aboutproject" id="aboutproject" placeholder="Description (Optional)"
-                          class="form-control" cols="30" rows="10"></textarea>
+                          class="form-control" cols="30" rows="7"></textarea>
                       </div>
-                      <div class="col-12 mb-3">
+                      <div class="col-12 mb-3 d-none">
                         <label for="file">Document (if any):</label>
-                        <input type="file" id="file" name="file" class="form-control">
+                        <input type="file" id="file" name="file" class="form-control" />
                       </div>
                     </div>
                     <button type="submit" class="btn mainbtn contact_btn mb-3 mb-lg-5">
-                      Submit
+                      Inquire Now
                     </button>
                   </form>
                 </div>
@@ -534,74 +533,85 @@
 
     </main>
 
-    <footer class="footer bg-dark py-60">
-        <div class="container">
-            <div class="row">
-            <div class="col-12 col-md-6 col-lg-3">
-                <img src="./images/dark_logo.png" alt="Bonami logo" />
-                <p class="my-4 aboutp">
-                Bonami is a software development company providing outsourcing services and on-demand software development
-                teams.
-                </p>
-                <ul class="list-unstyled p-0 d-flex align-items-center mb-3 mb-md-4 mb-lg-5">
-                <li class="me-2">
-                    <a href="https://www.linkedin.com/company/bonamisoftware/" target="_blank"><img
-                        src="./images/linkedin.png" alt="" /></a>
-                </li>
-                <li class="me-2">
-                    <a href="https://www.facebook.com/bonamisoftwares" target="_blank"><img src="./images/facebook.png"
-                        alt="" /></a>
-                </li>
-                <li class="me-2">
-                    <a href="https://www.instagram.com/bonamisoftware_/" target="_blank"><img src="./images/insta.png"
-                        alt="" /></a>
-                </li>
-                <li class="me-2">
-                    <a href="https://www.youtube.com/@bonamisoftware" target="_blank"><img src="./images/youtube.png"
-                        alt="" /></a>
-                </li>
-                <!-- <li class="me-2">
-                    <a href="https://twitter.com/BonamiSoftware"><img src="./images/twitter.png" alt="" /></a>
-                    </li> -->
-                </ul>
-                <p class="mb-0 aboutp">Copyright &copy; 2022 All right reserved</p>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="p-0 ps-md-4">
-                <p class="listTitle">SIte map</p>
-                <ul class="list-unstyled p-0 mb-3 mb-md-4 mb-lg-0">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./about.html">About</a></li>
-                    <li><a href="./hiredevloper.html">Hire Developers</a></li>
-                    <li><a href="./industries.html">Industries</a></li>
-                    <li><a href="./service.html">service</a></li>
-                    <li><a href="index.html#contact">contact</a></li>
-                </ul>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="p-0 ps-md-4">
-                <p class="listTitle">Company</p>
-                <ul class="list-unstyled p-0 mb-3 mb-md-4 mb-lg-0">
-                    <li><a href="">Help & Support</a></li>
-                    <li><a href="">terms & condition</a></li>
-                    <li><a href="">privacy Policy</a></li>
-                </ul>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="p-0 ps-md-4">
-                <p class="listTitle">resource</p>
-                <ul class="list-unstyled p-0 mb-3 mb-md-4 mb-lg-0">
-                    <li><a href="">partner</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Newsletter</a></li>
-                </ul>
-                </div>
-            </div>
-            </div>
+
+  
+    <footer class="footer bg-dark py-80">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-3">
+            <ul class="list-unstyled p-0 d-flex align-items-center iconsListFooter">
+              <li>
+                <img src="./images/youtube_footer.png" alt="">
+                <a class="title" href="">youtube</a>
+              </li>
+              <li>
+                <img src="./images/youtubelinkedin.png" alt="">
+                <a class="title" href="">linkedin</a>
+              </li>
+              <li>
+                <img src="./images/footer_f.png" alt="">
+                <a class="title" href="">behance</a>
+              </li>
+              <li class="mb-0">
+                <img src="./images/footer_behance.png" alt="">
+                <a class="title" href="">twitter</a>
+              </li>
+              <li class="mb-0">
+                <img src="./images/footer_new.png" alt="">
+                <a class="title" href="">facebook</a>
+              </li>
+              <li class="mb-0">
+                <img src="./images/footer_insta.png.png" alt="">
+                <a class="title" href="">instagram</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-3">
+            <ul class="list-unstyled addressrow br-l">
+              <li class="country">
+                <img src="./images/india.png" alt="">
+                <p class="title">India</p>
+              </li>
+              <li>
+                <img src="./images/location.png" alt="" class="mt-1">
+                <a class="title" href="">C-91/7, Wazirpur Industrial Area, Delhi, 110052</a>
+              </li>
+              <li>
+                <img src="./images/call.png" alt="" class="mt-1">
+                <a class="title" href="tel:8271233269">+(91) 8271233269</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-3 br-l">
+            <ul class="list-unstyled addressrow">
+              <li class="country">
+                <img src="./images/usa.png" alt="">
+                <p class="title text-uppercase">usa</p>
+              </li>
+              <li>
+                <img src="./images/location.png" alt="" class="mt-1">
+                <a class="title" href="">34 Hammond Street Acton, Massachusetts 01720 </a>
+              </li>
+              <li>
+                <img src="./images/call.png" alt="" class="mt-1">
+                <a class="title" href="tel: 9782646641">+( 1 ) 978 264 6641</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-3 br-l">
+            <ul class="list-unstyled p-0 d-flex align-items-center iconsListFooter">
+              <li>
+                <img src="./images/fooer_mail.png" alt="" class="mb-4">
+                <a class="title" href="mailto:contact@bonamisoftware.com">contact@bonamisoftware.com</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </footer>
+    <div class="footer bg-dark text-white text-center">
+      <p class="py-2 mb-0 title">Copyright &copy; 2022 All right reserved</p>
+    </div>
 
 
     <!-- jquery -->

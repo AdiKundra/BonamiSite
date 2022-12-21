@@ -1,5 +1,6 @@
 .bannersection {
-    height: 70vh;
+    padding: 80px 0;
+    min-height: 70vh;
     display: flex;
     align-items: center;
 }

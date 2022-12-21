@@ -226,3 +226,18 @@ footer .addressrow li:not(.country) a{
     margin-left: 1rem;
 }
 /* animattion css */
+
+
+/* breadcrumb css */
+
+body:not(.Homepage) header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent !important;
+}
+body:not(.Homepage) .breadcrumb{
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}

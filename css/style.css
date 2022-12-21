@@ -1,5 +1,7 @@
 .bannersection {
-    padding: 100px 0;
+    height: 70vh;
+    display: flex;
+    align-items: center;
 }
 
 .bannersection .content {
@@ -132,7 +134,7 @@
 }
 
 .technology_stack .boxStack .top {
-    padding: 1rem;
+    padding: 1.5rem 1rem;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -146,7 +148,7 @@
 }
 
 .technology_stack .boxStack .bottom {
-    padding: 1rem;
+    padding: 2rem 1rem;
     background-color: #F4F4F4;
     display: flex;
     align-items: center;

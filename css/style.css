@@ -1,5 +1,5 @@
 .bannersection {
-    padding: 60px 0;
+    padding: 100px 0;
 }
 
 .bannersection .content {
@@ -13,12 +13,12 @@
 
 .bannersection .content h1 span {
     color: #f33816;
-    font-size: 3.7rem;
+    font-size: 3.5rem;
 }
 
 .bannersection .content h1 {
     font-weight: bold;
-    font-size: 3.5rem;
+    font-size: 3.1rem;
 }
 
 .bannersection .head1 h3 {
@@ -30,7 +30,7 @@
 }
 
 .bannersection .content p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .bannersection .content blockquote {
@@ -43,16 +43,26 @@
 .bannersection .top-icon-slider .slick-slide {
     height: 100%;
 }
-
-.bannersection .top-icon-slider .slick-slide img {
+.iconSlider{
+    overflow: hidden;
+    background-color: #E4E2E2;
+}
+.top-icon-slider .slick-slide .img{
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top-icon-slider .slick-slide img {
     margin: auto;
-    filter: grayscale(1);
+    filter: grayscale(0);
     transition: all 0.5s;
     vertical-align: middle;
     max-width: 300px;
+   
 }
 
-.bannersection .top-icon-slider .slick-slide:hover img {
+.top-icon-slider .slick-slide:hover img {
     filter: grayscale(0);
 }
 
@@ -105,10 +115,12 @@
     border: 1.5px solid #9A9A9A;
     border-radius: 8px;
     overflow: hidden;
-    transition: 0.3s;
+    filter: grayscale(1);
+    transition: filter scale 0.5s;
 }
 .technology_stack .boxwrapper:hover{
     box-shadow: 0px 5.33333px 16px rgba(0, 0, 0, 0.1);
+    filter: grayscale(0);
     transform: scale(1.002);
 }
 .technology_stack .stack .row>div {
@@ -120,7 +132,7 @@
 }
 
 .technology_stack .boxStack .top {
-    padding: 1.7rem;
+    padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -134,24 +146,24 @@
 }
 
 .technology_stack .boxStack .bottom {
-    padding: 2rem 3rem;
+    padding: 1rem;
     background-color: #F4F4F4;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
 
 .technology_stack .boxStack .bottom .techicon {
-    flex: 1 1 30%;
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    margin: 0 20px 15px;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .technology_stack .boxStack .bottom .techicon .title {
-    margin-left: 10px;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 
@@ -253,7 +265,7 @@
     font-weight: normal;
     color: #373737;
     cursor: pointer;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .accordion-container .accordion-title.extra {
@@ -299,7 +311,7 @@
 }
 
 .contact_section form {
-    font-size: 19px;
+    font-size: 16px;
 }
 
 .contact_section form label {
@@ -315,7 +327,7 @@
     background: #FAFAFA;
     border: 1px solid #D8D7D7;
     border-radius: 10px;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 .contact_section form .form-control:focus {

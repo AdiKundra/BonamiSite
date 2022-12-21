@@ -35,7 +35,7 @@ a{
     color: #151F20;
     font-weight: bold;
 }
-.mainHeading span{ 
+.mainHeading spans{ 
     color: #F33816;
 }
 .mainHeading.imagewithheading{
@@ -62,6 +62,9 @@ a{
 }
 .py-60 {
     padding: 60px 0;
+}
+.py-80 {
+    padding: 100px 0;
 }
 .py-100 {
     padding: 100px 0;
@@ -177,5 +180,40 @@ footer p.listTitle::after{
     background-color: #F33816;
 }
 
+footer .iconsListFooter{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+footer .iconsListFooter li{
+    flex: 1 1 30%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+footer .iconsListFooter li img{
+    display: block;
+    margin: auto;
+}
 
+footer .addressrow {
+    padding: 0 2rem;
+}
+footer .br-l{
+    border-left: 1px solid #fff;
+}
+footer .country{
+    display: flex;
+    align-items: center;
+}
+footer .country p.title{
+    font-weight: 600;
+    margin-left: 1rem;
+}
+footer .addressrow li:not(.country){
+    display: flex;
+    align-items: flex-start;
+}
+footer .addressrow li:not(.country) a{
+    margin-left: 1rem;
+}
 /* animattion css */

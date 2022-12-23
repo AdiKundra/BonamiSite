@@ -76,8 +76,35 @@
 
 
 /* about */
+.dark-section{
+    background: #151F20;
+}
+.core-respect-content h2{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 27.9445px;
+line-height: 34px;
+/* identical to box height */
+
+text-transform: capitalize;
+
+color: #FFFFFF;
+
+}
 .about .description {
     font-size: 1.1rem;
+}
+.service-cont p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 143.4%;
+/* identical to box height, or 29px */
+
+
+color: #41382D;
 }
 
 .about .itemsAbout .itemBox {
@@ -386,7 +413,13 @@
 .breadcrumb {
     padding: 100px 0;
 }
-
+.icon-content p{
+    color: #BDB7B7;
+font-style: normal;
+font-weight: 500;
+font-size: 16.9923px;
+line-height: 25px;
+}
 .who-content p {
     font-weight: 400;
     font-size: 18px;
@@ -420,7 +453,7 @@
     background: #ffffff;
     box-shadow: 0px 5.33333px 16px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
-    padding: 20px;
+    padding: 45px;
 }
 
 .card-offer-img {
@@ -432,13 +465,15 @@
 }
 
 .card-offer-content h2 {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 35px;
-    color: #000000;
-    text-align: center;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 34px;
+line-height: 46px;
+/* identical to box height */
+
+text-align: center;
+color: #FFFFFF;
 }
 
 .card-offer-content p {
@@ -480,14 +515,14 @@
     background: #ffffff;
     box-shadow: 0px 0px 5.74px rgba(0, 0, 0, 0.04);
     border-radius: 12px;
-    padding: 15px;
-    max-width: 310px;
+    padding: 40px;
+
 }
 
 .card-vission h3 {
     color: #373737;
     letter-spacing: -0.011em;
-    font-size: 22px;
+    font-size: 32px;
     font-weight: 600;
     text-align: center;
 }
@@ -503,22 +538,15 @@
 
 .vision-img {
     text-align: center;
-    margin-top: -50px;
+    margin-top: -80px;
 }
 
 .vision-img img {
-    width: 100px;
+    width: 120px;
 }
 
-.card-mission {
-    margin-right: 6rem;
-}
 
-.vission-pos {
-    position: absolute;
-    z-index: 99;
-    margin-top: -200px;
-}
+
 
 .card-vission:hover {
     background-color: #FFF6F3;

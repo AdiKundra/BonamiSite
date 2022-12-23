@@ -637,4 +637,8 @@ color: #FFFFFF;
     .owncols{
         flex: 1 1 50% !important;
     }
+    .bg-row .contentBox{
+        order: 2;
+        margin-top: 30px;
+    }
 }

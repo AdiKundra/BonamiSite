@@ -135,6 +135,9 @@ a{
     .py-200{
         padding: 100px 0;
     }
+    .contact_section{
+        padding: 0 20px;
+    }
 }
 /* Hedaer */
 header{

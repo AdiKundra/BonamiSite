@@ -172,6 +172,8 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    order: 2;
+    margin-top: 30px;
 }
 .bg-row .content p{
     font-weight: 400;

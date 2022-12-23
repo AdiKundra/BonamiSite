@@ -631,4 +631,10 @@ color: #FFFFFF;
     .stepsCount .col20{
         margin-top: 20px;
     }
+    .bg-row .contentBox{
+        margin-top: 20px;
+    }
+    .owncols{
+        flex: 1 1 50% !important;
+    }
 }

@@ -733,10 +733,7 @@
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- slick script -->
-    <script
-      type="text/javascript"
-      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script>
       $(document).ready(function () {
         $(".offer-col").slice(0, 6).show();
@@ -758,6 +755,32 @@
       });
 
       AOS.init();
+      var a = 0;
+      $(window).ready(function() {
+        var oTop = $('.level-counter').offset().top - window.innerHeight;
+        if (a == 0 && $(window).scrollTop() > oTop) {
+          $('.js-counter-up').each(function() {
+            var $this = $(this),
+              countTo = $this.attr('data-value');
+            $({
+              countNum: $this.text()
+            }).animate({
+                countNum: countTo
+              },
+              {
+                duration: 5000,
+                easing: 'swing',
+                step: function() {
+                  $this.text(Math.floor(this.countNum));
+                },
+                complete: function() {
+                  $this.text(this.countNum);
+                }
+              });
+          });
+          a = 1;
+        }
+      });
     </script>
 
     <!-- top-icon-slider -->

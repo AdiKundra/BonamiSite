@@ -42,38 +42,7 @@ $('.boxSliderWithRow').slick({
 });
 
 
-// counter Home page
-var a = 0;
-$(window).scroll(function() {
 
-  var oTop = $('.level-counter').offset().top - window.innerHeight;
-  if (a == 0 && $(window).scrollTop() > oTop) {
-    $('.js-counter-up').each(function() {
-      var $this = $(this),
-        countTo = $this.attr('data-value');
-      $({
-        countNum: $this.text()
-      }).animate({
-          countNum: countTo
-        },
-
-        {
-
-          duration: 5000,
-          easing: 'swing',
-          step: function() {
-            $this.text(Math.floor(this.countNum));
-          },
-          complete: function() {
-            $this.text(this.countNum);
-          }
-
-        });
-    });
-    a = 1;
-  }
-
-});
 
 // tabs 
 const leftsidebarimg = document.querySelector('.tabsMainSection .leftsidebar img');

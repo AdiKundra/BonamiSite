@@ -167,7 +167,7 @@
     background-color: #151F20;
 }
 .serviceBoxes .box .bottom{
-    padding: 1.5rem;
+    padding: 0.5rem;
     text-align: center;
     background-color: #fff;
 }
@@ -185,4 +185,91 @@
 .serviceBoxes .box .bottom .ownrow > div{
     margin-bottom: 20px;
     flex: 1 1 24%;
+}
+.serviceBoxes .box .bottom .ownrow .img{
+    width: fit-content;
+    padding: 10px;
+    margin: 10px auto 5px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid rgba(100, 100, 111, 0.2);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.hireBox {
+    background: #F7F7F7;
+    box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 25px 15px;
+    padding: 2rem;
+}
+.hireBox .heading{
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+.hireBox img{
+    max-width: 150px;
+}
+
+.stepsCount{
+    color: #fff;
+    padding-bottom: 60px;
+    margin-top: 100px;
+    position: relative;
+}
+.stepsCount::after{
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    background-color: #151F20;
+    min-height: 80%;
+    z-index: -1;
+}
+.stepsCount .count{
+    font-weight: bold;
+    font-size: 38px;
+    margin-bottom: 20px;
+    transform: rotate(45deg);
+    height: 100%;
+    background-color: #fff;
+    color: #151F20;
+    padding: 30px;
+    width: 125px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: -7px 2px 22px rgba(0, 0, 0, 0.37);
+}
+
+.stepsCount .count p{
+    transform: rotate(-45deg);
+}
+.stepsCount .title{
+    font-size: 16px;
+    max-width: 150px;
+    margin-top: 40px;
+}
+
+
+.stepsCount .ownrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.stepsCount .col20{
+    position: relative;
+}
+.stepsCount .col20::after{
+    content: url('../images/countrowline.png');
+    position: absolute;
+    top: 50%;
+    right: -100%;
+    max-width: 200px;
+    width: 100%;
+}
+.stepsCount .col20:last-child:after{
+    display: none;
 }

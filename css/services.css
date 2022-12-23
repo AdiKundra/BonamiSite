@@ -159,8 +159,8 @@
 .bg-row:last-child{
     margin-bottom: 40px;
 }
-.bg-row:nth-child(odd) {
-
+.bg-row:nth-child(odd) .row>:first-child{
+    order: 2;
 }
 .bg-row .content .heading{
     font-weight: 600;

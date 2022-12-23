@@ -16,14 +16,6 @@
     font-size: 30px;
 }
 
-/* .sectionSubHeading{
-    font-size: 54px;
-    font-weight: 700;
-    color: #373737;
-}
-.sectionSubHeading span{
-    color: #F5593D;
-} */
 .cardSection .serviceCards {
     background: #FFFFFF;
     box-shadow: 0px 4.06371px 13.5457px rgba(0, 0, 0, 0.06);
@@ -158,4 +150,47 @@
 .cardSection .col-md-6:nth-child(even) .cardImage:hover img{
     box-shadow: inset 0px 2px 2px rgba(255, 255, 255, 0.25);
     filter: drop-shadow(2px 2px 6px  rgba(0, 0, 0, 0.4));
+}
+
+/* new css changes */
+.bgRow{
+    background-color: #F7F7F7;
+}
+.bg-row:last-child{
+    margin-bottom: 40px;
+}
+.bg-row:nth-child(odd) {
+
+}
+.bg-row .content .heading{
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 177.9%;
+    color: #151F20;
+}
+.bg-row .contentBox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.bg-row .content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 177.9%;
+    color: #424242;
+}
+
+.bg-row .content a{
+    font-weight: 400;
+    color: #F5593D;
+    font-size: 15px;
+    position: relative;
+}
+.bg-row .content a::after{
+    content: '>';
+    position: absolute;
+    transform: rotate(-270deg);
+    top: 50%;
+    right: -10%;
+    transform: translate(90% , -50%);
 }

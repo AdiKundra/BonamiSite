@@ -622,4 +622,13 @@ color: #FFFFFF;
     .card-offer-content p {
         font-size: 14px;
     }
+    .serviceBoxes:nth-child(n+4){
+        margin-top: 20px !important;
+    }
+    .stepsCount .col20::after{
+        display: none;
+    }
+    .stepsCount .col20{
+        margin-top: 20px;
+    }
 }

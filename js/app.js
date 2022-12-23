@@ -15,8 +15,8 @@ $('.top-icon-slider').slick({
         arrows: false,
         slidesToShow: 5,
         slidesToScroll: 1,
-        infinite: true,
-        dots: true
+        infinite: false,
+        dots: false
       }
     },
     {
@@ -24,8 +24,8 @@ $('.top-icon-slider').slick({
       settings: {
         slidesToShow: 3,
         slidesToScroll: 1,
-        infinite: true,
-        dots: true
+        infinite: false,
+        dots: false
       }
     },
     {

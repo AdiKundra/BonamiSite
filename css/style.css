@@ -176,8 +176,9 @@
 }
 
 .stats .counter {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
+    color: #F5593D;
 }
 
 .stats .wrapperBox {
@@ -388,11 +389,11 @@
 
 .who-content p {
     font-weight: 400;
-    font-size: 17px;
-    line-height: 35px;
+    font-size: 18px;
+    line-height: 30px;
     /* or 237% */
 
-    color: #9a9a9a;
+    color: #847979;
 }
 
 .bg-grey {

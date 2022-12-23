@@ -72,6 +72,9 @@ a{
 .py-80 {
     padding: 100px 0;
 }
+.py-200{
+    padding: 200px 0;
+}
 .fw-600{
     font-weight: 600;
 }
@@ -125,6 +128,12 @@ a{
 @media(max-width: 768px){
     .opacity-0{
         display: none;
+    }
+    .mainHeadingColor, .mainHeading{
+        font-size: 1.8rem;
+    }
+    .py-200{
+        padding: 100px 0;
     }
 }
 /* Hedaer */

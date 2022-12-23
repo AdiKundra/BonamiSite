@@ -613,3 +613,13 @@ color: #FFFFFF;
     font-size: 16px;
     color: #7B7B7B;
 }
+
+
+@media(max-width: 768px){
+    .who-content p{
+        font-size: 18px;
+    }
+    .card-offer-content p {
+        font-size: 14px;
+    }
+}

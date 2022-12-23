@@ -5,7 +5,7 @@
 .hiringCards {
     color: #151F20;
     letter-spacing: 0.01em;
-    background: #FFFFFF;
+    background: #eee;
     box-shadow: 0px 2px 27px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
 }
@@ -19,6 +19,9 @@
     font-weight: 500;
     text-align: left !important;
     font-size: 24px;
+    padding: 23px 10px 0;
+    background: #fff;
+    border-radius: 15px;
 }
 .hiringCards .keyvalue .key{
     font-size: 20px;
@@ -130,4 +133,56 @@
     right: -30px;
     top: 50%;
     z-index: -1;
+}
+
+.mainHeadinghire > *,
+.mainHeadinghire{
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 37px;
+    line-height: 128.6%;
+    text-align: center;
+    color: #151F20;
+}
+
+.serviceBoxes:nth-child(n+4){
+    margin-top: 60px;
+}
+
+.serviceBoxes .box{
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 1.34061px 5.36243px rgba(0, 0, 0, 0.1);
+}
+.serviceBoxes .box .top{
+    padding: 1.5rem 1rem;
+    background-color: #F5593D;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+.serviceBoxes .box:hover .top{
+    background-color: #151F20;
+}
+.serviceBoxes .box .bottom{
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #fff;
+}
+.serviceBoxes .box .bottom .title{
+    font-size: 14px;
+    font-weight: 500;
+    color: #373737;
+}
+.serviceBoxes .box .bottom .ownrow{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.serviceBoxes .box .bottom .ownrow > div{
+    margin-bottom: 20px;
+    flex: 1 1 24%;
 }

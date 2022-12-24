@@ -38,7 +38,7 @@ body:not(.Homepage) .contact{
 }
 
 .sub-container2 {
-  /* z-index: 10;   */
+  z-index: 10;  
 }
 
 .contactUs-content::before{

@@ -8,6 +8,9 @@ a{
     text-decoration: none;
     color: #fff;
 }
+p{
+    color: #847979;
+}
 @media (min-width: 1600px){
     .container{
         max-width: 1500px;
@@ -258,7 +261,7 @@ footer .addressrow li:not(.country) a{
     background-color: transparent !important;
 } */
 body:not(.Homepage) .breadcrumb{
-    min-height: 70vh;
+    min-height: 80vh;
     display: flex;
     align-items: center;
     padding: 100px 0;

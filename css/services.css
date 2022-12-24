@@ -172,6 +172,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+  
 }
 .bg-row .content p{
     font-weight: 400;

@@ -1,0 +1,14 @@
+@media (max-width: 1500px){
+    .top-icon-slider .slick-dots{
+        display: none !important;
+    }
+    .iconSlider{
+        padding: 10px 20px !important
+    }
+    .about{
+        overflow: hidden;
+    }
+}
+@media (max-width: 1500px){
+    
+}

@@ -1,0 +1,149 @@
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+ #map {
+    height: 50%;
+  }
+  
+  /* 
+   * Optional: Makes the sample page fill the window. 
+   */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+body:not(.Homepage) .contact{
+    min-height: 78vh;
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.contact .maindesc{
+    max-width: 900px;
+}
+
+.contact{
+    margin-bottom: 0;
+}
+
+.sub-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-container2 {
+  /* z-index: 10;   */
+}
+
+.contactUs-content::before{
+    width: 100%;
+    height: 420px;
+    background: #FFFFFF;
+    content: '';
+    opacity: 0.1;
+    position: absolute;
+    left: 0;
+    top: 250px;
+  }
+
+  .call-us-container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .call-us-content {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+  }
+  .call-us-block {
+    /* display: flex;
+    flex-direction: row; */
+  }
+
+  .form-container {
+    width: 600px;
+    height: 600px;
+    padding: 40px;
+    margin-top: -150px;
+    margin-bottom: -150px;
+    background: #FFFFFF;
+    box-shadow: 0px 4.35804px 43.5804px rgba(0, 0, 0, 0.08);
+  }
+
+  
+.form-control{
+  border: none;
+  border-bottom: 1.08951px solid #E0E0E0;
+  /* padding: 0; */
+}
+
+.form-group{
+  margin-bottom: 20px;
+}
+  
+
+  .contact-heading {
+    font-weight: 600;
+    color: #000000;
+  }
+  .contact-para {
+    color: #828282;
+    font-size: 15px;
+  }
+
+  .call-us-block {
+    margin-bottom: 20px;
+  }
+
+  .call-us-block span{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .call-us-block p {
+    color: #FFFFFF;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+  }
+
+  .call-us-block span p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600; 
+    font-size: 25px;
+    line-height: 44px;
+    text-align: justify;
+
+    color: #FFFFFF;
+
+  }
+
+  .icon {
+    width: 30px; 
+    height: 30px;
+    margin-right: 8px;
+    color: #F5593D;
+  }
+
+  .call-us{
+    z-index: 98324987;
+  }
+  .half {
+    width: 100%;
+  }
+
+
+ 

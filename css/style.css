@@ -1,8 +1,9 @@
 .bannersection {
-  padding: 80px 0;
-  min-height: 70vh;
-  display: flex;
-  align-items: center;
+
+    padding: 80px 0;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
 }
 
 .bannersection .content {
@@ -76,11 +77,10 @@
 
 
 /* about */
-.dark-section{
-  background: #151F20;
-}
+
 .core-respect-content h2{
-  font-family: 'Montserrat';
+    font-family: 'Montserrat';
+
 font-style: normal;
 font-weight: 800;
 font-size: 27.9445px;
@@ -97,6 +97,17 @@ color: #FFFFFF;
 }
 .service-cont p{
   font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 143.4%;
+/* identical to box height, or 29px */
+
+
+color: #41382D;
+}
+.service-cont p{
+    font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
 font-size: 17px;
@@ -450,10 +461,11 @@ line-height: 25px;
 }
 
 .card-offer {
-  background: #ffffff;
-  box-shadow: 0px 5.33333px 16px rgba(0, 0, 0, 0.1);
-  border-radius: 12px;
-  padding: 45px;
+
+    background: #ffffff;
+    box-shadow: 0px 5.33333px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 45px;
 }
 
 .card-offer-img {
@@ -465,7 +477,8 @@ line-height: 25px;
 }
 
 .card-offer-content h2 {
-  font-family: 'Montserrat';
+
+    font-family: 'Montserrat';
 font-style: normal;
 font-weight: 600;
 font-size: 34px;
@@ -512,19 +525,22 @@ color: #FFFFFF;
 }
 
 .card-vission {
-  background: #ffffff;
-  box-shadow: 0px 0px 5.74px rgba(0, 0, 0, 0.04);
-  border-radius: 12px;
-  padding: 40px;
+
+    background: #ffffff;
+    box-shadow: 0px 0px 5.74px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    padding: 40px;
 
 }
 
 .card-vission h3 {
-  color: #373737;
-  letter-spacing: -0.011em;
-  font-size: 32px;
-  font-weight: 600;
-  text-align: center;
+
+    color: #373737;
+    letter-spacing: -0.011em;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+
 }
 
 .card-vission p {
@@ -537,13 +553,19 @@ color: #FFFFFF;
 }
 
 .vision-img {
+
   text-align: center;
   margin-top: -80px;
 }
 
 .vision-img img {
   width: 120px;
+
+    text-align: center;
+    margin-top: -80px;
 }
+
+
 
 
 
@@ -610,35 +632,41 @@ color: #FFFFFF;
 }
 
 .getInTouch p {
-  font-size: 16px;
-  color: #7B7B7B;
+
+    font-size: 16px;
+    color: #7B7B7B;
 }
 
-
+.bannersection p{
+    color: #fff;
+}
+.breadcrumb p{
+    color: #fff;
+}
 @media(max-width: 768px){
-  .who-content p{
-      font-size: 18px;
-  }
-  .card-offer-content p {
-      font-size: 14px;
-  }
-  .serviceBoxes:nth-child(n+4){
-      margin-top: 20px !important;
-  }
-  .stepsCount .col20::after{
-      display: none;
-  }
-  .stepsCount .col20{
-      margin-top: 20px;
-  }
-  .bg-row .contentBox{
-      margin-top: 20px;
-  }
-  .owncols{
-      flex: 1 1 50% !important;
-  }
-  .bg-row .contentBox{
-      order: 2;
-      margin-top: 30px;
-  }
+    .who-content p{
+        font-size: 18px;
+    }
+    .card-offer-content p {
+        font-size: 14px;
+    }
+    .serviceBoxes:nth-child(n+4){
+        margin-top: 20px !important;
+    }
+    .stepsCount .col20::after{
+        display: none;
+    }
+    .stepsCount .col20{
+        margin-top: 20px;
+    }
+    .bg-row .contentBox{
+        margin-top: 20px;
+    }
+    .owncols{
+        flex: 1 1 50% !important;
+    }
+    .bg-row .contentBox{
+        order: 2;
+        margin-top: 30px;
+    }
 }

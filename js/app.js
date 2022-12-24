@@ -71,6 +71,27 @@ lists.forEach(el => {
     })
 });
 
+const industriesleftsidebarimg = document.querySelector('.industries-section2-rightimage');
+const industrieslists = document.querySelectorAll('.industries-solution-text');
+const industriesSectionTitle = document.querySelector('.industries-section2-heading');
+const industriesSectionText=document.querySelector('.industries-section2-text')
+console.log("---inmg tag---", industriesleftsidebarimg);
+console.log("---list tag---", industrieslists);
+
+industrieslists.forEach(el => {
+    el.addEventListener('click' , () =>{
+      industrieslists.forEach(element => {
+           element.classList.remove('active'); 
+        });
+        industriesSectionTitle.innerHTML = el.dataset.title
+        industriesSectionText.innerHTML=el.dataset.text
+        let imageurl = el.dataset.imageurl;
+        industriesleftsidebarimg.setAttribute('src' , `${imageurl}`);
+        el.classList.add('active');
+        
+    })
+});
+
 
 
 // accordion

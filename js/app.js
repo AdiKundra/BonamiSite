@@ -1,3 +1,4 @@
+// main js changes
 $('.top-icon-slider').slick({
   dots: false,
   arrows: false,

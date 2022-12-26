@@ -615,9 +615,7 @@ color: #FFFFFF;
   color: #f5593d;
 }
 
-.our-industries {
-  /* display: none; */
-}
+
 
 
 .getInTouch {
@@ -642,6 +640,18 @@ color: #FFFFFF;
 }
 .breadcrumb p{
     color: #fff;
+}
+@media(max-width : 1200px){
+  .stepsCount .col20::after {
+    top: 46% !important;
+    right: -41% !important;
+  }
+  .serviceBoxes:nth-child(n+4){
+    margin-top: 20px !important;
+  }
+  .serviceBoxes .box .top{
+    font-size: 1.2rem !important;
+  }
 }
 @media(max-width: 768px){
     .who-content p{
@@ -668,5 +678,9 @@ color: #FFFFFF;
     .bg-row .contentBox{
         order: 2;
         margin-top: 30px;
+    }
+    /* hire developer */
+    .serviceBoxes .box .bottom .ownrow > div{
+      font-size: 1.2rem;
     }
 }

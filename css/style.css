@@ -1,6 +1,6 @@
 .bannersection {
   padding: 40px 0;
-  min-height: 50vh;
+  min-height: 70vh;
   display: flex;
   align-items: center;
 }
@@ -21,7 +21,7 @@
 
 .bannersection .content h1 {
   font-weight: bold;
-  font-size: 38px;
+  font-size: 55px;
 }
 
 .bannersection .head1 h3 {

@@ -10,13 +10,9 @@ a{
     color: #fff;
 }
 p{
-    color: #847979;
+    color: #656565 !important;
 }
-/* @media (min-width: 1600px){
-    .container{
-        max-width: 1500px;
-    }
-} */
+
 .mainbtn{
     background-color: #F5593D;
     color: #fff;
@@ -42,7 +38,7 @@ p{
 }
 .mainHeadingColor,
 .mainHeading {
-  font-size: 2rem;
+  font-size: 32px;
   color: #151f20;
   font-weight: bold;
 }
@@ -66,8 +62,9 @@ p{
   left: -60px;
 }
 .description {
-  font-size: 18px;
+  font-size: 16px;
   color: #9a9a9a;
+  font-weight: 500;
 }
 .mt-60 {
   margin-top: 60px;
@@ -269,6 +266,10 @@ footer .iconsListFooter li {
 footer .iconsListFooter li img {
   display: block;
   margin: auto;
+  max-width: 30px;
+}
+footer .iconsListFooter li a{
+  font-size: 14px;
 }
 
 footer .addressrow {
@@ -281,9 +282,14 @@ footer .country {
   display: flex;
   align-items: center;
 }
+footer .country img{
+  width: 30px;
+}
 footer .country p.title {
   font-weight: 600;
   margin-left: 1rem;
+  color: #fff !important;
+  margin-bottom: 0px;
 }
 footer .addressrow li:not(.country) {
   display: flex;

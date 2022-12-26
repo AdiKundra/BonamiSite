@@ -39,7 +39,11 @@ footer i.fa-phone {
     }
     
 }
-@media (max-width: 1600px) and (min-width: 1201px){
+@media (max-width: 1500px) and (min-width: 1201px){
+    body:not(.Homepage) .breadcrumb{
+        min-height: 50vh;
+        padding: 50px;
+    }
     .container{
         max-width: 1260px;
     }
@@ -51,6 +55,15 @@ footer i.fa-phone {
         top: 1rem; 
         height: 2rem;
         width: 2rem;
+    }
+    .technology_stack .boxStack .bottom{
+        padding: 2rem 0;
+    }
+    .technology_stack .boxStack .bottom .techicon .title{
+        font-size: 13px;
+    }
+    .bannersection{
+        min-height: 50vh;
     }
 }
 

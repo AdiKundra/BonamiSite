@@ -20,9 +20,10 @@ p{
 .mainbtn{
     background-color: #F5593D;
     color: #fff;
-    padding: 8px 40px;
+    padding: 12px 40px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16px;
+    font-weight: 600;
     border-radius: 5px;
     display: block;
     width: fit-content;
@@ -41,7 +42,7 @@ p{
 }
 .mainHeadingColor,
 .mainHeading {
-  font-size: 2.8rem;
+  font-size: 2rem;
   color: #151f20;
   font-weight: bold;
 }
@@ -185,8 +186,9 @@ header,
 header .dropdown-item,
 header .nav-link {
   color: #93908b;
+  color: #fff;
   line-height: 21px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
 }
 header .nav-link:hover {
@@ -197,7 +199,7 @@ header .nav-item {
 }
 
 header .nav-item .btn {
-  font-size: 19px;
+  font-weight: 600;
 }
 .navbar-toggler span{
   color: #F5593D;

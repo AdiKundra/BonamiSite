@@ -7,6 +7,8 @@ $('.top-icon-slider').slick({
   autoplaySpeed: 1000,
   slidesToShow: 8,
   slidesToScroll: 1,
+  centerMode: true,
+  variableWidth: true,
   responsive: [
     {
       breakpoint: 1500,
@@ -46,6 +48,7 @@ $('.top-icon-slider').slick({
     }
   ]
 });
+
 
 
 $('.boxSliderWithRow').slick({

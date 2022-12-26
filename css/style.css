@@ -1,5 +1,5 @@
 .bannersection {
-  padding: 80px 0;
+  padding: 40px 0;
   min-height: 80vh;
   display: flex;
   align-items: center;
@@ -16,7 +16,7 @@
 
 .bannersection .content h1 span {
   color: #f33816;
-  font-size: 3.5rem;
+  font-size: 2rem;
 }
 
 .bannersection .content h1 {
@@ -61,6 +61,7 @@
   transition: all 0.5s;
   vertical-align: middle;
   max-width: 300px;
+  margin: 10px 20px ;
 }
 
 .top-icon-slider .slick-slide:hover img {
@@ -69,6 +70,14 @@
 
 .accord-wrapper {
   display: none;
+}
+
+.sliderHeading{
+  font-size: 14px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #767c8a;
+  font-weight: 600;
 }
 
 /* about */

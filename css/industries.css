@@ -110,7 +110,7 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 26px;
   line-height: 37px;
   text-transform: capitalize;
   color: rgba(21, 31, 32, 0.7);
@@ -180,9 +180,7 @@
 
 .industries-second-section-decription {
   max-width: 700px;
-  margin-bottom: 91px;
-  margin-top: 51px;
-  padding: 20px;
+
 }
 .industries-section2-rightimage {
   margin-left: -100px;

@@ -309,7 +309,7 @@ footer .addressrow li:not(.country) a {
     background-color: transparent !important;
 } */
 body:not(.Homepage) .breadcrumb{
-    min-height: 80vh;
+    min-height: 50vh;
     display: flex;
     align-items: center;
     padding: 100px 0;

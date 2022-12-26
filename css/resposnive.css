@@ -3,6 +3,8 @@ footer i.fa-phone {
     font-size: 22px;
     color: #fff;
 }
+
+
 @media (max-width: 1500px){
     .top-icon-slider .slick-dots{
         display: none !important;
@@ -19,6 +21,7 @@ footer i.fa-phone {
     .bannersection .content h1{
         font-size: 2.5rem;
     }
+    .mainHeadingColor,
     .mainHeading{
         font-size: 2.2rem;
     }
@@ -54,7 +57,34 @@ footer i.fa-phone {
         border-left: 1px solid #fff;
     }
 }
+
+@media (max-width: 1440px){
+    .industries-owncols .box{
+        margin: 0;
+    }
+    .industries-owncols {
+        flex: 1 1 22%;
+    }
+    .industries-section1-rightdiv{
+        margin-left: unset;
+    }
+}
+
+@media (max-width: 991px){
+    .industries-owncols .box{
+        margin: auto;
+    }
+    .industries-owncols {
+        flex: 0 1 30%;
+    }
+}
 @media (max-width: 769px){
+    .industries-owncols .box{
+        margin: auto;
+    }
+    .industries-owncols {
+        flex: 1 1 47%;
+    }
     .talkSec{
         padding: 20px;
     }
@@ -130,7 +160,10 @@ footer i.fa-phone {
         font-size: 1.5rem;
     }
     /* global css */
-    .mainHeadingColor, .mainHeading{
+    .breadcrumb .mainHeadingColor{
+        font-size: 2rem;
+    }
+    .mainHeading{
         font-size: 1.6rem;
     }
     .description{
@@ -176,5 +209,35 @@ footer i.fa-phone {
 @media (max-width: 767px) and (min-width: 567px){
     .container{
         max-width: 640px;
+    }
+}
+
+
+/* service page  and common main Banner section*/
+@media (max-width: 767px){
+    body:not(.Homepage) .breadcrumb{
+        padding: 40px 0;
+    }
+    .bg-row .content .heading{
+        font-size: 24px;
+    }
+    .bg-row .content p{
+        font-size: 15px;
+    }
+    /* .bg-row .row :not(.contentBox){
+        opacity: 0;
+    } */
+}
+
+@media (max-width: 460px){
+    .industries-owncols {
+        flex: 1 1 80%;
+    }
+}
+
+
+@media (max-width: 1220px) and (min-width: 767px){
+    .footerMargin{  
+        margin-bottom: 60px;
     }
 }

@@ -50,7 +50,7 @@
 }
 
 .industries-owncols {
-  flex: 1 1 18%;
+  flex: 1 1 22%;
 }
 .industries-owncols .box {
   display: flex;
@@ -59,7 +59,8 @@
   flex-direction: column;
   box-sizing: border-box;
   text-align: center;
-  width: 253px;
+  max-width: 300px;
+  width: 100%;
   height: 202px;
   background: #f6f6f6;
   border: 1px dashed #b4b4b4;
@@ -75,8 +76,25 @@
   line-height: 31px;
   text-align: center;
   text-transform: capitalize;
-
   color: #333333;
+}
+
+.borderLeft{
+  width: 57.79px;
+  border: 2.31159px solid #001033;
+  background-color: #001033;
+}
+
+.cardSecheading{
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20.0337px;
+  line-height: 38px;
+  letter-spacing: 0.01em;
+  margin-bottom: 0px;
+  margin-left: 24.97px;
+  color: #484848; 
 }
 
 .industries-first-section {
@@ -242,6 +260,34 @@
   margin: 0px;
 }
 
+@media (max-width: 1440px) and (min-width: 1100px){
+  .industries-second-section-decription{
+    flex: 1 1 47%;
+  }
+}
+
+@media (max-width: 1100px) and (min-width: 768px){
+  .industries-second-section-decription{
+    flex: 1 1 47%;
+    max-width: unset;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+  }
+  .industries-section2-image{
+    flex: 1 1 47%;
+  }
+  .industries-solution-text{
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .industries-section2-rightimage{
+    width: 100%;
+    margin-left: unset;
+  }
+}
+
 @media (max-width: 768px) {
   .industries-first-section {
     display: flex;
@@ -294,7 +340,7 @@
   .industries-second-section-decription {
     width: full;
     margin-bottom: 40px;
-    margin-top: 51px;
+    margin-top: 20px;
     padding: 20px;
   }
   .industries-section2-images {
@@ -307,21 +353,15 @@
     color: #f5593d;
     font-weight: 600;
   }
-  .industries-section1-rightdiv-div-heading{
-    font-family: 'Work Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30.9302px;
-    line-height: 20.7px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #ffffff;
-    margin: 0px;
+  
+  .cardSecheading{
+    line-height: 24px;
+    margin-bottom: 10px;
   }
 
   .industries-section1-rightdiv-div{
-    width: 155.06px;
-    height: 155.06px;
+    width: 240px;
+    height: 240px;
     border-radius: 50%;
     background: #f5593d;
     display: flex;

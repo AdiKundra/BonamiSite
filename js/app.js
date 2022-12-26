@@ -187,3 +187,21 @@ window.onload = function() {
   document.body.appendChild(css);
 };
 
+
+
+// services page readmore
+
+// $('.extraReadmore').slideUp();
+
+$(".readmore").on("click", function (e) {
+  e.preventDefault();
+  if ($(this).hasClass('active')) {
+    $(this).removeClass('active')
+    $(this).text("Read More");
+  }else{
+    $(this).text("Read Less");
+    $(this).addClass('active')
+  }
+  $(this).prev().slideToggle()
+  
+});

@@ -140,67 +140,81 @@
     top: -50px;
     left: -60px;
 }
-.cardSection .cardImage img{
+
+.cardSection .cardImage img {
     transition: all .8s;
 }
-.cardSection .col-md-6:nth-child(odd) .cardImage:hover img{
+
+.cardSection .col-md-6:nth-child(odd) .cardImage:hover img {
     box-shadow: inset 0px 2px 2px rgba(255, 255, 255, 0.25);
     filter: drop-shadow(2px 2px 6px rgba(255, 83, 0, 0.4));
 }
-.cardSection .col-md-6:nth-child(even) .cardImage:hover img{
+
+.cardSection .col-md-6:nth-child(even) .cardImage:hover img {
     box-shadow: inset 0px 2px 2px rgba(255, 255, 255, 0.25);
-    filter: drop-shadow(2px 2px 6px  rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(2px 2px 6px rgba(0, 0, 0, 0.4));
 }
 
 /* new css changes */
-.bgRow{
+.bgRow {
     background-color: #F7F7F7;
 }
-.bg-row:last-child{
+
+.bg-row:last-child {
     margin-bottom: 0px;
 }
-.bg-row:nth-child(odd) .row>:first-child{
+
+.bg-row:nth-child(odd) .row>:first-child {
     order: 2;
 }
-.bg-row .content .heading{
+
+.bg-row .content .heading {
     font-weight: 600;
     font-size: 27px;
     line-height: 177.9%;
     color: #151F20;
 }
-.bg-row .contentBox{
+
+.bg-row .contentBox {
     display: flex;
     justify-content: center;
     flex-direction: column;
-  
+
 }
-.bg-row .content p{
+
+.bg-row .content p {
     font-weight: 400;
     font-size: 16px;
     line-height: 177.9%;
-    color: #424242;
+    /* color: #424242; */
 }
 
-.bg-row .content a{
+.bg-row .content a {
     font-weight: 400;
     color: #F5593D;
     font-size: 15px;
     position: relative;
-    display: none;
 }
-.bg-row .content a::after{
+
+.bg-row .content a::after {
     content: '>';
     position: absolute;
     transform: rotate(-270deg);
     top: 50%;
     right: -10%;
-    transform: translate(90% , -50%);
+    transform: translate(90%, -50%);
 }
 
-
+.extraReadmore{
+    display: none;
+}
+.bg-row .imgAlign{
+    display: flex;
+    align-items: center;
+}
 /* ownrows */
 
-.ownrows{
+.ownrows {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -208,10 +222,11 @@
     /* gap: 20px; */
 }
 
-.owncols{
-    flex: 1 1 18%;
+.owncols {
+    flex: 0 1 18%;
 }
-.owncols .box{
+
+.owncols .box {
     text-align: center;
     background: #FFFFFF;
     box-shadow: -8px 1px 18px rgb(0 0 0 / 10%);
@@ -220,7 +235,7 @@
     padding: 0 10px 10px;
 }
 
-.owncols .box .title{
+.owncols .box .title {
     min-height: 70px;
     font-weight: 500;
     font-size: 1.2rem;

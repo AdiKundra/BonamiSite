@@ -702,3 +702,22 @@
     font-size: 1.2rem;
   }
 }
+
+
+
+
+
+/* about css */
+
+.mainAbout .bannersection .content{
+  max-width: 900px;
+}
+
+.mainAbout .bannersection .content p{
+  font-weight: unset !important;
+  color: #fff !important;
+}
+
+.hireDeveloperMain .bannerSec{
+  max-width: 900px;
+}

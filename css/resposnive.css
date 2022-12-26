@@ -65,11 +65,15 @@ footer i.fa-phone {
     .bannersection{
         min-height: 50vh;
     }
-   
+    .mainHeadingColor,
+    .mainHeading {
+      font-size: 38px;
+    }
     .bannersection .content h1 {
         font-weight: bold;
         font-size: 38px;
     }
+    
 }
 
 @media (max-width: 1201px) and (min-width: 767px){

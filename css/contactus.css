@@ -145,5 +145,15 @@ body:not(.Homepage) .contact{
     width: 100%;
   }
 
-
+  @media (max-width: 1200px) {
+    .form-container{
+      width: 100%;
+      height: inherit;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .call-us-container{
+      width: 100%;
+    }
+  }
  

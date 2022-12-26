@@ -12,11 +12,11 @@ a{
 p{
     color: #847979;
 }
-@media (min-width: 1600px){
+/* @media (min-width: 1600px){
     .container{
         max-width: 1500px;
     }
-}
+} */
 .mainbtn{
     background-color: #F5593D;
     color: #fff;
@@ -154,14 +154,23 @@ p{
     .navbar-toggler span i{
       font-size: 31px;
     }
-    :focus-visible {
-      outline: 0;
-    }
-    .navbar-toggler:focus{
-      box-shadow: none;
-    }
-
+    
+  
 }
+@media (max-width: 991px) {
+  .navbar-toggler span i{
+    font-size: 31px;
+  }
+  header .nav-item{
+    margin-top: 20px !important;
+    margin-left: 0 !important;
+  }
+  header .dropdown-item,
+  header .nav-link {
+    font-size: 19px !important;
+  }
+}
+
 
 /* Hedaer */
 header {
@@ -192,6 +201,12 @@ header .nav-item .btn {
 }
 .navbar-toggler span{
   color: #F5593D;
+}
+:focus-visible {
+  outline: 0;
+}
+.navbar-toggler:focus{
+  box-shadow: none;
 }
 /* footer */
 

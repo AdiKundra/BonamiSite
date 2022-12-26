@@ -9,6 +9,67 @@
         overflow: hidden;
     }
 }
-@media (max-width: 1500px){
-    
+@media (max-width: 575px){
+    .talkSec{
+        padding: 20px;
+    }
+    footer .br-l{
+        border: none;
+        margin-top: 40px;
+    }
+    .accordion-container .accordion-title{
+        padding: 1rem .5rem;
+        font-size: 1em;
+        width: calc(100% - 2rem);
+    }
+    .accordion-container .accordion-title::after{
+        right: -1.5rem;
+        top: 1rem; 
+        height: 1.5rem;
+        width: 1.5rem;
+        font-size: 1.1rem;
+    }
+    .accordion-container .accordion-title.open::after{
+        font-size: 1rem;
+    }
+    .accordion-content {
+        padding: 0 0.5rem;
+    }
+    .accordion-content > *{
+        font-size: .9rem;
+    }
+    .accordion-content  p{
+        margin-bottom: .5rem;
+    }   
+    .tabs .rightsidebar .title{
+        font-size: 21px;
+    }
+    .tabs .rightsidebar li:first-child{
+        margin-top: 30px;
+    }
+    .tabs .rightsidebar li{
+        padding-left: 20px;
+    }
+    .tabs .tab_desc{
+        font-size: 16px;
+    }
+    .level-counter{
+
+    }
+    /* global css */
+    .description{
+        font-size: 15px;
+    }
+    .py-100{
+        padding: 50px 0;
+    }
+    .my-80 , .my-60 {
+        margin: 40px auto;
+    }
+    .py-60 , .py-80{
+        padding: 40px 0;
+    }
+    .pt-60{
+        padding-top: 30px;
+    }
 }

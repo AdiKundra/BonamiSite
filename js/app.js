@@ -29,10 +29,19 @@ $('.top-icon-slider').slick({
       }
     },
     {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        infinite: false,
+        dots: false
+      }
+    },
+    {
       breakpoint: 600,
       settings: {
+        slidesToScroll: 1,
         slidesToShow: 2,
-        slidesToScroll: 1
       }
     }
   ]

@@ -9,7 +9,14 @@
         overflow: hidden;
     }
 }
-@media (max-width: 575px){
+
+@media (max-width: 1024px){
+    .bannersection .content h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 769px){
     .talkSec{
         padding: 20px;
     }
@@ -53,10 +60,41 @@
     .tabs .tab_desc{
         font-size: 16px;
     }
-    .level-counter{
+    .level-counter > div{
+        margin-bottom: 40px;
+    }
+    .level-counter > div:nth-child(3),
+    .level-counter > div:last-child{
+        margin-bottom: 0px;
+    }
 
+    .technology_stack .boxStack .bottom .techicon {
+        margin: 0 25px 15px;
+    }
+    .technology_stack .boxStack .top h3{
+        font-size: 1.5rem;
+    }
+   
+    .about .description{
+        font-size: 15px;
+    }
+    .about .itemsAbout .itemBox .title {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .bannersection{
+        padding: 40px 0;
+    }
+    .bannersection .content h1{
+        font-size: 2rem;
+    }
+    .headingDis{
+        font-size: 1.5rem;
     }
     /* global css */
+    .mainHeadingColor, .mainHeading{
+        font-size: 1.6rem;
+    }
     .description{
         font-size: 15px;
     }
@@ -71,5 +109,34 @@
     }
     .pt-60{
         padding-top: 30px;
+    }
+}
+
+@media (max-width: 575px){
+    .about .itemsAbout .itemBox .title {
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .technology_stack .boxStack .top{
+        padding: 1rem 0;
+    }
+    .technology_stack .boxStack .bottom .techicon .title{
+        font-size: 13px;
+    }
+    .technology_stack .boxStack .bottom{
+        padding: 1rem 0;
+    }
+    .technology_stack .boxStack .bottom .techicon {
+        margin: 0 12px 15px;
+        flex: 1 1 15%;    
+    }
+    .level-counter > div:nth-child(3){
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 767px) and (min-width: 567px){
+    .container{
+        max-width: 640px;
     }
 }

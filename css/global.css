@@ -147,6 +147,19 @@ p{
     .contact_section{
         padding: 0 20px;
     }
+    header .nav-item{
+      margin-top: 20px !important;
+      margin-left: 0;
+    }
+    .navbar-toggler span i{
+      font-size: 31px;
+    }
+    :focus-visible {
+      outline: 0;
+    }
+    .navbar-toggler:focus{
+      box-shadow: none;
+    }
 
 }
 
@@ -177,7 +190,9 @@ header .nav-item {
 header .nav-item .btn {
   font-size: 19px;
 }
-
+.navbar-toggler span{
+  color: #F5593D;
+}
 /* footer */
 
 footer{

@@ -690,6 +690,12 @@
   .stepsCount .col20 {
     margin-top: 20px;
   }
+  .stepsCount .col20:nth-child(2){
+    margin-top: 40px;
+  }
+  .stepsCount .col20:last-child{
+    margin-top: -20px;
+  }
   .bg-row .contentBox {
     margin-top: 20px;
   }

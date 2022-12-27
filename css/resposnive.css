@@ -338,6 +338,9 @@ footer i.fa-phone {
     .hiringCards .title{
         font-size: 22px !important;
       }
+      .hiringCards .keyvalue .value span{
+        font-size: 16px;
+      }
 }
 
 @media (max-width: 460px){

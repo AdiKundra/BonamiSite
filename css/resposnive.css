@@ -332,6 +332,12 @@ footer i.fa-phone {
     .description{
         font-size: 16px !important;
     }
+    .hireBox {
+        min-height: inherit;
+    }
+    .hiringCards .title{
+        font-size: 22px !important;
+      }
 }
 
 @media (max-width: 460px){

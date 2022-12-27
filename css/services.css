@@ -243,3 +243,11 @@
     color: #333333;
     margin-bottom: 0;
 }
+
+.owncols .box:hover{
+    background-color: #f5593d;
+
+}
+.owncols .box:hover p{
+    color: #fff;
+}

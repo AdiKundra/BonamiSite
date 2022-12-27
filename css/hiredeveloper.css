@@ -10,7 +10,7 @@
     border-radius: 15px;
 }
 .hiringCards .title{
-    font-size: 34px;
+    font-size: 36px !important;
     line-height: 177.9%;
     color: #151F20;
     font-weight: bold;
@@ -203,6 +203,7 @@
     overflow: hidden;
     margin: 25px 15px;
     padding: 2rem;
+    min-height: 420px;
 }
 .hireBox .heading{
     font-weight: 800;

@@ -211,7 +211,7 @@ footer i.fa-phone {
         font-size: 2rem;
     }
     .mainHeading{
-        font-size: 1.6rem;
+        font-size: 1.375rem;
     }
     .description{
         font-size: 15px;
@@ -233,6 +233,16 @@ footer i.fa-phone {
     }
     .stats .title b{
         font-size: 1rem;
+    }
+    .core-respect img{
+      width: 80px;
+      height: 80px;
+    }
+    .core-respect-content h2{
+        font-size: 22px;
+    }
+    .core-respect-content p{
+       font-size: 16px;
     }
     footer .iconsListFooter li:last-child{margin-bottom: 0;}
 }
@@ -263,6 +273,30 @@ footer i.fa-phone {
         height: 110px;
         width: 110px;
     }
+    .industries-section1-rightdiv-div{
+        width: 150px;
+        height: 150px;
+    }
+    .industries-section1-rightdiv-div-heading{
+        font-size: 43px !important;
+        line-height: 30px;
+    }
+    .industries-owncols .box img{
+        width: 60px;
+        height: 60px;
+    }
+    .stepsCount .ownrow{
+        justify-content: space-between;
+    }
+    .stepsCount .count{
+        width: 115px;
+    }
+    .hireBox img{
+        max-width: 130px;
+    }
+    .hireBox .heading{
+        font-size: 1.375rem;
+    }
 }
 
 @media (max-width: 767px) and (min-width: 567px){
@@ -286,6 +320,15 @@ footer i.fa-phone {
     /* .bg-row .row :not(.contentBox){
         opacity: 0;
     } */
+    .card-vission{
+        padding: 36px 0;
+    }
+    .card-vission p{
+        padding: 0 10px;
+    }
+    .card-offer{
+        padding: 15px 0;
+    }
 }
 
 @media (max-width: 460px){

@@ -63,7 +63,7 @@
   transition: all 0.5s;
   vertical-align: middle;
   max-width: 300px;
-  margin: 10px 20px ;
+  margin: 0px 20px ;
 }
 
 .top-icon-slider .slick-slide:hover img {
@@ -447,7 +447,7 @@
   padding: 100px 0;
 }
 .icon-content p {
-  color: #bdb7b7;
+  color: #767c8a;
   font-style: normal;
   font-weight: 500;
   font-size: 16.9923px;

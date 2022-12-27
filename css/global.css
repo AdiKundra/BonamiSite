@@ -10,6 +10,7 @@ a {
 }
 p {
   font-size: 18px !important;
+  color: #767c8a;
 }
 .Homepage p {
   color: #767c8a !important;
@@ -64,8 +65,8 @@ p {
   left: -60px;
 }
 .description {
-  font-size: 16px;
-  color: #9a9a9a;
+  font-size: 16px !important;
+  color: #767c8a;
   font-weight: 500;
 }
 .mt-60 {
@@ -148,7 +149,7 @@ p {
     font-size: 1.8rem;
   }
   .py-200 {
-    padding: 100px 0;
+    padding: 60px 0;
   }
   .contact_section {
     padding: 0 20px;
@@ -159,6 +160,9 @@ p {
   }
   .navbar-toggler span i {
     font-size: 31px;
+  }
+  .description p{
+    font-size: 14px !important;
   }
 }
 @media (max-width: 991px) {
@@ -191,7 +195,7 @@ header .nav-link {
   color: #93908b;
   color: #fff;
   line-height: 21px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
 }
 header .nav-link:hover {

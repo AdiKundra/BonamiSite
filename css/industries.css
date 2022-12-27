@@ -239,7 +239,7 @@
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 700;
-  font-size: 54.9302px;
+  font-size: 54.9302px !important;
   line-height: 79.7px;
   text-align: center;
   text-transform: capitalize;
@@ -250,7 +250,7 @@
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 500;
-  font-size: 30.7px;
+  font-size: 30.7px !important;
   line-height: 44.55px;
   text-align: center;
   text-transform: capitalize;
@@ -371,7 +371,7 @@
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 500;
-    font-size: 20.7px;
+    font-size: 16px !important;
     line-height: 44.55px;
     text-align: center;
     text-transform: capitalize;

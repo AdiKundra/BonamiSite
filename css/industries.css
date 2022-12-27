@@ -169,7 +169,7 @@
   margin-left: 145px;
 }
 .industries-section2-image {
-  margin-top: 100px;
+  
   width: 2/3;
   padding: 20px;
 }
@@ -182,12 +182,14 @@
   max-width: 700px;
 
 }
-.industries-section2-rightimage {
+/* .industries-section2-rightimage {
   margin-left: -100px;
-}
+} */
 .industries-section2-images {
   display: flex;
   justify-content: center;
+  padding: 10px;
+  padding-top: 0;
 }
 .industries-section2-icon {
   width: 83.44px;

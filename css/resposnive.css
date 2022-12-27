@@ -341,6 +341,17 @@ footer i.fa-phone {
       .hiringCards .keyvalue .value span{
         font-size: 16px;
       }
+      /* footer */
+      footer .iconsListFooter.mailFooter li:last-child img{
+        margin-left: 0;
+        margin-right: 20px;
+      }
+      footer .iconsListFooter.mailFooter li:last-child{
+        display: flex;
+        justify-content: start;
+        padding: 0 2rem;
+        align-items: center;
+      }
 }
 
 @media (max-width: 460px){

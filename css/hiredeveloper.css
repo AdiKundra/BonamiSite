@@ -230,7 +230,7 @@
 }
 .stepsCount .count{
     font-weight: bold;
-    font-size: 38px;
+   
     margin-bottom: 20px;
     transform: rotate(45deg);
     height: 100%;
@@ -245,6 +245,7 @@
 
 .stepsCount .count p{
     transform: rotate(-45deg);
+    font-size: 36px !important;
 }
 .stepsCount .title{
     font-size: 15px;

@@ -237,8 +237,8 @@
 
 .owncols .box .title {
     min-height: 70px;
-    font-weight: 500;
-    font-size: 1.2rem;
+    font-weight: 600;
+    font-size: 1.2rem !important;
     text-transform: capitalize;
     color: #333333;
     margin-bottom: 0;

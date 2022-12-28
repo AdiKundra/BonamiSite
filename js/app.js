@@ -87,6 +87,7 @@ const industriesleftsidebarimg = document.querySelector('.industries-section2-ri
 const industrieslists = document.querySelectorAll('.industries-solution-text');
 const industriesSectionTitle = document.querySelector('.industries-section2-heading');
 const industriesSectionText=document.querySelector('.industries-section2-text')
+const industriesSectionMiniImage=document.querySelector('.industries-section2-miniImage')
 console.log("---inmg tag---", industriesleftsidebarimg);
 console.log("---list tag---", industrieslists);
 
@@ -99,6 +100,7 @@ industrieslists.forEach(el => {
         industriesSectionText.innerHTML=el.dataset.text
         let imageurl = el.dataset.imageurl;
         industriesleftsidebarimg.setAttribute('src' , `${imageurl}`);
+        industriesSectionMiniImage.setAttribute('src' , `${el.dataset.mini}`)
         el.classList.add('active');
         
     })

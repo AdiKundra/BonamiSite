@@ -200,8 +200,8 @@
 .industries-section2-icon {
   width: 83.44px;
   height: 83.44px;
-  background: #ffffff;
-  box-shadow: -7.03518px 2.01005px 22.1106px rgba(0, 0, 0, 0.16);
+  /* background: #ffffff;
+  box-shadow: -7.03518px 2.01005px 22.1106px rgba(0, 0, 0, 0.16); */
   border-radius: 50%;
   display: flex;
   justify-content: center;

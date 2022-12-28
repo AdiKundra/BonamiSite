@@ -705,7 +705,7 @@
     margin-top: 20px;
   }
   .owncols {
-    flex: 1 1 50% !important;
+    flex: 1 1 100% !important;
   }
   .bg-row .contentBox {
     order: 2;

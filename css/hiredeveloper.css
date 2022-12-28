@@ -280,7 +280,9 @@
 .stepsCount .col20:last-child:after{
     display: none;
 }
-
+.hiringCards:hover{
+    transform: scale(1.02);
+}
 @media (max-width: 1600px){
     .stepsCount .col20::after{
         content: url('../images/countrowline2.png');

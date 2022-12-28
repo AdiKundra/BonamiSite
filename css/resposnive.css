@@ -290,7 +290,10 @@ footer i.fa-phone {
     }
     .stepsCount .count{
         width: 115px;
+        height: 115px;
+        padding: 32px;
     }
+    
     .hireBox img{
         max-width: 130px;
     }

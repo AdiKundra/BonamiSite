@@ -553,6 +553,23 @@
   border-radius: 12px;
   padding: 53px;
 }
+.serviceProvodeBox{
+  padding: 10px 2rem;
+  margin-top: 20px;
+}
+.core-respect-content:hover h2{
+  color: #f33816 !important;
+}
+.serviceProvodeBox:hover{
+  /* background-color: #151f20; */
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+@media (min-width : 1300px){
+  .card-vission{
+    min-height: 310px;
+  }
+}
 
 .card-vission h3 {
   color: #373737;
@@ -651,10 +668,7 @@
   background-color: #151f20;
 } 
 @media (max-width: 1200px) {
-  .stepsCount .col20::after {
-    top: 46% !important;
-    right: -41% !important;
-  }
+ 
   .serviceBoxes:nth-child(n + 4) {
     margin-top: 20px !important;
   }
@@ -695,12 +709,8 @@
   .stepsCount .col20 {
     margin-top: 20px;
   }
-  .stepsCount .col20:nth-child(2){
-    margin-top: 40px;
-  }
-  .stepsCount .col20:last-child{
-    margin-top: -20px;
-  }
+  
+  
   .bg-row .contentBox {
     margin-top: 20px;
   }

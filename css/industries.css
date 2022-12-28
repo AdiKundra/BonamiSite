@@ -67,7 +67,12 @@
   border-radius: 12px;
   margin: 20px;
 }
-
+.industries-owncols .box:hover{
+  background-color: #fff;
+}
+.industries-owncols .box:hover .title{
+  color: #151f20;
+}
 .industries-owncols .box .title {
   font-family: "Montserrat";
   font-style: normal;

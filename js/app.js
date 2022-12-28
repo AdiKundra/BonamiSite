@@ -3,11 +3,11 @@ $('.top-icon-slider').slick({
   arrows: false,
   autoplay: true,
   infinite: true,
-  speed: 300,
-  autoplaySpeed: 1000,
+  speed: 1000,
+  autoplaySpeed: 100,
   slidesToShow: 8,
   slidesToScroll: 1,
-  centerMode: true,
+  centerMode: false,
   variableWidth: true,
   responsive: [
     {

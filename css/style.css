@@ -43,7 +43,7 @@
 
 .bannersection .content blockquote {
   font-size: 1.2rem;
-  border-left: 3px solid #f33816;
+  border-left: 4px solid #f33816;
   padding-left: 10px;
 }
 
@@ -765,4 +765,24 @@
 
 .hireDeveloperMain .bannerSec{
   max-width: 900px;
+}
+
+
+/* index vertical slider */
+.wrapperLine{
+  position: relative;
+  height: 22px;
+  background: aliceblue;
+  overflow: hidden;
+  display: none;
+}
+.Bannerline {
+  /* 	flex-basis: 50%; */
+  line-height: 22px;
+  font-size: 22px;
+  color: #f33816;
+  font-weight: 700;
+  letter-spacing: 10px;
+  position: absolute;
+  opacity: 0;
 }

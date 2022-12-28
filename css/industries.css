@@ -109,12 +109,13 @@
 .industries-solution-text {
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 400;
-  font-size: 26px !important;
+  font-weight: 500;
+  font-size: 30px !important;
   line-height: 37px;
   text-transform: capitalize;
   color: rgba(21, 31, 32, 0.7);
   cursor: pointer;
+  margin-bottom: 50px;
 }
 
 .industries-second-section-bullets {
@@ -179,7 +180,7 @@
 }
 
 .industries-second-section-decription {
-  max-width: 700px;
+  max-width: 600px;
 
 }
 /* .industries-section2-rightimage {
@@ -259,7 +260,12 @@
   color: #ffffff;
   margin: 0px;
 }
-
+.industries-second-section-decription p.maindesc  {
+  font-size: 20px !important;
+  line-height: 32px !important;
+  color: #656565 !important;
+  font-weight: 500;
+}
 @media (max-width: 1440px) and (min-width: 1100px){
   .industries-second-section-decription{
     flex: 1 1 47%;
@@ -289,6 +295,10 @@
 }
 
 @media (max-width: 768px) {
+  .industries-second-section-decription p.maindesc {
+    font-size: 16px !important;
+  }
+  
   .industries-first-section {
     display: flex;
     justify-content: center;

@@ -355,9 +355,9 @@
 .accordion-content {
   padding: 0.625em 0.625em 0.625em 0;
 }
-.accordion-content  * {
-  font-size: 16px;
-  color: #656565;
+.accordion-content  * , .accordion-content  p {
+  font-size: 18px ;
+  color: #656565 !important;
   font-weight: 500;
 }
 /* contact us  */
@@ -675,6 +675,11 @@
  
 }
 @media (max-width: 768px) {
+  .accordion-content  * , .accordion-content  p {
+    font-size: 16px ;
+    color: #656565 !important;
+    font-weight: 500;
+  }
   .who-content p {
     font-size: 18px;
   }

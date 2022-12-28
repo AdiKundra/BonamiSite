@@ -4,11 +4,12 @@ $('.top-icon-slider').slick({
   autoplay: true,
   infinite: true,
   speed: 1000,
-  autoplaySpeed: 100,
+  autoplaySpeed: 0,
   slidesToShow: 8,
   slidesToScroll: 1,
   centerMode: false,
   variableWidth: true,
+  cssEase: 'linear',
   responsive: [
     {
       breakpoint: 1500,

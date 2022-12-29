@@ -1087,8 +1087,28 @@
   <script src="./js/app.js"></script>
   <script>
     AOS.init();
+     // contact form
+    $('#contactForm').on('submit', (function (e) {
+      e.preventDefault();
+      var formData = new FormData(this);
+      $.ajax({
+        type: 'POST',
+        url: './inc/mail.php',
+        data: formData,
+        cache: false,
+        contentType: false,
+        processData: false,
+        success: function (response) {
+          console.log(response);
+          // alertify.success('Mail sent');
+        },
+        error: function (response) {
+          alertify.error('Mail not sent');
+        }
+      });
+    }));
   </script>
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
   <script></script>
 </body>
 

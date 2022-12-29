@@ -222,11 +222,11 @@
 .stepsCount::after{
     content: '';
     position: absolute;
-    top: 10%;
+    top: 20%;
     left: 0;
     width: 100%;
     background-color: #151F20;
-    min-height: 80%;
+    min-height: 70%;
     z-index: -1;
 }
 .stepsCount .count{
@@ -250,7 +250,7 @@
     margin: auto;
 }
 .stepsCount .title{
-    font-size: 15px;
+    font-size: 16px !important;
     color: #eee;
     max-width: 150px;
     margin-top: 40px;
@@ -271,7 +271,7 @@
 .stepsCount .col20::after{
     content: url('../images/countrowline.png');
     position: absolute;
-    top: 20%;
+    top: 50%;
     right: -100%;
     max-width: 200px;
     width: 100%;
@@ -308,7 +308,7 @@
         width: 90px;
     }
     .stepsCount .col20::after{
-        right: -18% !important;
+        right: -34% !important;
     }
     .stepsCount .count p{
         font-size: 30px !important;

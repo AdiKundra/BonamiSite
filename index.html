@@ -71,20 +71,19 @@
             </p>
             <blockquote class="wrapperLine mb-4">
               <div class="Bannerline">
-                You Must Be
+                On-demand product teams
+
+
               </div>
               
               <div class="Bannerline">
-                The change
+                Hire remote developer in 3 days
               </div>
               
               <div class="Bannerline">
-                You Wish To See
+                Early engagement at zero cost
               </div>
               
-              <div class="Bannerline">
-                In the world
-              </div>
             </blockquote>
             <a href="#contact" class="mainbtn">Book A Free Consultation</a>
           </div>
@@ -1436,6 +1435,27 @@
   </script>
   <script>
     AOS.init();
+
+     // contact form
+     $('#contactForm').on('submit', (function (e) {
+      e.preventDefault();
+      var formData = new FormData(this);
+      $.ajax({
+        type: 'POST',
+        url: './inc/mail.php',
+        data: formData,
+        cache: false,
+        contentType: false,
+        processData: false,
+        success: function (response) {
+          console.log(response);
+          // alertify.success('Mail sent');
+        },
+        error: function (response) {
+          alertify.error('Mail not sent');
+        }
+      });
+    }));
   </script>
 </body>
 

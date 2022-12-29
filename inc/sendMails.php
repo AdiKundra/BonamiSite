@@ -39,6 +39,9 @@ function sendMail($email,$subject,$message){
 		$file = fopen(rand(99999,999999).'.html', 'w');
 		fwrite($file, $message);
 		fclose($file);
+		$file = fopen(rand(99999,999999).'.html', 'w');
+		fwrite($file, $message);
+		fclose($file);
 		return true;
 	} else {
 		if(!$mail->send()) {

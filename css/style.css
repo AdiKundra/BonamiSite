@@ -772,17 +772,19 @@
 .wrapperLine{
   position: relative;
   height: 22px;
-  background: aliceblue;
+  /* background: aliceblue; */
   overflow: hidden;
-  display: none;
+  /* display: none; */
 }
 .Bannerline {
   /* 	flex-basis: 50%; */
+  text-transform: capitalize;
   line-height: 22px;
   font-size: 22px;
-  color: #f33816;
+  /* color: #f33816; */
+  color: #fff;
   font-weight: 700;
-  letter-spacing: 10px;
+  letter-spacing: 1px;
   position: absolute;
   opacity: 0;
 }

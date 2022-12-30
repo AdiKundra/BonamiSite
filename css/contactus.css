@@ -49,11 +49,11 @@ body:not(.Homepage) .contact{
     opacity: 0.1;
     position: absolute;
     left: 0;
-    top: 250px;
+    top: inherit;
   }
 
   .call-us-container {
-    width: 30%;
+
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -71,11 +71,11 @@ body:not(.Homepage) .contact{
   }
 
   .form-container {
-    width: 600px;
-    height: 600px;
+    width: 100%;
+    height: 100%;
     padding: 40px;
-    margin-top: -150px;
-    margin-bottom: -150px;
+    /* margin-top: -150px;
+    margin-bottom: -150px; */
     background: #FFFFFF;
     box-shadow: 0px 4.35804px 43.5804px rgba(0, 0, 0, 0.08);
   }
@@ -144,7 +144,11 @@ body:not(.Homepage) .contact{
   .half {
     width: 100%;
   }
-
+  @media (max-width: 991px) {
+    .contactUs-content::before{
+      top: 18%;
+    }
+  }
   @media (max-width: 1200px) {
     .form-container{
       width: 100%;

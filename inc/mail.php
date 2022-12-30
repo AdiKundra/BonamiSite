@@ -7,15 +7,13 @@ if(isset($_POST)){
     $email = $_POST['email'];
     $contact = $_POST['contact'];
     $aboutproject = $_POST['aboutproject'];
-
     $msg = 'name : ' . $name . '<br> email :' . $email . '<br> contact :' . $contact. '<br> Message :' . $aboutproject; 
 
-    $sendMail = sendMail('sahil.prajapati@bonamisoftware.com' , 'form subbmission' , 'Test Message');
+    $sendMail = sendMail('Website Form Submmission' , $msg);
+
     if($sendMail){
-        echo 'sucess';
+        print_r($sendMail);
     }else{
         echo 'error';
     }
-    // print_r($msg);
-
 }

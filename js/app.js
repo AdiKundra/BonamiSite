@@ -1,12 +1,12 @@
 $('.top-icon-slider').slick({
+  slidesToShow: 8,
+  slidesToScroll: 1,
   dots: false,
   arrows: false,
   autoplay: true,
   infinite: true,
   speed: 1000,
   autoplaySpeed: 0,
-  slidesToShow: 8,
-  slidesToScroll: 1,
   centerMode: false,
   variableWidth: true,
   cssEase: 'linear',
@@ -14,12 +14,19 @@ $('.top-icon-slider').slick({
     {
       breakpoint: 1500,
       settings: {
-        dots: false,
-        arrows: false,
+        
         slidesToShow: 5,
         slidesToScroll: 1,
-        infinite: false,
-        dots: false
+        dots: false,
+        arrows: false,
+        autoplay: true,
+        infinite: true,
+        speed: 1000,
+        autoplaySpeed: 0,
+        centerMode: false,
+        variableWidth: true,
+        cssEase: 'linear',
+       
       }
     },
     {
@@ -27,8 +34,15 @@ $('.top-icon-slider').slick({
       settings: {
         slidesToShow: 4,
         slidesToScroll: 1,
-        infinite: false,
-        dots: false
+        dots: false,
+        arrows: false,
+        autoplay: true,
+        infinite: true,
+        speed: 1000,
+        autoplaySpeed: 0,
+        centerMode: false,
+        variableWidth: true,
+        cssEase: 'linear',
       }
     },
     {
@@ -36,8 +50,15 @@ $('.top-icon-slider').slick({
       settings: {
         slidesToShow: 4,
         slidesToScroll: 1,
-        infinite: false,
-        dots: false
+        dots: false,
+        arrows: false,
+        autoplay: true,
+        infinite: true,
+        speed: 1000,
+        autoplaySpeed: 0,
+        centerMode: false,
+        variableWidth: true,
+        cssEase: 'linear',
       }
     },
     {
@@ -45,6 +66,15 @@ $('.top-icon-slider').slick({
       settings: {
         slidesToScroll: 1,
         slidesToShow: 2,
+        dots: false,
+        arrows: false,
+        autoplay: true,
+        infinite: true,
+        speed: 1000,
+        autoplaySpeed: 0,
+        centerMode: false,
+        variableWidth: true,
+        cssEase: 'linear',
       }
     }
   ]

@@ -65,10 +65,6 @@ body:not(.Homepage) .contact{
     display: flex;
     justify-content: center;
   }
-  .call-us-block {
-    /* display: flex;
-    flex-direction: row; */
-  }
 
   .form-container {
     width: 100%;

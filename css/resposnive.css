@@ -8,6 +8,7 @@ footer i.fa-phone {
     .container{
         max-width: 1500px;
     }
+
 }
 
 @media (max-width: 1500px){
@@ -20,6 +21,7 @@ footer i.fa-phone {
     .about{
         overflow: hidden;
     }
+    
 }
 
 @media (max-width: 1201px){
@@ -41,9 +43,20 @@ footer i.fa-phone {
 }
 @media (max-width: 1500px) and (min-width: 1201px){
     body:not(.Homepage) .breadcrumb{
-        min-height: 50vh;
+        min-height: 72vh;
         padding: 50px;
     }
+    .technology_stack .boxStack .bottom .techicon {
+        flex: 1 1 13%;}
+        .card-offer-content p{
+            font-size: 15px !important;
+        }
+        .hiringCards .keyvalue .value span{
+            font-size: 18px !important;
+        }
+        .serviceBoxes .box .bottom .title{
+            font-size: 12px !important;
+        }
     .container{
         max-width: 1260px;
     }
@@ -63,7 +76,7 @@ footer i.fa-phone {
         font-size: 13px;
     }
     .bannersection{
-        min-height: 50vh;
+        min-height: 72vh;
     }
     .mainHeadingColor,
     .mainHeading {
@@ -72,6 +85,9 @@ footer i.fa-phone {
     .bannersection .content h1 {
         font-weight: bold;
         font-size: 38px;
+    }
+    .hireBox{
+        min-height: 446px;
     }
     
 }

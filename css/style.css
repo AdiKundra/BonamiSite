@@ -50,6 +50,22 @@
 .bannersection .top-icon-slider .slick-slide {
   height: 100%;
 }
+.bannersection .content .vetricalSlider {
+  font-size: 1.2rem;
+  border-left: 4px solid #f33816;
+  padding-left: 10px;
+  height: 30px;
+  display: flex;
+  align-items: center;  
+}
+.bannersection .vetricalSlider .line {
+  line-height: 25px;
+  text-align: left;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1;
+}
 .iconSlider {
   overflow: hidden;
   background-color: #e4e2e2;
@@ -132,14 +148,17 @@
   color: #151f20;
   text-align: center;
   background: #ffffff;
-  box-shadow: 3px 3px 14px rgba(0, 0, 0, 0.26);
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   padding: 30px 15px;
   max-width: 320px;
   width: 100%;
   margin: auto;
+  transition: all 0.5s ease;
 }
-
+.about .itemsAbout .itemBox:hover{
+  box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.10);
+}
 .about .itemsAbout .itemBox .title {
   margin-top: 15px;
   margin-bottom: 0;
@@ -168,7 +187,7 @@
   overflow: hidden;
   filter: grayscale(1);
   transform: scale(1);
-  transition: 0.1s;
+  transition:all 0.3s ease;
 
 }
 .technology_stack .boxwrapper:hover {
@@ -296,6 +315,7 @@
   padding-left: 30px;
   border-left: 5px solid #eaeaea;
   padding-bottom: 10px;
+  transition: all 0.3s ease;
 }
 
 .tabs .rightsidebar li.active {
@@ -345,7 +365,11 @@
   font-size: 1.5rem;
   border: 2px solid #f33816;
   border-radius: 20px;
-  transition: all 0.7s;
+  transition: all 0.3s ease;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .accordion-container .accordion-title.open::after {
@@ -361,6 +385,7 @@
   font-size: 18px ;
   color: #656565 !important;
   font-weight: 500;
+  line-height: 30px;
 }
 /* contact us  */
 .contact_section .bordre-sec {
@@ -450,6 +475,9 @@
 /* about */
 .breadcrumb {
   padding: 100px 0;
+}
+.breadcrumb p.breadcrumbHyperlink{
+  font-size: 14px !important;
 }
 .icon-content p {
   color: #767c8a;
@@ -566,6 +594,7 @@
 .serviceProvodeBox{
   padding: 10px 2rem;
   margin-top: 20px;
+  transition: all 0.3s ease;
 }
 .core-respect-content:hover h2{
   color: #f33816 !important;
@@ -785,6 +814,16 @@
   color: #fff;
   font-weight: 500;
   letter-spacing: 1px;
-  position: absolute;
-  opacity: 0;
+}
+
+
+/*Alertify css */
+.alertify .ajs-dialog{
+    width:600px !important;
+    margin: 0px !important;
+}
+.alertify .ajs-modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

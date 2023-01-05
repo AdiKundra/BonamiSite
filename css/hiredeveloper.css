@@ -8,6 +8,7 @@
     background: #eee;
     box-shadow: 0px 2px 27px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
+    transition: all 0.3s ease;
 }
 .hiringCards .title{
     font-size: 36px !important;
@@ -162,6 +163,7 @@
     font-size: 1.5rem;
     text-align: center;
     font-weight: 600;
+    transition: all 0.3s ease;
 }
 .serviceBoxes .box:hover .top{
     background-color: #151F20;
@@ -213,6 +215,76 @@
     max-width: 150px;
 }
 
+.stepsCount{
+    color: #fff;
+    padding-bottom: 60px;
+    margin-top: 100px;
+    position: relative;
+}
+.stepsCount::after{
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    background-color: #151F20;
+    min-height: 70%;
+    z-index: -1;
+}
+.stepsCount .count{
+    font-weight: bold;
+    margin-bottom: 20px;
+    transform: rotate(45deg);
+    height: 125px;
+    background-color: #fff;
+    color: #151F20;
+    padding: 36px;
+    width: 125px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: -7px 2px 22px rgba(0, 0, 0, 0.37);
+}
+
+.stepsCount .count p{
+    transform: rotate(-45deg);
+    font-size: 36px !important;
+    width: fit-content;
+    margin: auto;
+}
+.stepsCount .title{
+    font-size: 16px !important;
+    color: #eee;
+    max-width: 150px;
+    margin-top: 40px;
+    min-height: 110px;
+}
+
+
+.stepsCount .ownrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.stepsCount .col20{
+    position: relative;
+    text-align: center;
+}
+.stepsCount .col20::after{
+    content: url('../images/countrowline.png');
+    position: absolute;
+    top: 50%;
+    right: -100%;
+    max-width: 200px;
+    width: 100%;
+    overflow: hidden;
+}
+.stepsCount .col20:last-child:after{
+    display: none;
+}
+.hiringCards:hover{
+    transform: scale(1.02);
+}
 
 /* steps satyam design */
 .steps.invert_bg {
@@ -317,76 +389,6 @@
 
 /* end */
 
-.stepsCount{
-    color: #fff;
-    padding-bottom: 60px;
-    margin-top: 100px;
-    position: relative;
-}
-.stepsCount::after{
-    content: '';
-    position: absolute;
-    top: 20%;
-    left: 0;
-    width: 100%;
-    background-color: #151F20;
-    min-height: 70%;
-    z-index: -1;
-}
-.stepsCount .count{
-    font-weight: bold;
-    margin-bottom: 20px;
-    transform: rotate(45deg);
-    height: 125px;
-    background-color: #fff;
-    color: #151F20;
-    padding: 36px;
-    width: 125px;
-    border-radius: 20px;
-    text-align: center;
-    box-shadow: -7px 2px 22px rgba(0, 0, 0, 0.37);
-}
-
-.stepsCount .count p{
-    transform: rotate(-45deg);
-    font-size: 36px !important;
-    width: fit-content;
-    margin: auto;
-}
-.stepsCount .title{
-    font-size: 16px !important;
-    color: #eee;
-    max-width: 150px;
-    margin-top: 40px;
-    min-height: 110px;
-}
-
-
-.stepsCount .ownrow{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.stepsCount .col20{
-    position: relative;
-    text-align: center;
-}
-.stepsCount .col20::after{
-    content: url('../images/countrowline.png');
-    position: absolute;
-    top: 50%;
-    right: -100%;
-    max-width: 200px;
-    width: 100%;
-    overflow: hidden;
-}
-.stepsCount .col20:last-child:after{
-    display: none;
-}
-.hiringCards:hover{
-    transform: scale(1.02);
-}
 @media (max-width: 1600px){
     .stepsCount .col20::after{
         content: url('../images/countrowline2.png');
@@ -425,7 +427,6 @@
         margin-top: 40px;
         min-height: 56px;
     }
-    
 }
 
 @media (max-width: 768px){

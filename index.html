@@ -15,12 +15,29 @@
   <!-- slick css -->
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!-- Alertify Css -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+    <!-- Default theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+    <!-- Semantic UI theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css"/>
+    <!-- Bootstrap theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
+
   <!-- common css -->
   <link rel="stylesheet" href="./css/global.css" />
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css/resposnive.css">
 
   <title>Bonami Software</title>
+  <style>
+    .line {
+      color: #fff;
+      position: absolute;
+      opacity: 0;
+    }
+
+  </style>
 </head>
 
 <body class="Homepage">
@@ -37,7 +54,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./service.html">Services</a>
+              <a class="nav-link" aria-current="page" href="./service.html">Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./hiredevloper.html">Hire Developers</a>
@@ -69,11 +86,10 @@
               We are a software development company providing outsourcing
               services and on-demand software development teams.
             </p>
-            <blockquote class="wrapperLine mb-4">
+            
+            <!-- <blockquote class="wrapperLine mb-4">
               <div class="Bannerline">
                 On-demand product teams
-
-
               </div>
               
               <div class="Bannerline">
@@ -84,8 +100,24 @@
                 Early engagement at zero cost
               </div>
               
-            </blockquote>
-            <a href="#contact" class="mainbtn">Book A Free Consultation</a>
+            </blockquote> -->
+            <div class="mb-4 vetricalSlider">
+             
+              <div class="line">
+                On-demand product teams
+              </div>
+
+              <div class="line">
+                Hire remote developer in 3 days
+              </div>
+
+              <div class="line">
+                Early engagement at zero cost
+              </div>
+
+            </div>
+
+            <a href="contactUs.html" class="mainbtn">Book A Free Consultation</a>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-5">
@@ -189,7 +221,7 @@
           <div class="content">
             <h4 class="mb-0 d-none">About Us</h4>
 
-            <h2 class="mainHeading mt-4 mt-md-0 mb-0">
+            <h2 class="mainHeading mt-4 mt-lg-0 mb-0">
               On-Demand /<span> Offshore </span>Software Development Team
               with<span> Bonami Software</span>
             </h2>
@@ -275,7 +307,7 @@
         </div>
       </div>
     </div>
-    <div class="container mt-60 stack">
+    <div class="container mt-5 pt-0 pt-md-2 stack">
       <div class="row">
         <div class="col-md-6">
           <div class="boxwrapper">
@@ -680,13 +712,13 @@
         </div>
       </div>
     </div>
-    <div class="container pt-2 pt-sm-5 tabsMainSection">
+    <div class="container pt-4 pt-sm-4 tabsMainSection">
       <div class="row justify-content-center align-items-center">
         <div class="col-md-6 col-lg-6 leftsidebar" data-aos="fade-right" data-aos-duration="1000">
           <img src="./images/tabs5.png" alt="" class="w-100" />
         </div>
         <div class="col-md-6 col-lg-6 rightsidebar">
-          <ul>
+          <ul class="mb-0">
             <li class="active">
               <p class="title mb-0" data-imageUrl="./images/tabs5.png">
                 Ecommerce
@@ -822,7 +854,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-lg-12 col-xl-11 col-xxl-10 mx-auto">
-          <div id="accordion" class="accordion-container pt-60">
+          <div id="accordion" class="accordion-container pt-4">
             <h4 class="accordion-title js-accordion-title">
               Why should I consider Bonami for outsourcing, consulting, and
               software development?
@@ -1162,78 +1194,33 @@
           </div>
           <div class="row">
             <div class="col-12 col-lg-10 mx-auto">
-              <form method="post" class="contactForm" enctype="multipart/form-data">
-                <div class="row">
-                  <div class="col-12 col-md-6 mb-3">
-                    <label for="fname" class="from-label">Your Name</label>
-                    <input type="text" name="name" id="name" placeholder="e.g. Ross" class="form-control" />
-                  </div>
-                  <div class="col-12 col-md-6 mb-3 d-none">
-                    <label for="fname" class="from-label">First name</label>
-                    <input type="text" name="fname" id="fname" placeholder="e.g. Ross" class="form-control" />
-                  </div>
-                  <div class="col-12 col-md-6 mb-3 d-none">
-                    <label for="lname" class="from-label">last name</label>
-                    <input type="text" name="lname" id="lname" placeholder="e.g. McCarthy" class="form-control" />
-                  </div>
-                  <div class="col-12 col-md-6 mb-3">
-                    <label for="email" class="from-label">email</label>
-                    <input type="email" name="email" id="email" placeholder="Email Address" class="form-control" />
-                  </div>
-                  <div class="col-12 mb-3">
-                    <label for="contact" class="from-label">contact</label>
-                    <input type="tel" name="contact" id="contact" placeholder="Contact" class="form-control" />
-                  </div>
-                  <div class="col-12 mb-3 d-none">
-                    <label class="form-label">Services</label>
-                    <div class="checkboxes">
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Mobile Development" id="flexCheckDefault"
-                          name="service[]" />
-                        <label class="form-check-label" for="flexCheckDefault">Mobile Development</label>
+                <form method="post" class="contactForm" enctype="multipart/form-data" id="contactForm">
+                    <div class="row">
+                      <div class="col-12 col-md-6 mb-3">
+                        <label for="fname" class="from-label">Your Name</label>
+                        <input type="text" name="name" id="name" placeholder="e.g. Ross" class="form-control"
+                          autocomplete="off" required />
                       </div>
-                      <div class="form-check justify-content-center">
-                        <input class="form-check-input" type="checkbox" value="Web Development" id="flexCheckChecked"
-                          name="service[]" />
-                        <label class="form-check-label" for="flexCheckChecked">Web Development</label>
+                      <div class="col-12 col-md-6 mb-3">
+                        <label for="email" class="from-label">email</label>
+                        <input type="email" name="email" id="email" placeholder="Email Address" class="form-control"
+                          autocomplete="off" required />
                       </div>
-                      <div class="form-check justify-content-end">
-                        <input class="form-check-input" type="checkbox" value="Hire Developer" id="flexCheckDefault"
-                          name="service[]" />
-                        <label class="form-check-label" for="flexCheckDefault">Hire Developer</label>
+                      <div class="col-12 mb-3">
+                        <label for="contact" class="from-label">contact</label>
+                        <input type="tel" name="contact" id="contact" placeholder="Contact" class="form-control"
+                          autocomplete="off" required />
                       </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Maintenance &amp; Support"
-                          id="flexCheckChecked" name="service[]" />
-                        <label class="form-check-label" for="flexCheckChecked">Maintenance &amp; Support</label>
-                      </div>
-                      <div class="form-check justify-content-center">
-                        <input class="form-check-input" type="checkbox" value="Technical Consultancy"
-                          id="flexCheckDefault" name="service[]" />
-                        <label class="form-check-label" for="flexCheckDefault">Technical Consultancy</label>
-                      </div>
-                      <div class="form-check justify-content-end">
-                        <input class="form-check-input" type="checkbox" value="Other Services" id="flexCheckChecked"
-                          name="service[]" />
-                        <label class="form-check-label" for="flexCheckChecked">Other Services</label>
+                      <div class="col-12 mb-3">
+                        <label for="aboutproject" class="from-label">about project</label>
+                        <textarea name="aboutproject" id="aboutproject" placeholder="Description (Optional)"
+                          class="form-control" cols="30" rows="7"></textarea>
                       </div>
                     </div>
-                  </div>
-                  <hr class="d-none"/>
-                  <div class="col-12 mb-3">
-                    <label for="aboutproject" class="from-label">about project</label>
-                    <textarea name="aboutproject" id="aboutproject" placeholder="Description (Optional)"
-                      class="form-control" cols="30" rows="7"></textarea>
-                  </div>
-                  <div class="col-12 mb-3 d-none">
-                    <label for="file">Document (if any):</label>
-                    <input type="file" id="file" name="file" class="form-control" />
-                  </div>
-                </div>
-                <button type="submit" class="btn mainbtn contact_btn mb-3 mb-lg-5">
-                  Inquire Now
-                </button>
-              </form>
+                    <div class="d-flex align-items-center justify-content-center mb-3 mb-lg-5"><button type="submit" class="btn mainbtn contact_btn formSubmitBtn">Inquire Now </button>
+                        <div class="submitting"><div class="lds-ring"><div></div><div></div><div></div><div></div></div></div>
+                    </div>
+                </form>      
             </div>
           </div>
         </div>
@@ -1249,7 +1236,7 @@
           <p class="description">
             Get free consultation and let us know your project idea to turn it into an amazing digital product.
           </p>
-          <a href="#contact" class="btn mainbtn mx-auto">Talk To Our Experts</a>
+          <a href="contactUs.html" class="btn mainbtn mx-auto">Talk To Our Experts</a>
         </div>
       </div>
     </div>
@@ -1259,7 +1246,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-6 col-lg-6 col-xl-3">
-          <ul class="list-unstyled p-0 d-flex align-items-center iconsListFooter">
+          <ul class="list-unstyled p-0 d-flex align-items-center iconsListFooter mb-0">
             <li>
               <img src="./images/youtube_footer.png" alt="">
               <a class="title" href="">youtube</a>
@@ -1286,41 +1273,45 @@
             </li>
           </ul>
         </div>
-        <div class="col-12 col-md-6 col-lg-6 col-xl-3 br-l br-l-lg footerMargin">
-          <ul class="list-unstyled addressrow">
-            <li class="country">
-              <img src="./images/india.png" alt="">
-              <p class="title">India</p>
-            </li>
-            <li>
-              <i class="fas fa-location-dot mt-1"></i>
-              <a class="title" href="">C-91/7, Wazirpur Industrial Area, Delhi, 110052</a>
-            </li>
-            <li>
-              <i class="fas fa-phone"></i>
-              <a class="title" href="tel:8271233269">+(91) 8271233269</a>
-            </li>
-          </ul>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-3 d-flex align-items-center br-l br-l-lg footerMargin">
+          <div>
+            <ul class="list-unstyled addressrow mb-0">
+              <li class="country">
+                <img src="./images/india.png" alt="">
+                <p class="title">India</p>
+              </li>
+              <li>
+                <i class="fas fa-location-dot mt-1 ms-1"></i>
+                <a class="title" href="">C-91/7, Wazirpur Industrial Area, Delhi, 110052</a>
+              </li>
+              <li class="mb-0">
+                <i class="fas fa-phone ms-1"></i>
+                <a class="title" href="tel:8271233269">+(91) 8271233269</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-6 col-xl-3 br-l">
-          <ul class="list-unstyled addressrow">
-            <li class="country">
-              <img src="./images/usa.png" alt="">
-              <p class="title text-uppercase">usa</p>
-            </li>
-            <li>
-              <i class="fas fa-location-dot mt-1"></i>
-              <a class="title" href="">34 Hammond Street Acton, Massachusetts 01720 </a>
-            </li>
-            <li>
-              <i class="fas fa-phone"></i>
-              <a class="title" href="tel: 9782646641">+( 1 ) 978 264 6641</a>
-            </li>
-          </ul>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-3 d-flex align-items-center br-l">
+          <div>
+            <ul class="list-unstyled addressrow mb-0">
+              <li class="country">
+                <img src="./images/usa.png" alt="">
+                <p class="title text-uppercase">usa</p>
+              </li>
+              <li>
+                <i class="fas fa-location-dot mt-1 ms-1"></i>
+                <a class="title" href="">34 Hammond Street Acton, Massachusetts 01720 </a>
+              </li>
+              <li class="mb-0">
+                <i class="fas fa-phone ms-1"></i>
+                <a class="title" href="tel: 9782646641">+( 1 ) 978 264 6641</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-6 col-xl-3 br-l br-l-lg">
-          <ul class="list-unstyled p-0 d-flex align-items-center iconsListFooter mailFooter">
-            <li>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-3 br-l br-l-lg d-flex align-items-center">
+          <ul class="list-unstyled p-0 iconsListFooter mailFooter mb-0">
+            <li class="mb-0 addressrow">
               <img src="./images/fooer_mail.png" alt="" class="mb-0 mb-lg-4">
               <a class="title" href="mailto:contact@bonamisoftware.com">contact@bonamisoftware.com</a>
             </li>
@@ -1346,26 +1337,7 @@
   <script src="./js/app.js"></script>
 
   <script>
-    $('.contactForm').on('submit', (function (e) {
-      e.preventDefault();
-      var formData = new FormData(this);
-      console.log(formData);
-      $.ajax({
-        type: 'POST',
-        url: 'inc/mail.php',
-        data: formData,
-        cache: false,
-        contentType: false,
-        processData: false,
-        success: function (response) {
-          console.log(response);
-          // alertify.success('Mail sent');
-        },
-        error: function (response) {
-          alertify.error('Mail not sent');
-        }
-      });
-    }));
+
     // counter Home page
     var a = 0;
     $(window).scroll(function() {
@@ -1397,20 +1369,60 @@
   <!-- gsap -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/SplitText.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
   <script>
-    var line = $('.Bannerline');
+    AOS.init();
+
+     // contact form
+    $('.submitting').hide();
+    $('#contactForm').on('submit', (function (e) {
+      e.preventDefault();
+      
+      const message = {
+          name : document.querySelector(`.contactForm`).name.value,
+          email : document.querySelector(`.contactForm`).email.value,
+          contact : document.querySelector(`.contactForm`).contact.value,
+          message : document.querySelector(`.contactForm`).aboutproject.value
+      }
+
+      $('.formSubmitBtn').hide();
+      $('.submitting').show();
+
+      $.ajax({
+        type: 'POST',
+        url: 'https://bonamisoftware.com/inc/mail.php',
+        data: message,
+        success: function (response) {
+        //   console.log(response);
+            $('.submitting').hide();
+            $('.formSubmitBtn').show();
+            alertify.alert('Form Submission', 'Form submitted successfully!');
+            
+        },
+        error: function (response) {
+            console.log("Error")
+            console.log(response);
+            $('.submitting').hide();
+            $('.formSubmitBtn').show();
+        }
+      });
+      
+    }));
+  </script>
+  <script>
+    var line = $('.line');
 
     var tl = new TimelineLite({
-			onComplete: function(){
-				tl.restart();
-			}
-		});
+          onComplete: function(){
+            tl.restart();
+          }
+        });
 
- 
+    
     TweenLite.defaultEase = Circ.easeInOut;
 
-    var time = 0.9;
-    var y = 100;
+    var time = 0.4;
+    var y = 35;
 
     tl
       .add ( TweenMax.staggerFromTo (
@@ -1432,30 +1444,6 @@
             y: -y,
           },
         2 ), 1.3)
-  </script>
-  <script>
-    AOS.init();
-
-     // contact form
-     $('#contactForm').on('submit', (function (e) {
-      e.preventDefault();
-      var formData = new FormData(this);
-      $.ajax({
-        type: 'POST',
-        url: './inc/mail.php',
-        data: formData,
-        cache: false,
-        contentType: false,
-        processData: false,
-        success: function (response) {
-          console.log(response);
-          // alertify.success('Mail sent');
-        },
-        error: function (response) {
-          alertify.error('Mail not sent');
-        }
-      });
-    }));
   </script>
 </body>
 

@@ -15,6 +15,15 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
   <!-- slick css -->
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <!-- Alertify Css -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+    <!-- Default theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+    <!-- Semantic UI theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css"/>
+    <!-- Bootstrap theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
+
   <!-- common css -->
   <link rel="stylesheet" href="./css/global.css" />
   <link rel="stylesheet" href="./css/style.css" />
@@ -37,10 +46,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./service.html">Services</a>
+              <a class="nav-link" aria-current="page" href="./service.html">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./hiredevloper.html">Hire Developers</a>
+              <a class="nav-link active" href="./hiredevloper.html">Hire Developers</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./industries.html">Industries</a>
@@ -64,7 +73,7 @@
       <div class="row">
         <div class="col-12">
           <div class="breadcrumb-content">
-            <p class="text-left text-white mb-4"><a href="index.html" class="text-white text-none">Home</a> - Hire Developers</p>
+            <!-- <p class="text-left text-white mb-4 breadcrumbHyperlink"><a href="index.html" class="text-white text-none">Home</a> > Hire Developers</p> -->
             <div class="bannerSec text-white">
               <h1 class="mainHeadingColor text-white mb-4">Find remote talent you can rely on</h1>
               <div>
@@ -76,7 +85,7 @@
                 <p>By entrusting us with all or part of your development responsibilities, you gain peace of mind when you outsource your software development to Bonami. Our developers adhere to deadlines, ensure product quality, and scale teams as needed. You have the same level of flexibility and control over the project as your in-house team.</p>
                 <p>Our developers consult with your engineering team to fully understand your requirements. We make every effort to consider the stage and size of your company.</p>
               </div>
-              <a href="" class="mainbtn">Book A Free Consultation</a>
+              <a href="contactUs.html" class="mainbtn">Book A Free Consultation</a>
             </div>
           </div>
         </div>
@@ -191,7 +200,7 @@
       </div>
     </section>
     
-    <section class="custom_bg pb-40">
+    <section class="custom_bg pb-40 pt-4 pb-5 pb-lg-0">
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-12 col-lg-6 col-xxl-4 my-3 ms-auto">
@@ -231,7 +240,7 @@
             </div>
           </div>
         </div>
-        <a class="mainbtn mx-auto mt-5">Hire Now</a>
+        <a class="mainbtn mx-auto mt-4 mt-lg-5">Hire Now</a>
       </div>     
     </section>
 
@@ -244,7 +253,7 @@
           </div>
         </div>
 
-        <div class="row">
+        <div class="row pt-4">
           <div class="col-12 col-md-6 col-lg-4 serviceBoxes gy-4 gy-lg-0">
             <div class="box">
               <div class="top">
@@ -761,7 +770,7 @@
         </div>
 
 
-        <div class="row">
+        <div class="row pt-4">
           <div class="col-12 col-md-6">
             <div class="hireBox">
               <img src="./images/hiresub/hiresub1.png" alt="">
@@ -939,80 +948,35 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-12 col-lg-10 mx-auto">
-                <form method="post" class="contactForm" enctype="multipart/form-data">
-                  <div class="row">
-                    <div class="col-12 col-md-6 mb-3">
-                      <label for="fname" class="from-label">Your Name</label>
-                      <input type="text" name="name" id="name" placeholder="e.g. Ross" class="form-control" />
-                    </div>
-                    <div class="col-12 col-md-6 mb-3 d-none">
-                      <label for="fname" class="from-label">First name</label>
-                      <input type="text" name="fname" id="fname" placeholder="e.g. Ross" class="form-control" />
-                    </div>
-                    <div class="col-12 col-md-6 mb-3 d-none">
-                      <label for="lname" class="from-label">last name</label>
-                      <input type="text" name="lname" id="lname" placeholder="e.g. McCarthy" class="form-control" />
-                    </div>
-                    <div class="col-12 col-md-6 mb-3">
-                      <label for="email" class="from-label">email</label>
-                      <input type="email" name="email" id="email" placeholder="Email Address" class="form-control" />
-                    </div>
-                    <div class="col-12 mb-3">
-                      <label for="contact" class="from-label">contact</label>
-                      <input type="tel" name="contact" id="contact" placeholder="Contact" class="form-control" />
-                    </div>
-                    <div class="col-12 mb-3 d-none">
-                      <label class="form-label">Services</label>
-                      <div class="checkboxes">
-                        <div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="Mobile Development" id="flexCheckDefault"
-                            name="service[]" />
-                          <label class="form-check-label" for="flexCheckDefault">Mobile Development</label>
+                <div class="col-12 col-lg-10 mx-auto">     
+                    <form method="post" class="contactForm" enctype="multipart/form-data" id="contactForm">
+                        <div class="row">
+                          <div class="col-12 col-md-6 mb-3">
+                            <label for="fname" class="from-label">Your Name</label>
+                            <input type="text" name="name" id="name" placeholder="e.g. Ross" class="form-control"
+                              autocomplete="off" required />
+                          </div>
+                          <div class="col-12 col-md-6 mb-3">
+                            <label for="email" class="from-label">email</label>
+                            <input type="email" name="email" id="email" placeholder="Email Address" class="form-control"
+                              autocomplete="off" required />
+                          </div>
+                          <div class="col-12 mb-3">
+                            <label for="contact" class="from-label">contact</label>
+                            <input type="tel" name="contact" id="contact" placeholder="Contact" class="form-control"
+                              autocomplete="off" required />
+                          </div>
+                          <div class="col-12 mb-3">
+                            <label for="aboutproject" class="from-label">about project</label>
+                            <textarea name="aboutproject" id="aboutproject" placeholder="Description (Optional)"
+                              class="form-control" cols="30" rows="7"></textarea>
+                          </div>
                         </div>
-                        <div class="form-check justify-content-center">
-                          <input class="form-check-input" type="checkbox" value="Web Development" id="flexCheckChecked"
-                            name="service[]" />
-                          <label class="form-check-label" for="flexCheckChecked">Web Development</label>
+                        <div class="d-flex align-items-center justify-content-center mb-3 mb-lg-5"><button type="submit" class="btn mainbtn contact_btn formSubmitBtn">Inquire Now </button>
+                            <div class="submitting"><div class="lds-ring"><div></div><div></div><div></div><div></div></div></div>
                         </div>
-                        <div class="form-check justify-content-end">
-                          <input class="form-check-input" type="checkbox" value="Hire Developer" id="flexCheckDefault"
-                            name="service[]" />
-                          <label class="form-check-label" for="flexCheckDefault">Hire Developer</label>
-                        </div>
-                        <div class="form-check">
-                          <input class="form-check-input" type="checkbox" value="Maintenance &amp; Support"
-                            id="flexCheckChecked" name="service[]" />
-                          <label class="form-check-label" for="flexCheckChecked">Maintenance &amp; Support</label>
-                        </div>
-                        <div class="form-check justify-content-center">
-                          <input class="form-check-input" type="checkbox" value="Technical Consultancy"
-                            id="flexCheckDefault" name="service[]" />
-                          <label class="form-check-label" for="flexCheckDefault">Technical Consultancy</label>
-                        </div>
-                        <div class="form-check justify-content-end">
-                          <input class="form-check-input" type="checkbox" value="Other Services" id="flexCheckChecked"
-                            name="service[]" />
-                          <label class="form-check-label" for="flexCheckChecked">Other Services</label>
-                        </div>
-                      </div>
-                    </div>
-                    <hr class="d-none"/>
-                    <div class="col-12 mb-3">
-                      <label for="aboutproject" class="from-label">about project</label>
-                      <textarea name="aboutproject" id="aboutproject" placeholder="Description (Optional)"
-                        class="form-control" cols="30" rows="7"></textarea>
-                    </div>
-                    <div class="col-12 mb-3 d-none">
-                      <label for="file">Document (if any):</label>
-                      <input type="file" id="file" name="file" class="form-control" />
-                    </div>
-                  </div>
-                  <button type="submit" class="btn mainbtn contact_btn mb-3 mb-lg-5">
-                    Inquire Now
-                  </button>
-                </form>
-              </div>
+                    </form>    
+                 </div>
             </div>
           </div>
         </div>
@@ -1053,41 +1017,45 @@
             </li>
           </ul>
         </div>
-        <div class="col-12 col-md-6 col-lg-6 col-xl-3 br-l br-l-lg footerMargin">
-          <ul class="list-unstyled addressrow">
-            <li class="country">
-              <img src="./images/india.png" alt="">
-              <p class="title">India</p>
-            </li>
-            <li>
-              <i class="fas fa-location-dot mt-1"></i>
-              <a class="title" href="">C-91/7, Wazirpur Industrial Area, Delhi, 110052</a>
-            </li>
-            <li>
-              <i class="fas fa-phone"></i>
-              <a class="title" href="tel:8271233269">+(91) 8271233269</a>
-            </li>
-          </ul>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-3 d-flex align-items-center br-l br-l-lg footerMargin">
+          <div>
+            <ul class="list-unstyled addressrow mb-0">
+              <li class="country">
+                <img src="./images/india.png" alt="">
+                <p class="title">India</p>
+              </li>
+              <li>
+                <i class="fas fa-location-dot mt-1 ms-1"></i>
+                <a class="title" href="">C-91/7, Wazirpur Industrial Area, Delhi, 110052</a>
+              </li>
+              <li class="mb-0">
+                <i class="fas fa-phone ms-1"></i>
+                <a class="title" href="tel:8271233269">+(91) 8271233269</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-6 col-xl-3 br-l">
-          <ul class="list-unstyled addressrow">
-            <li class="country">
-              <img src="./images/usa.png" alt="">
-              <p class="title text-uppercase">usa</p>
-            </li>
-            <li>
-              <i class="fas fa-location-dot mt-1"></i>
-              <a class="title" href="">34 Hammond Street Acton, Massachusetts 01720 </a>
-            </li>
-            <li>
-              <i class="fas fa-phone"></i>
-              <a class="title" href="tel: 9782646641">+( 1 ) 978 264 6641</a>
-            </li>
-          </ul>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-3 d-flex align-items-center br-l">
+          <div>
+            <ul class="list-unstyled addressrow mb-0">
+              <li class="country">
+                <img src="./images/usa.png" alt="">
+                <p class="title text-uppercase">usa</p>
+              </li>
+              <li>
+                <i class="fas fa-location-dot mt-1 ms-1"></i>
+                <a class="title" href="">34 Hammond Street Acton, Massachusetts 01720 </a>
+              </li>
+              <li class="mb-0">
+                <i class="fas fa-phone ms-1"></i>
+                <a class="title" href="tel: 9782646641">+( 1 ) 978 264 6641</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-6 col-xl-3 br-l br-l-lg">
-          <ul class="list-unstyled p-0 d-flex align-items-center iconsListFooter mailFooter">
-            <li>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-3 br-l br-l-lg d-flex align-items-center">
+          <ul class="list-unstyled p-0 iconsListFooter mailFooter mb-0">
+            <li class="mb-0 addressrow">
               <img src="./images/fooer_mail.png" alt="" class="mb-0 mb-lg-4">
               <a class="title" href="mailto:contact@bonamisoftware.com">contact@bonamisoftware.com</a>
             </li>
@@ -1111,27 +1079,43 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <!-- top-icon-slider -->
   <script src="./js/app.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
   <script>
     AOS.init();
-     // contact form
+    
+    $('.submitting').hide();
     $('#contactForm').on('submit', (function (e) {
       e.preventDefault();
-      var formData = new FormData(this);
+      
+      const message = {
+          name : document.querySelector(`.contactForm`).name.value,
+          email : document.querySelector(`.contactForm`).email.value,
+          contact : document.querySelector(`.contactForm`).contact.value,
+          message : document.querySelector(`.contactForm`).aboutproject.value
+      }
+
+      $('.formSubmitBtn').hide();
+      $('.submitting').show();
+
       $.ajax({
         type: 'POST',
-        url: './inc/mail.php',
-        data: formData,
-        cache: false,
-        contentType: false,
-        processData: false,
+        url: 'https://bonamisoftware.com/inc/mail.php',
+        data: message,
         success: function (response) {
-          console.log(response);
-          // alertify.success('Mail sent');
+        //   console.log(response);
+            $('.submitting').hide();
+            $('.formSubmitBtn').show();
+            alertify.alert('Form Submission', 'Form submitted successfully!');
+            
         },
         error: function (response) {
-          alertify.error('Mail not sent');
+            console.log("Error")
+            console.log(response);
+            $('.submitting').hide();
+            $('.formSubmitBtn').show();
         }
       });
+      
     }));
   </script>
   <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->

@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+body{
+  overflow-x: hidden !important;
+}
 a {
   text-decoration: none;
   color: #fff;
@@ -27,6 +30,7 @@ p {
   display: block;
   width: fit-content;
   transition: all 0.5s;
+  cursor: pointer;
 }
 .mainbtn:hover {
   background-color: #f33816;
@@ -259,11 +263,11 @@ footer p.listTitle {
 footer li a {
   text-decoration: none;
   color: #d4d4d4;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-transform: capitalize;
 }
 footer li {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 footer li:hover a {
@@ -324,6 +328,10 @@ footer .addressrow li:not(.country) {
 footer .addressrow li:not(.country) a {
   margin-left: 1rem;
 }
+.footerCopyright p{
+  font-size: 16px !important;
+  color: #e5e5e5 !important;
+}
 /* animattion css */
 
 /* breadcrumb css */
@@ -345,4 +353,60 @@ body:not(.Homepage) .breadcrumb {
 }
 .breadcrumb {
   margin-bottom: 0;
+}
+
+
+a.nav-link.active{
+    color: #f5593d;
+}
+
+
+/*loader form*/
+.submitting{
+    display: inline-block;
+}
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 27px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin: 8px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #f5593d transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* AOS */
+[data-aos]{
+  overflow-y: hidden !important;
+
+}
+
+.giveoverflow[data-aos]{
+  overflow: unset !important;
 }

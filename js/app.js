@@ -1,3 +1,4 @@
+
 $('.top-icon-slider').slick({
   slidesToShow: 8,
   slidesToScroll: 1,
@@ -81,7 +82,6 @@ $('.top-icon-slider').slick({
 });
 
 
-
 $('.boxSliderWithRow').slick({
   rows: 3,
   dots: true,
@@ -119,8 +119,6 @@ const industrieslists = document.querySelectorAll('.industries-solution-text');
 const industriesSectionTitle = document.querySelector('.industries-section2-heading');
 const industriesSectionText=document.querySelector('.industries-section2-text')
 const industriesSectionMiniImage=document.querySelector('.industries-section2-miniImage')
-console.log("---inmg tag---", industriesleftsidebarimg);
-console.log("---list tag---", industrieslists);
 
 industrieslists.forEach(el => {
     el.addEventListener('click' , () =>{

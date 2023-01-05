@@ -17,21 +17,26 @@ function sendMail($subject,$message){
 	//required parameters...
 	$production = 1;
 	$siteName = 'Bonami Software';
-	$MailFrom = 'info@bonamisoftware.co';
+	$MailFrom = 'test@bonamisoftware.com';
 	//smtp request...
 	$mail = new PHPMailer;
-    $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
 	$mail->IsSMTP();
-	$mail->Host       = 'mail.bonamisoftware.co';               //Set the SMTP server to send through
-    $mail->SMTPSecure = 'ssl';                                  // Which security method to use. TLS is most secure.
-    $mail->Username   = 'info@bonamisoftware.co';               //SMTP username
-    $mail->Password   = 'R^-II-F*)l9)';                  
-    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
+    $mail->SMTPAuth = 'ssl';                                   //Enable SMTP authentication
+    $mail->SMTPSecure = true;                                  // Which security method to use. TLS is most secure.
+	$mail->Host       = 'smtp.gmail.com';                      //Set the SMTP server to send through
+	
     $mail->Port       = 465;           
-    $mail->setFrom($MailFrom);
-    $mail->addAddress('skp28195@gmail.com');    //Add a recipient
+    $mail->Username   = '';              //SMTP username
+    $mail->Password   = '';             
+    
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
+    $mail->setFrom($MailFrom,'Website Contact From Details');
+    $mail->Subject = 'Website Contact From Details';
+    $mail->addAddress('nikita.jeena@bonamisoftware.com');    //Add a recipient
     $mail->addReplyTo($MailFrom, $siteName);
-    $mail->addCC("sahil.prajapati@bonamisoftware.com");
+    $mail->addCC("contact@bonamisoftware.com");
+    $mail->IsHTML(true);
+    // $mail->addCC("adityakundra@bonamisoftware.com");
     // $mail->addCC("satishpandey.soft@gmail.com");
     $mail->Body = $message;
    
@@ -45,7 +50,7 @@ function sendMail($subject,$message){
 		return true;
 	} else {
 		if(!$mail->send()) {
-			// return 0;
+// 			return false;
 			return $mail->ErrorInfo;
 		} else {
 			return true;

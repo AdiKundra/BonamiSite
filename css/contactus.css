@@ -2,19 +2,19 @@
  * Always set the map height explicitly to define the size of the div element
  * that contains the map. 
  */
- #map {
-    height: 50%;
-  }
-  
-  /* 
-   * Optional: Makes the sample page fill the window. 
-   */
-  html,
-  body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
+#map {
+  height: 50%;
+}
+
+/* 
+  * Optional: Makes the sample page fill the window. 
+  */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 body:not(.Homepage) .contact{
     min-height: 78vh;
@@ -156,4 +156,8 @@ body:not(.Homepage) .contact{
       width: 100%;
     }
   }
- 
+  .form-control:focus{
+    box-shadow: 0 0 0 0.25rem rgb(24 24 24 / 3%);
+    border-color: unset;
+    box-shadow: unset;
+}

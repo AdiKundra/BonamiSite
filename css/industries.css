@@ -66,6 +66,7 @@
   border: 1px dashed #b4b4b4;
   border-radius: 12px;
   margin: 20px;
+  transition: all 0.3s ease;
 }
 .industries-owncols .box:hover{
   background-color: #fff;
@@ -323,6 +324,8 @@
     text-transform: capitalize;
     color: rgba(21, 31, 32, 0.7);
     cursor: pointer;
+    font-size: 20px !important;
+    margin-bottom: 15px !important;  
   }
   .industries-owncols {
     flex: none;
@@ -341,7 +344,7 @@
   .industries-section2-image {
     margin-top: 0px;
     width: full;
-    padding: 20px;
+    padding: 20px 20px 0px 20px !important;
   }
   .industries-section2-rightimage {
     margin-left: 0;
@@ -350,13 +353,13 @@
     margin-right: 0;
   }
   .industries-section2-child-mobile {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
   .industries-second-section-decription {
     width: full;
-    margin-bottom: 40px;
-    margin-top: 20px;
-    padding: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px 20px;
   }
   .industries-section2-images {
     margin-left: 0;
@@ -405,10 +408,13 @@
     color: #373737;
     max-width: 100%;
   }
-  
- 
 }
 
+@media (max-width: 575px){
+  .projectGallerySection a img{
+    width: 100%;
+  }
+}
 
 .bgicon{
   background: linear-gradient(
@@ -417,12 +423,11 @@
                   rgba(245, 89, 61, 0.8)
                 ),
                 url('../images/project1.png');
-              box-shadow: 0px 1.36869px 13.6869px rgba(0, 0, 0, 0.1);
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              flex-direction: column;
-              background-size: cover;
-              height: 500px;
+    box-shadow: 0px 1.36869px 13.6869px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    height: 475px;
 }
-

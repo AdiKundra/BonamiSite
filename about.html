@@ -29,6 +29,15 @@
       type="text/css"
       href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
     />
+    <!-- Alertify Css -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+    <!-- Default theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+    <!-- Semantic UI theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css"/>
+    <!-- Bootstrap theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
+
     <!-- common css -->
     <link rel="stylesheet" href="./css/global.css" />
     <link rel="stylesheet" href="./css/style.css" />
@@ -39,6 +48,19 @@
     <link rel="stylesheet" href="./css/about.css">
     <link rel="stylesheet" href="./css/resposnive.css">
     <title>Bonami Software | About Us</title>
+    <style>
+      .ownrow {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .ownrow  .owncol{
+        flex: 1 1 25%;
+      }
+
+    </style>
   </head>
 
   <body class="mainAbout">
@@ -55,7 +77,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./service.html">Services</a>
+                <a class="nav-link" aria-current="page" href="./service.html">Services</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./hiredevloper.html">Hire Developers</a>
@@ -64,7 +86,7 @@
                 <a class="nav-link" href="./industries.html">Industries</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./about.html">About Us</a>
+                <a class="nav-link active" href="./about.html">About Us</a>
               </li>
               <li class="nav-item ms-5">
                 <a class="btn mainbtnContact" href="./contactUs.html">Contact Us</a>
@@ -303,12 +325,12 @@
                 </div>
               </div>
               <div class="btn-explore mt-5">
-                <a class="btn mainbtn" href="#">EXPLORE WORK</a>
+                <a class="btn mainbtn" href="industries.html" >EXPLORE WORK</a>
               </div>
             </div>
           </div>
           <div
-            class="col-12 col-sm-12 col-md-12 col-lg-5 offset-lg-1 gy-3 "
+            class="col-12 col-sm-12 col-md-12 col-lg-5 offset-lg-1 gy-0 gy-md-3 "
             data-aos="fade-right"
             data-aos-duration="2000"
           >
@@ -336,9 +358,7 @@
         <!-- end heading -->
 
         <div class="row">
-          <div
-            class="offset-lg-2 col-12 col-sm-12 col-md-6 col-lg-4 offer-col gx-3 gy-5"
-          >
+          <div class="offset-lg-2 col-12 col-sm-12 col-md-6 col-lg-4 offer-col gx-3 gy-3 gy-lg-4">
             <div
               class="card-offer card-offer-background"
               style="
@@ -353,11 +373,11 @@
                 <p class="text-white text-center mb-1">
                   Reliable Technology Partner For
                 </p>
-                <h2 class="text-white">ENTERPRISES</h2>
+                <h2 class="text-white mb-0">ENTERPRISES</h2>
               </div>
             </div>
           </div>
-          <div class="col-12 col-sm-12 col-md-6 col-lg-4 offer-col gx-3 gy-5">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 offer-col gx-3 gy-3 gy-lg-4">
             <div
               class="card-offer card-offer-background"
               style="
@@ -368,7 +388,7 @@
                 <img src="./images/enterprises 1.png" alt="" />
               </div>
               <div class="card-offer-content">
-                <p class="text-white text-center mb-1">
+                <p class="text-white text-center mb-0">
                   Innovation Partner For
                 </p>
                 <h2 class="text-white">Startup</h2>
@@ -389,9 +409,9 @@
     >
       <div class="container">
         <!-- heading end -->
-        <div class="row align-items-center">
+        <div class="row align-items-center justify-content-center">
           <div
-            class="col-12 col-sm-12 col-md-6 col-lg-4 offset-0 offset-lg-2 gx-5 gy-5 gy-lg-5 gx-lg-5"
+            class="col-12 col-sm-12 col-md-6 col-lg-4 my-md-4 px-5 py-5 px-lg-2 py-lg-5 giveoverflow"
             data-aos="fade-right"
             data-aos-duration="2000"
           >
@@ -413,7 +433,7 @@
             </div>
           </div>
           <div
-            class="col-12 col-sm-12 col-md-6 col-lg-4  gx-5 gy-5 gy-lg-5 gx-lg-5"
+            class="col-12 col-sm-12 col-md-6 col-lg-4 my-md-4 px-5 py-5 pb-0 px-lg-2 py-lg-5 giveoverflow"
             data-aos="fade-right"
             data-aos-duration="2000"
           >
@@ -500,7 +520,7 @@
             </div>
           </div>
         </div>
-        <div class="row py-60 justify-content-center">
+        <div class="row py-60 pb-0 justify-content-center">
           <div class="col-12 col-sm-12 col-md-6 col-lg-3 gy-3">
             <div class="core-respect text-center">
               <img src="./images/respect.png" />
@@ -553,7 +573,7 @@
       </div>
     </section>
 
-    <section class="contact_section my-80" id="contact">
+    <section class="contact_section my-80">
       <div class="container">
         <div class="row">
           <div class="col-12 col-lg-8 mx-auto bordre-sec">
@@ -572,169 +592,33 @@
             </div>
             <div class="row">
               <div class="col-12 col-lg-10 mx-auto">
-                <form
-                  method="post"
-                  class="contactForm"
-                  enctype="multipart/form-data"
-                >
-                  <div class="row">
-                    <div class="col-12 col-md-6 mb-3">
-                      <label for="fname" class="from-label">Your Name</label>
-                      <input
-                        type="text"
-                        name="name"
-                        id="name"
-                        placeholder="e.g. Ross"
-                        class="form-control"
-                      />
-                    </div>
-                    <div class="col-12 col-md-6 mb-3 d-none">
-                      <label for="fname" class="from-label">First name</label>
-                      <input
-                        type="text"
-                        name="fname"
-                        id="fname"
-                        placeholder="e.g. Ross"
-                        class="form-control"
-                      />
-                    </div>
-                    <div class="col-12 col-md-6 mb-3 d-none">
-                      <label for="lname" class="from-label">last name</label>
-                      <input
-                        type="text"
-                        name="lname"
-                        id="lname"
-                        placeholder="e.g. McCarthy"
-                        class="form-control"
-                      />
-                    </div>
-                    <div class="col-12 col-md-6 mb-3">
-                      <label for="email" class="from-label">email</label>
-                      <input
-                        type="email"
-                        name="email"
-                        id="email"
-                        placeholder="Email Address"
-                        class="form-control"
-                      />
-                    </div>
-                    <div class="col-12 mb-3">
-                      <label for="contact" class="from-label">contact</label>
-                      <input
-                        type="tel"
-                        name="contact"
-                        id="contact"
-                        placeholder="Contact"
-                        class="form-control"
-                      />
-                    </div>
-                    <div class="col-12 mb-3 d-none">
-                      <label class="form-label">Services</label>
-                      <div class="checkboxes">
-                        <div class="form-check">
-                          <input
-                            class="form-check-input"
-                            type="checkbox"
-                            value="Mobile Development"
-                            id="flexCheckDefault"
-                            name="service[]"
-                          />
-                          <label class="form-check-label" for="flexCheckDefault"
-                            >Mobile Development</label
-                          >
-                        </div>
-                        <div class="form-check justify-content-center">
-                          <input
-                            class="form-check-input"
-                            type="checkbox"
-                            value="Web Development"
-                            id="flexCheckChecked"
-                            name="service[]"
-                          />
-                          <label class="form-check-label" for="flexCheckChecked"
-                            >Web Development</label
-                          >
-                        </div>
-                        <div class="form-check justify-content-end">
-                          <input
-                            class="form-check-input"
-                            type="checkbox"
-                            value="Hire Developer"
-                            id="flexCheckDefault"
-                            name="service[]"
-                          />
-                          <label class="form-check-label" for="flexCheckDefault"
-                            >Hire Developer</label
-                          >
-                        </div>
-                        <div class="form-check">
-                          <input
-                            class="form-check-input"
-                            type="checkbox"
-                            value="Maintenance &amp; Support"
-                            id="flexCheckChecked"
-                            name="service[]"
-                          />
-                          <label class="form-check-label" for="flexCheckChecked"
-                            >Maintenance &amp; Support</label
-                          >
-                        </div>
-                        <div class="form-check justify-content-center">
-                          <input
-                            class="form-check-input"
-                            type="checkbox"
-                            value="Technical Consultancy"
-                            id="flexCheckDefault"
-                            name="service[]"
-                          />
-                          <label class="form-check-label" for="flexCheckDefault"
-                            >Technical Consultancy</label
-                          >
-                        </div>
-                        <div class="form-check justify-content-end">
-                          <input
-                            class="form-check-input"
-                            type="checkbox"
-                            value="Other Services"
-                            id="flexCheckChecked"
-                            name="service[]"
-                          />
-                          <label class="form-check-label" for="flexCheckChecked"
-                            >Other Services</label
-                          >
-                        </div>
+                
+                <form method="post" class="contactForm" enctype="multipart/form-data" id="contactForm">
+                    <div class="row">
+                      <div class="col-12 col-md-6 mb-3">
+                        <label for="fname" class="from-label">Your Name</label>
+                        <input type="text" name="name" id="name" placeholder="e.g. Ross" class="form-control"
+                          autocomplete="off" required />
+                      </div>
+                      <div class="col-12 col-md-6 mb-3">
+                        <label for="email" class="from-label">email</label>
+                        <input type="email" name="email" id="email" placeholder="Email Address" class="form-control"
+                          autocomplete="off" required />
+                      </div>
+                      <div class="col-12 mb-3">
+                        <label for="contact" class="from-label">contact</label>
+                        <input type="tel" name="contact" id="contact" placeholder="Contact" class="form-control"
+                          autocomplete="off" required />
+                      </div>
+                      <div class="col-12 mb-3">
+                        <label for="aboutproject" class="from-label">about project</label>
+                        <textarea name="aboutproject" id="aboutproject" placeholder="Description (Optional)"
+                          class="form-control" cols="30" rows="7"></textarea>
                       </div>
                     </div>
-                    <hr class="d-none" />
-                    <div class="col-12 mb-3">
-                      <label for="aboutproject" class="from-label"
-                        >about project</label
-                      >
-                      <textarea
-                        name="aboutproject"
-                        id="aboutproject"
-                        placeholder="Description (Optional)"
-                        class="form-control"
-                        cols="30"
-                        rows="7"
-                      ></textarea>
+                    <div class="d-flex align-items-center justify-content-center mb-3 mb-lg-5"><button type="submit" class="btn mainbtn contact_btn formSubmitBtn">Inquire Now </button>
+                        <div class="submitting"><div class="lds-ring"><div></div><div></div><div></div><div></div></div></div>
                     </div>
-                    <div class="col-12 mb-3 d-none">
-                      <label for="file">Document (if any):</label>
-                      <input
-                        type="file"
-                        id="file"
-                        name="file"
-                        class="form-control"
-                      />
-                    </div>
-                  </div>
-                  <button
-                    type="submit"
-                    class="btn mainbtn contact_btn mb-3 mb-lg-5"
-                  >
-                    Inquire Now
-                  </button>
                 </form>
               </div>
             </div>
@@ -742,7 +626,88 @@
         </div>
       </div>
     </section>
+
+
+
     <!-- footer -->
+    <footer class="footer bg-dark py-60">
+      <div class="container">
+          <div class="ownrow">
+            <div class="owncol">
+              <ul class="list-unstyled p-0 d-flex align-items-center iconsListFooter mb-0">
+                <li>
+                  <img src="./images/youtube_footer.png" alt="">
+                  <a class="title" href="">youtube</a>
+                </li>
+                <li>
+                  <img src="./images/youtubelinkedin.png" alt="">
+                  <a class="title" href="">linkedin</a>
+                </li>
+                <li>
+                  <img src="./images/footer_f.png" alt="">
+                  <a class="title" href="">behance</a>
+                </li>
+                <li class="mb-0">
+                  <img src="./images/footer_behance.png" alt="">
+                  <a class="title" href="">twitter</a>
+                </li>
+                <li class="mb-0">
+                  <img src="./images/footer_new.png" alt="">
+                  <a class="title" href="">facebook</a>
+                </li>
+                <li class="mb-0">
+                  <img src="./images/footer_insta.png.png" alt="">
+                  <a class="title" href="">instagram</a>
+                </li>
+              </ul>
+            </div>
+            <div class="owncol footerMargin br-l br-l-lg">
+              <div>
+                <ul class="list-unstyled addressrow mb-0">
+                  <li class="country">
+                    <img src="./images/india.png" alt="">
+                    <p class="title">India</p>
+                  </li>
+                  <li>
+                    <i class="fas fa-location-dot mt-1 ms-1"></i>
+                    <a class="title" href="">C-91/7, Wazirpur Industrial Area, Delhi, 110052</a>
+                  </li>
+                  <li class="mb-0">
+                    <i class="fas fa-phone ms-1"></i>
+                    <a class="title" href="tel:8271233269">+(91) 8271233269</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="owncol br-l">
+              <div>
+                <ul class="list-unstyled addressrow mb-0">
+                  <li class="country">
+                    <img src="./images/usa.png" alt="">
+                    <p class="title text-uppercase">usa</p>
+                  </li>
+                  <li>
+                    <i class="fas fa-location-dot mt-1 ms-1"></i>
+                    <a class="title" href="">34 Hammond Street Acton, Massachusetts 01720 </a>
+                  </li>
+                  <li class="mb-0">
+                    <i class="fas fa-phone ms-1"></i>
+                    <a class="title" href="tel: 9782646641">+( 1 ) 978 264 6641</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="owncol  br-l br-l-lg">
+              <ul class="list-unstyled p-0 iconsListFooter mailFooter mb-0">
+                <li class="mb-0 addressrow">
+                  <img src="./images/fooer_mail.png" alt="" class="mb-0 mb-lg-4">
+                  <a class="title" href="mailto:contact@bonamisoftware.com">contact@bonamisoftware.com</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </div>
+    </footer>
     <footer class="footer bg-dark py-60">
       <div class="container">
         <div class="row">
@@ -774,41 +739,45 @@
               </li>
             </ul>
           </div>
-          <div class="col-12 col-md-6 col-lg-6 col-xl-3 br-l br-l-lg footerMargin">
-            <ul class="list-unstyled addressrow">
-              <li class="country">
-                <img src="./images/india.png" alt="">
-                <p class="title">India</p>
-              </li>
-              <li>
-                <i class="fas fa-location-dot mt-1"></i>
-                <a class="title" href="">C-91/7, Wazirpur Industrial Area, Delhi, 110052</a>
-              </li>
-              <li>
-                <i class="fas fa-phone"></i>
-                <a class="title" href="tel:8271233269">+(91) 8271233269</a>
-              </li>
-            </ul>
+          <div class="col-12 col-md-6 col-lg-6 col-xl-3 d-flex align-items-center br-l br-l-lg footerMargin">
+            <div>
+              <ul class="list-unstyled addressrow mb-0">
+                <li class="country">
+                  <img src="./images/india.png" alt="">
+                  <p class="title">India</p>
+                </li>
+                <li>
+                  <i class="fas fa-location-dot mt-1 ms-1"></i>
+                  <a class="title" href="">C-91/7, Wazirpur Industrial Area, Delhi, 110052</a>
+                </li>
+                <li class="mb-0">
+                  <i class="fas fa-phone ms-1"></i>
+                  <a class="title" href="tel:8271233269">+(91) 8271233269</a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-6 col-xl-3 br-l">
-            <ul class="list-unstyled addressrow">
-              <li class="country">
-                <img src="./images/usa.png" alt="">
-                <p class="title text-uppercase">usa</p>
-              </li>
-              <li>
-                <i class="fas fa-location-dot mt-1"></i>
-                <a class="title" href="">34 Hammond Street Acton, Massachusetts 01720 </a>
-              </li>
-              <li>
-                <i class="fas fa-phone"></i>
-                <a class="title" href="tel: 9782646641">+( 1 ) 978 264 6641</a>
-              </li>
-            </ul>
+          <div class="col-12 col-md-6 col-lg-6 col-xl-3 d-flex align-items-center br-l">
+            <div>
+              <ul class="list-unstyled addressrow mb-0">
+                <li class="country">
+                  <img src="./images/usa.png" alt="">
+                  <p class="title text-uppercase">usa</p>
+                </li>
+                <li>
+                  <i class="fas fa-location-dot mt-1 ms-1"></i>
+                  <a class="title" href="">34 Hammond Street Acton, Massachusetts 01720 </a>
+                </li>
+                <li class="mb-0">
+                  <i class="fas fa-phone ms-1"></i>
+                  <a class="title" href="tel: 9782646641">+( 1 ) 978 264 6641</a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-6 col-xl-3 br-l br-l-lg">
-            <ul class="list-unstyled p-0 d-flex align-items-center iconsListFooter mailFooter">
-              <li>
+          <div class="col-12 col-md-6 col-lg-6 col-xl-3 br-l br-l-lg d-flex align-items-center">
+            <ul class="list-unstyled p-0 iconsListFooter mailFooter mb-0">
+              <li class="mb-0 addressrow">
                 <img src="./images/fooer_mail.png" alt="" class="mb-0 mb-lg-4">
                 <a class="title" href="mailto:contact@bonamisoftware.com">contact@bonamisoftware.com</a>
               </li>
@@ -828,6 +797,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <!-- slick script -->
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
     <script>
       $(document).ready(function () {
         $(".offer-col").slice(0, 6).show();
@@ -877,24 +847,39 @@
       });
 
       // contact form
-     $('#contactForm').on('submit', (function (e) {
+    $('.submitting').hide();
+    $('#contactForm').on('submit', (function (e) {
       e.preventDefault();
-      var formData = new FormData(this);
+      
+      const message = {
+          name : document.querySelector(`.contactForm`).name.value,
+          email : document.querySelector(`.contactForm`).email.value,
+          contact : document.querySelector(`.contactForm`).contact.value,
+          message : document.querySelector(`.contactForm`).aboutproject.value
+      }
+
+      $('.formSubmitBtn').hide();
+      $('.submitting').show();
+
       $.ajax({
         type: 'POST',
-        url: './inc/mail.php',
-        data: formData,
-        cache: false,
-        contentType: false,
-        processData: false,
+        url: 'https://bonamisoftware.com/inc/mail.php',
+        data: message,
         success: function (response) {
-          console.log(response);
-          // alertify.success('Mail sent');
+        //   console.log(response);
+            $('.submitting').hide();
+            $('.formSubmitBtn').show();
+            alertify.alert('Form Submission', 'Form submitted successfully!');
+            
         },
         error: function (response) {
-          alertify.error('Mail not sent');
+            console.log("Error")
+            console.log(response);
+            $('.submitting').hide();
+            $('.formSubmitBtn').show();
         }
       });
+      
     }));
     </script>
 

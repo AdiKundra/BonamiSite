@@ -8,7 +8,6 @@ footer i.fa-phone {
     .container{
         max-width: 1500px;
     }
-
 }
 
 @media (max-width: 1500px){
@@ -21,7 +20,6 @@ footer i.fa-phone {
     .about{
         overflow: hidden;
     }
-    
 }
 
 @media (max-width: 1201px){
@@ -41,6 +39,7 @@ footer i.fa-phone {
     }
     
 }
+
 @media (max-width: 1500px) and (min-width: 1201px){
     body:not(.Homepage) .breadcrumb{
         min-height: 72vh;
@@ -133,7 +132,14 @@ footer i.fa-phone {
     .industries-owncols {
         flex: 0 1 30%;
     }
+    .custom_bg::after{
+        background-color: #fff !important;
+    }
+    .hiringCards .keyvalue{
+        margin: 0px !important;
+    }
 }
+
 @media (max-width: 769px){
     .industries-owncols .box{
         margin: auto;
@@ -156,6 +162,7 @@ footer i.fa-phone {
         padding: 1rem .5rem;
         font-size: 1em;
         width: calc(100% - 2rem);
+        line-height: 30px;
     }
     .accordion-container .accordion-title::after{
         right: -1.5rem;
@@ -200,7 +207,8 @@ footer i.fa-phone {
     }
 
     .technology_stack .boxStack .bottom .techicon {
-        margin: 0 25px 15px;
+        margin: 0 20px 15px;
+        flex: 1 1 21%;
     }
     .technology_stack .boxStack .top h3{
         font-size: 1.5rem;
@@ -261,6 +269,10 @@ footer i.fa-phone {
        font-size: 16px;
     }
     footer .iconsListFooter li:last-child{margin-bottom: 0;}
+
+    .owncols .box .title{
+        min-height: 50px;
+    }
 }
 
 @media (max-width: 575px){
@@ -279,11 +291,11 @@ footer i.fa-phone {
         padding: 1rem 10px;
     }
     .technology_stack .boxStack .bottom .techicon {
-        margin: 0 12px 15px;
+        margin: 12px 15px;
         flex: 1 1 24%;    
     }
     .level-counter > div:nth-child(3){
-        margin-bottom: 40px;
+        margin-bottom: 0px;
     }
     .owncols .box img{
         height: 110px;
@@ -316,6 +328,13 @@ footer i.fa-phone {
     .hireBox .heading{
         font-size: 1.375rem;
     }
+    .bannersection .vetricalSlider .line{
+        font-size: 16px;
+    }
+
+    .owncols .box .title{
+        min-height: 40px;
+    }
 }
 
 @media (max-width: 767px) and (min-width: 567px){
@@ -323,7 +342,6 @@ footer i.fa-phone {
         max-width: 640px;
     }
 }
-
 
 /* service page  and common main Banner section*/
 @media (max-width: 767px){
@@ -356,26 +374,33 @@ footer i.fa-phone {
     }
     .hiringCards .title{
         font-size: 22px !important;
-      }
-      .hiringCards .keyvalue .value span{
+    }
+    .hiringCards .keyvalue .value span{
         font-size: 16px;
-      }
-      /* footer */
-      footer .iconsListFooter.mailFooter li:last-child img{
+    }
+    /* footer */
+    footer .iconsListFooter.mailFooter li:last-child img{
         margin-left: 0;
         margin-right: 20px;
-      }
-      footer .iconsListFooter.mailFooter li:last-child{
+    }
+    footer .iconsListFooter.mailFooter li:last-child{
         display: flex;
         justify-content: start;
         padding: 0 2rem;
         align-items: center;
-      }
+    }
+    .hiringCards .keyvalue{
+        margin: 10px 0px !important;
+    }
 }
 
 @media (max-width: 460px){
     .industries-owncols {
         flex: 1 1 80%;
+    }
+    .industries-solution-text{
+        font-size: 20px !important;
+        margin-bottom: 15px !important;
     }
 }
 

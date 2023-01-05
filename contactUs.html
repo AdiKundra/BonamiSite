@@ -18,6 +18,15 @@
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" />
 
+    <!-- Alertify Css -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+    <!-- Default theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+    <!-- Semantic UI theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css"/>
+    <!-- Bootstrap theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/css/lightgallery.min.css"
@@ -69,7 +78,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./service.html">Services</a>
+              <a class="nav-link" aria-current="page" href="./service.html">Services</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./hiredevloper.html">Hire Developers</a>
@@ -144,29 +153,29 @@
                 <div class="row">
                   <div class="col-md-12">
                     <div class="form-group">
-                      <input type="text" class="form-control" name="name" id="name" placeholder="Name*" required/>
+                      <input type="text" class="form-control" name="name" id="name" placeholder="Name*" autocomplete="off" required/>
                     </div>
                   </div>
                   <div class="col-md-12">
                     <div class="form-group">
-                      <input type="email" class="form-control" name="email" id="email" placeholder="Email*" required/>
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Email*" autocomplete="off" required/>
                     </div>
                   </div>
                   <div class="col-md-12">
                     <div class="form-group">
-                      <input type="number" class="form-control" name="contact" id="subject" placeholder="Phone*" required/>
+                      <input type="number" class="form-control" name="contact" id="subject" placeholder="Phone*" autocomplete="off" required/>
                     </div>
                   </div>
                   <div class="col-md-12">
                     <div class="form-group">
-                      <textarea name="aboutproject" class="form-control" id="aboutproject" cols="30" rows="6"
+                      <textarea name="aboutproject" class="form-control" id="aboutproject" cols="30" rows="6" autocomplete="off"
                         placeholder="Message"></textarea>
                     </div>
                   </div>
                   <div class="col-md-12">
                     <div class="form-group">
-                      <input type="submit" value="Send Message" class="btn btn-danger" style="background: #f5593d" />
-                      <div class="submitting"></div>
+                      <input type="submit" value="Send Message" class="btn btn-danger formSubmitBtn" style="background: #f5593d" />
+                      <div class="submitting"><div class="lds-ring"><div></div><div></div><div></div><div></div></div></div>
                     </div>
                   </div>
                 </div>
@@ -300,41 +309,45 @@
             </li>
           </ul>
         </div>
-        <div class="col-12 col-md-6 col-lg-6 col-xl-3 br-l br-l-lg footerMargin">
-          <ul class="list-unstyled addressrow">
-            <li class="country">
-              <img src="./images/india.png" alt="">
-              <p class="title">India</p>
-            </li>
-            <li>
-              <i class="fas fa-location-dot mt-1"></i>
-              <a class="title" href="">C-91/7, Wazirpur Industrial Area, Delhi, 110052</a>
-            </li>
-            <li>
-              <i class="fas fa-phone"></i>
-              <a class="title" href="tel:8271233269">+(91) 8271233269</a>
-            </li>
-          </ul>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-3 d-flex align-items-center br-l br-l-lg footerMargin">
+          <div>
+            <ul class="list-unstyled addressrow mb-0">
+              <li class="country">
+                <img src="./images/india.png" alt="">
+                <p class="title">India</p>
+              </li>
+              <li>
+                <i class="fas fa-location-dot mt-1 ms-1"></i>
+                <a class="title" href="">C-91/7, Wazirpur Industrial Area, Delhi, 110052</a>
+              </li>
+              <li class="mb-0">
+                <i class="fas fa-phone ms-1"></i>
+                <a class="title" href="tel:8271233269">+(91) 8271233269</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-6 col-xl-3 br-l">
-          <ul class="list-unstyled addressrow">
-            <li class="country">
-              <img src="./images/usa.png" alt="">
-              <p class="title text-uppercase">usa</p>
-            </li>
-            <li>
-              <i class="fas fa-location-dot mt-1"></i>
-              <a class="title" href="">34 Hammond Street Acton, Massachusetts 01720 </a>
-            </li>
-            <li>
-              <i class="fas fa-phone"></i>
-              <a class="title" href="tel: 9782646641">+( 1 ) 978 264 6641</a>
-            </li>
-          </ul>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-3 d-flex align-items-center br-l">
+          <div>
+            <ul class="list-unstyled addressrow mb-0">
+              <li class="country">
+                <img src="./images/usa.png" alt="">
+                <p class="title text-uppercase">usa</p>
+              </li>
+              <li>
+                <i class="fas fa-location-dot mt-1 ms-1"></i>
+                <a class="title" href="">34 Hammond Street Acton, Massachusetts 01720 </a>
+              </li>
+              <li class="mb-0">
+                <i class="fas fa-phone ms-1"></i>
+                <a class="title" href="tel: 9782646641">+( 1 ) 978 264 6641</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-6 col-xl-3 br-l br-l-lg">
-          <ul class="list-unstyled p-0 d-flex align-items-center iconsListFooter mailFooter">
-            <li>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-3 br-l br-l-lg d-flex align-items-center">
+          <ul class="list-unstyled p-0 iconsListFooter mailFooter mb-0">
+            <li class="mb-0 addressrow">
               <img src="./images/fooer_mail.png" alt="" class="mb-0 mb-lg-4">
               <a class="title" href="mailto:contact@bonamisoftware.com">contact@bonamisoftware.com</a>
             </li>
@@ -372,50 +385,65 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.0/plugins/zoom/lg-zoom.umd.min.js"
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+  <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+
+
   <!-- top-icon-slider -->
   <script src="./js/app.js"></script>
   <script>
-    $(".caseStudySection li .nav-link").on("click", function (event, tab) {
-      $(".caseStudySlider").slick("refresh");
-    });
-
-    $(".caseStudySlider").slick({
-      dots: true,
-      arrows: false,
-      infinite: false,
-      speed: 300,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 3000,
-    });
-
-    AOS.init();
-
-
-    // contact form
+      $(".caseStudySection li .nav-link").on("click", function (event, tab) {
+        $(".caseStudySlider").slick("refresh");
+      });
+  
+      $(".caseStudySlider").slick({
+        dots: true,
+        arrows: false,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+      });
+  
+      AOS.init();
+  
+      // contact form
+      $('.submitting').hide();
     $('#contactForm').on('submit', (function (e) {
       e.preventDefault();
-      var formData = new FormData(this);
+      
+      const message = {
+          name : document.querySelector(`.contactForm`).name.value,
+          email : document.querySelector(`.contactForm`).email.value,
+          contact : document.querySelector(`.contactForm`).contact.value,
+          message : document.querySelector(`.contactForm`).aboutproject.value
+      }
+
+      $('.formSubmitBtn').hide();
+      $('.submitting').show();
+
       $.ajax({
         type: 'POST',
-        url: './inc/mail.php',
-        data: formData,
-        cache: false,
-        contentType: false,
-        processData: false,
+        url: 'https://bonamisoftware.com/inc/mail.php',
+        data: message,
         success: function (response) {
-          console.log(response);
-          // alertify.success('Mail sent');
+        //   console.log(response);
+            $('.submitting').hide();
+            $('.formSubmitBtn').show();
+            alertify.alert('Form Submission', 'Form submitted successfully!');
+            
         },
         error: function (response) {
-          alertify.error('Mail not sent');
+            console.log("Error")
+            console.log(response);
+            $('.submitting').hide();
+            $('.formSubmitBtn').show();
         }
       });
+      
     }));
-  </script>
-
-  <!-- Google map Script  -->
+    </script>
 
 </body>
 

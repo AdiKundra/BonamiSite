@@ -20,6 +20,9 @@ footer i.fa-phone {
     .about{
         overflow: hidden;
     }
+    .py-200{
+        padding: 60px 0px;
+    }
 }
 
 @media (max-width: 1201px){
@@ -36,8 +39,26 @@ footer i.fa-phone {
     }
     .accordion-container .accordion-title{
         padding: 1rem  0.5em;
+        line-height: 30px;
     }
-    
+    .technology_stack .boxStack .bottom .techicon{
+        flex: 1 1 25%;
+        margin: 0 15px 15px;
+        font-size: 16px !important;
+    }
+    .technology_stack .boxStack .top h3 {
+        font-size: 1.5rem;
+    }
+    .industries-solution-text{
+        font-size: 26px !important;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 1600px) and (min-width: 1500px){
+    .card-offer{
+        padding: 35px !important;
+    }
 }
 
 @media (max-width: 1500px) and (min-width: 1201px){
@@ -61,6 +82,7 @@ footer i.fa-phone {
     }
     .accordion-container .accordion-title{
         width: calc(100% - 2rem);
+        line-height: 30px;
     }
     .accordion-container .accordion-title::after{
         right: -1.5rem;
@@ -125,6 +147,19 @@ footer i.fa-phone {
     }
 }
 
+@media (min-width:1300px){
+    .card-vission{
+        min-height: 330px;
+    }
+}
+
+@media (max-width: 1300px) and (min-width: 991px){
+    .card-vission{
+        padding: 30px 20px;
+        min-height: 300px;
+    }
+}
+
 @media (max-width: 991px){
     .industries-owncols .box{
         margin: auto;
@@ -137,6 +172,36 @@ footer i.fa-phone {
     }
     .hiringCards .keyvalue{
         margin: 0px !important;
+    }
+    .technology_stack .boxStack .bottom .techicon{
+        flex: 1 1 25%;
+        margin: 0 15px 15px;
+        font-size: 16px !important;
+    }
+    .technology_stack .boxStack .top h3 {
+        font-size: 1.5rem;
+    }
+    .card-offer{
+        padding: 15px;
+    }
+    .card-offer-content h2{
+        font-size: 26px !important;
+    }
+    .card-offer-content p{
+        font-size: 16px !important;
+    }
+    .card-vission p{
+        font-size: 16px !important;
+    }
+    .card-vission h3{
+        font-size: 26px !important;
+    }
+    .bg-row .contentBox {
+        order: 2;
+        margin-top: 30px;
+    }
+    .owncols .box .title{
+        font-size: 18px !important;
     }
 }
 
@@ -247,7 +312,8 @@ footer i.fa-phone {
         margin: 40px auto;
     }
     .py-60 , .py-80{
-        padding: 40px 0;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
     .pt-60{
         padding-top: 30px;
@@ -272,6 +338,13 @@ footer i.fa-phone {
 
     .owncols .box .title{
         min-height: 50px;
+        font-size: 16px !important;
+    }
+    .card-offer-content h2{
+        font-size: 26px !important;
+    }
+    .card-offer-content p{
+        font-size: 14px !important;
     }
 }
 
@@ -331,9 +404,12 @@ footer i.fa-phone {
     .bannersection .vetricalSlider .line{
         font-size: 16px;
     }
-
     .owncols .box .title{
-        min-height: 40px;
+        min-height: 75px;
+        font-size: 16px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -412,3 +488,8 @@ footer i.fa-phone {
 }
 
 
+@media  (max-width: 480px) and (min-width: 320px) {
+    .weServeCards{
+        padding: 0px !important;
+    }  
+}

@@ -95,23 +95,28 @@ p {
   margin-top: 60px;
 }
 .py-60 {
-  padding: 60px 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .py-80 {
-  padding: 100px 0;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .py-200 {
-  padding: 200px 0;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .fw-600 {
   font-weight: 600;
 }
 .py-100 {
-  padding: 100px 0;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .py-40 {
-  padding: 40px 0;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .pt-60 {
   padding-top: 60px;
@@ -154,7 +159,11 @@ p {
   min-height: 60%;
   z-index: -1;
 }
-
+@media (max-width: 575px){
+  .py-200{
+    padding: 40px 0px !important;
+  }
+}
 @media (max-width: 768px) {
   p {
     font-size: 16px !important;

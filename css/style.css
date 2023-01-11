@@ -590,6 +590,7 @@
   box-shadow: 0px 0px 5.74px rgba(0, 0, 0, 0.04);
   border-radius: 12px;
   padding: 53px 20px;
+  min-height: 310px;
 }
 .serviceProvodeBox{
   padding: 10px 2rem;
@@ -603,11 +604,6 @@
   /* background-color: #151f20; */
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-}
-@media (min-width : 1300px){
-  .card-vission{
-    min-height: 310px;
-  }
 }
 
 .card-vission h3 {
@@ -716,7 +712,7 @@
   }
   header .dropdown-item,
   header .nav-link {
-    font-size: 14px;
+    font-size: 18px;
   }
   /* about */
   .vision-img img{
@@ -754,7 +750,7 @@
     margin-top: 20px;
   }
   .owncols {
-    flex: 1 1 100% !important;
+    flex: 1 1 50% !important;
   }
   .bg-row .contentBox {
     order: 2;
